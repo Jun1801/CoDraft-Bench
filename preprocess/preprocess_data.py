@@ -1,0 +1,44 @@
+def create_structured_text_enhanced(term, nature, purpose, class_id, nice_class_map):
+    text = str(term).strip()
+    context_parts = []
+    if nature and str(nature).strip():
+        context_parts.append(f"Nature: {str(nature).strip()}")
+    if purpose and str(purpose).strip():
+        context_parts.append(f"Use: {str(purpose).strip()}")
+    if class_id:
+        try:
+            c_id = int(str(class_id))
+            class_desc = nice_class_map.get(c_id, "")
+            if class_desc:
+                context_parts.append(f"Category: {class_desc}")
+        except:
+            pass
+        
+    if context_parts:
+        full_text = f"{text} [ {' | '.join(context_parts)} ]"
+    else:
+        full_text = text
+    return full_text
+
+def preprocess(df):
+    label_mapping = {
+        'Dissimilar': 0,
+        'Low similar': 1,
+        'Similar': 2,
+        'High similar': 3,
+        'Identical': 4
+    }
+    df['label_score'] = df['Similarity'].map(label_mapping)
+    df = df.dropna(subset=['label_score'])
+    df['label_score'] = df['label_score'].astype(int)
+
+    df['input_text_1'] = df.apply(
+        lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1']),
+        axis=1
+    )
+
+    df['input_text_2'] = df.apply(
+        lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2']),
+        axis=1
+    )
+    return df
