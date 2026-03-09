@@ -1,6 +1,6 @@
 pandas==2.2.1
 numpy==1.26.4         
-scikit-learn==1.4.1
+scikit-learn==1.6.1
 torch>=2.1.2 
 transformers==4.44.2    
 entence-transformers==3.0.1
