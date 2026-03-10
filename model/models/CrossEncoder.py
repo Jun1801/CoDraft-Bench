@@ -14,3 +14,4 @@ def get_model_cross_encoder(model_name, num_classes, max_len, weights_tensor):
     model.model.resize_token_embeddings(len(tokenizer))
     model.loss_fct = nn.CrossEntropyLoss(weight=weights_tensor)
     return model, tokenizer
+

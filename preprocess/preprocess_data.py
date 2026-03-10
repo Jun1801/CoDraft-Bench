@@ -1,3 +1,4 @@
+from config.config_data import CONFIG_DATA
 def create_structured_text_enhanced(term, nature, purpose, class_id, nice_class_map):
     text = str(term).strip()
     context_parts = []
@@ -33,12 +34,12 @@ def preprocess(df):
     df['label_score'] = df['label_score'].astype(int)
 
     df['input_text_1'] = df.apply(
-        lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1']),
+        lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1'], CONFIG_DATA.NICE_CLASS_MAP),
         axis=1
     )
 
     df['input_text_2'] = df.apply(
-        lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2']),
+        lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2'], CONFIG_DATA.NICE_CLASS_MAP),
         axis=1
     )
     return df

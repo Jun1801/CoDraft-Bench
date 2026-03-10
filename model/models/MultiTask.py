@@ -86,4 +86,4 @@ def get_model_multi_task(model_name, num_classes, num_product_classes, alpha, au
     )
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
-    return tokenizer, model
+    return model, tokenizer
