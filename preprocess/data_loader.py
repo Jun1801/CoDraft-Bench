@@ -67,27 +67,32 @@ def create_dataloader_cross_encoder(df_train, df_val):
     )
     return train_dataloader, evaluator
 
-def create_dataset_multi_task(df_train_aug, df_val_aug, df_test_aug):
+def create_dataset_multi_task(df_train_aug, df_val_aug, df_test_aug, tokenizer):
     cols_to_remove = df_train_aug.columns.tolist()
 
     train_ds = Dataset.from_pandas(df_train_aug).map(
         preprocess_dataset,
         batched=True,
+        fn_kwargs={"tokenizer": tokenizer}, 
         remove_columns=cols_to_remove
     )
 
     val_ds = Dataset.from_pandas(df_val_aug).map(
         preprocess_dataset,
         batched=True,
+        fn_kwargs={"tokenizer": tokenizer},
         remove_columns=df_val_aug.columns.tolist()
     )
 
     test_ds = Dataset.from_pandas(df_test_aug).map(
         preprocess_dataset,
         batched=True,
+        fn_kwargs={"tokenizer": tokenizer},
         remove_columns=df_test_aug.columns.tolist()
     )
-    cols = ["input_ids", "attention_mask", "labels", "aux_labels"]
+    
+    cols = ["input_ids", "attention_mask", "labels", "aux_labels"]    
     for ds in [train_ds, val_ds, test_ds]:
         ds.set_format(type="torch", columns=cols)
+        
     return train_ds, val_ds, test_ds

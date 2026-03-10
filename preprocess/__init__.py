@@ -98,7 +98,7 @@ class DataManager:
     def __create_dataset_multi_task(self, tokenizer) -> None:
         self.__create_patterns(tokenizer)
         self.train_ds, self.val_ds, self.test_ds = create_dataset_multi_task(
-                self.df_train_aug, self.df_val_aug, self.df_test_aug)
+                self.df_train_aug, self.df_val_aug, self.df_test_aug, self.tokenizer)
     def __create_dataloader(self) -> None:
         self.train_dataloader, self.evaluator = create_dataloader_cross_encoder(self.df_train, self.df_val)
 
