@@ -21,6 +21,7 @@ class CONFIG_MODEL:
         "multi_task": {
             "training_args":{
                 "output_dir": "./output/multi_task",
+                "learning_rate": LEARNING_RATE,
                 "num_train_epochs": 10,
                 "per_device_train_batch_size": 8,
                 "gradient_accumulation_steps": 4,
@@ -29,6 +30,7 @@ class CONFIG_MODEL:
                 "per_device_eval_batch_size": 16,
                 "lr_scheduler_type": "cosine",
                 "warmup_ratio": 0.1,
+                "weight_decay": WEIGHT_DECAY,
                 "eval_strategy": "epoch",
                 "save_strategy": "epoch",
                 "save_total_limit": 1,
