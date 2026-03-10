@@ -17,6 +17,8 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
         self.num_product_classes = config.num_product_classes
 
         self.mask_token_id = getattr(config, "mask_token_id", 250001)
+        self.alpha = getattr(config, "alpha", 0.5)
+        self.aux_weight = getattr(config, "aux_weight", 0.3)
 
         self.roberta = XLMRobertaModel(config)
         self.classifier = nn.Linear(config.hidden_size, self.num_labels)
@@ -51,7 +53,7 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
 
         loss = None
         if labels is not None:
-            loss_fct_sim = RankAwareFocalLoss(num_classes=self.num_labels, gamma=2.0, alpha=0.5)
+            loss_fct_sim = RankAwareFocalLoss(num_classes=self.num_labels, gamma=2.0, alpha=self.alpha)
             loss_sim = loss_fct_sim(logits_sim.view(-1, self.num_labels), labels.view(-1))
 
             loss_aux = torch.tensor(0.0).to(logits_sim.device)
@@ -60,7 +62,7 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
                 loss_fct_aux = nn.CrossEntropyLoss()
                 loss_aux = loss_fct_aux(logits_aux.view(-1, self.num_product_classes), aux_labels.view(-1))
 
-            loss = loss_sim + 0.3 * loss_aux
+            loss = loss_sim + self.aux_weight * loss_aux
 
         return SequenceClassifierOutput(
             loss=loss,

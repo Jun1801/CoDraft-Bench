@@ -37,7 +37,7 @@ class CONFIG_MODEL:
                 "logging_steps": 10,
                 "report_to": "none",
                 "load_best_model_at_end": True,
-                "metric_for_best_model": "f1_marco", 
+                "metric_for_best_model": "f1_macro", 
                 "greater_is_better": True,
                 "fp16": torch.cuda.is_available(),
                 "seed": 42,
