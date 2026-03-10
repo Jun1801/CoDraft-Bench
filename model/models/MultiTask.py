@@ -8,7 +8,7 @@ from transformers import (
     TrainingArguments,
 )
 from transformers.modeling_outputs import SequenceClassifierOutput
-from ..loss import RankAwareFocalLoss
+from ..loss.RankAwareFocalLoss import RankAwareFocalLoss
 
 class JointClassSimBGE(XLMRobertaPreTrainedModel):
     def __init__(self, config):
