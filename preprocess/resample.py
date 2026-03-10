@@ -1,5 +1,8 @@
 import pandas as pd
 import numpy as np
+
+from config.config_data import CONFIG_DATA
+
 from .preprocess_data import create_structured_text_enhanced
 def calculate_jaccard(text1, text2):
     set1 = set(str(text1).lower().split())
@@ -65,10 +68,10 @@ def augment_cross_pairing(df_input, target_labels=[3, 4]):
     
     if len(df_aug) > 0:
         df_aug['input_text_1'] = df_aug.apply(
-            lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1']), axis=1
+            lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
         )
         df_aug['input_text_2'] = df_aug.apply(
-            lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2']), axis=1
+            lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
         )
 
     print(f"Number of new cross_pairing: {len(df_aug)}")
