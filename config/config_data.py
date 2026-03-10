@@ -2,6 +2,7 @@ class CONFIG_DATA:
 
     TARGET_SAMPLES = 3000
     MAX_SAMPLES_CLASS_0 = 4500
+    MAX_LEN = 256
 
     NICE_CLASS_MAP = {
         1: "Chemicals, Industry, Science, Photography",
