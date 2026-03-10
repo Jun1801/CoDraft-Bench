@@ -21,7 +21,7 @@ class CONFIG_MODEL:
         "multi_task": {
             "training_args":{
                 "output_dir": "./output/multi_task",
-                "epochs": 10,
+                "num_train_epochs": 10,
                 "per_device_train_batch_size": 8,
                 "gradient_accumulation_steps": 4,
                 "gradient_checkpointing": True,
