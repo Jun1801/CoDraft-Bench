@@ -1,6 +1,7 @@
 from .CrossEncoder import get_model_cross_encoder
 from .Siamese import get_model_siamese
 from .MultiTask import get_model_multi_task
+
 __all__ = ["get_model"]
 def get_model(model_type, **kwargs):
     if model_type == 'cross_encoder':
