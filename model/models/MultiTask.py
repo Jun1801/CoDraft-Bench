@@ -19,6 +19,12 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
         self.mask_token_id = getattr(config, "mask_token_id", 250001)
         self.alpha = getattr(config, "alpha", 0.5)
         self.aux_weight = getattr(config, "aux_weight", 0.3)
+        self.loss_type = getattr(config, "loss_type", "rank_aware")
+        class_weights_tensor = getattr(config, "class_weights", None)
+        if class_weights_tensor is not None:
+             self.register_buffer("class_weights", torch.tensor(class_weights_tensor, dtype=torch.float32))
+        else:
+             self.register_buffer("class_weights", None)
 
         self.roberta = XLMRobertaModel(config)
         self.classifier = nn.Linear(config.hidden_size, self.num_labels)
@@ -53,17 +59,19 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
 
         loss = None
         if labels is not None:
-            loss_fct_sim = RankAwareFocalLoss(num_classes=self.num_labels, gamma=2.0, alpha=self.alpha)
-            loss_sim = loss_fct_sim(logits_sim.view(-1, self.num_labels), labels.view(-1))
+            if self.loss_type == "ce":
+                loss_fct_sim = nn.CrossEntropyLoss(weight=self.class_weights)
+                loss_sim = loss_fct_sim(logits_sim.view(-1, self.num_labels), labels.view(-1))
+            else:
+                loss_fct_sim = RankAwareFocalLoss(num_classes=self.num_labels, gamma=2.0, alpha=self.alpha)
+                loss_sim = loss_fct_sim(logits_sim.view(-1, self.num_labels), labels.view(-1))
 
             loss_aux = torch.tensor(0.0).to(logits_sim.device)
 
             if aux_labels is not None and self.training:
                 loss_fct_aux = nn.CrossEntropyLoss()
                 loss_aux = loss_fct_aux(logits_aux.view(-1, self.num_product_classes), aux_labels.view(-1))
-
             loss = loss_sim + self.aux_weight * loss_aux
-
         return SequenceClassifierOutput(
             loss=loss,
             logits=logits_sim
@@ -73,7 +81,7 @@ def get_training_args(**kwargs):
     training_args = TrainingArguments(**kwargs)
     return training_args
 
-def get_model_multi_task(model_name, num_classes, num_product_classes, alpha, aux_weight, device):
+def get_model_multi_task(model_name, num_classes, num_product_classes, alpha, aux_weight, device, loss_type="rank_aware",class_weights=None):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     config = AutoConfig.from_pretrained(model_name)
     config.num_labels = num_classes
@@ -81,6 +89,9 @@ def get_model_multi_task(model_name, num_classes, num_product_classes, alpha, au
     config.mask_token_id = tokenizer.mask_token_id
     config.alpha = alpha
     config.aux_weight = aux_weight
+    config.loss_type = loss_type
+    if class_weights is not None:
+        config.class_weights = class_weights
     model = JointClassSimBGE.from_pretrained(
         model_name,
         config=config,
