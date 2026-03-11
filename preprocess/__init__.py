@@ -126,4 +126,4 @@ class DataManager:
     def get_dataset(self) -> None:
         return (self.train_ds, self.val_ds, self.test_ds)
     def get_all_texts(self) -> None:
-        return self.all
+        return self.all_texts
