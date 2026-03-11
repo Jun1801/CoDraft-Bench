@@ -41,7 +41,7 @@ def get_preds_cross_encoder(model, df_test):
 
 def get_preds_siamese(test_df, device):
     _, test_preds = _predict_probabilities(CONFIG_MODEL.MODEL_CONFIG['siamese']['output_path'], test_df, device)
-    return (test_preds, test_df["Similarity"])
+    return (test_preds, test_df["label_score"])
 
 
 def compute_metrics(eval_pred):

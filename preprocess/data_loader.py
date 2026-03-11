@@ -6,12 +6,11 @@ from sentence_transformers.cross_encoder.evaluation import CESoftmaxAccuracyEval
 from datasets import Dataset
 
 from config import *
-from model.models.Siamese import SiameseClassifier
 class PairSiameseDataset(Dataset):
     def __init__(self, df, tokenizer, max_len=512):
-        self.term1 = df["Term 1"].tolist()
-        self.term2 = df["Term 2"].tolist()
-        self.labels = df["Similarity"].values
+        self.term1 = df["input_text_1"].tolist()
+        self.term2 = df["input_text_2"].tolist()
+        self.labels = df["label_score"].values
         self.tokenizer = tokenizer
         self.max_len = max_len
         

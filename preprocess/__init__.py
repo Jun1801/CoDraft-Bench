@@ -2,18 +2,17 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from typing import Tuple
+from typing import Tuple, List
 import pandas as pd
 import torch
 from sklearn.utils import resample
 
 from preprocess.data_loader import *
-from preprocess.data_loader import PairSiameseDataset
 from preprocess.preprocess_data import *
 from preprocess.rebalance import *
 from config.config_data import CONFIG_DATA
 
-__all__ = ["DataManager", "PairSiameseDataset"]
+__all__ = ["DataManager"]
 
 class DataManager:
     def __init__(self, 
@@ -24,7 +23,10 @@ class DataManager:
                  seed_worker,
                  data_generator: torch.Generator,
                  random_seed: int,
-                 rebalance=False) -> None:
+                 rebalance=False,
+                 train_file: str = "train_ver3.csv",
+                 val_file: str = "val_ver3.csv",
+                 test_file: str = "test_ver3.csv") -> None:
         
         self.INPUT_ROOT = input_root
         self.WORK_DIR = work_dir
@@ -35,6 +37,9 @@ class DataManager:
         self.TARGET_SAMPLES = config_data.TARGET_SAMPLES
         self.MAX_LEN = config_data.MAX_LEN
         self.MAX_SAMPLES_CLASS_0 = config_data.MAX_SAMPLES_CLASS_0
+        self.train_file = train_file
+        self.val_file = val_file
+        self.test_file = test_file
         self.tokenizer = tokenizer
         self._load_raw_csv()
         self._setup_initial_pipeline()
@@ -46,10 +51,9 @@ class DataManager:
         self._all_texts()
         
     def _load_raw_csv(self) -> None:
-        self.df_train = pd.read_csv(f"{self.INPUT_ROOT}/train_ver3.csv")
-        self.df_val = pd.read_csv(f"{self.INPUT_ROOT}/val_ver3.csv")
-        self.df_test = pd.read_csv(f"{self.INPUT_ROOT}/test_ver3.csv")
-
+            self.df_train = pd.read_csv(os.path.join(self.INPUT_ROOT, self.train_file))
+            self.df_val = pd.read_csv(os.path.join(self.INPUT_ROOT, self.val_file))
+            self.df_test = pd.read_csv(os.path.join(self.INPUT_ROOT, self.test_file))
     def _setup_initial_pipeline(self) -> None:
         all_classes = sorted(list(set(
             self.df_train["Class 1"].tolist() + self.df_train["Class 2"].tolist() +
@@ -63,9 +67,9 @@ class DataManager:
         self._update_data()
     def _all_texts(self) -> None:
         self.all_texts = list(set(
-            self.df_train["Term 1"].tolist() + self.df_train["Term 2"].tolist() +
-            self.df_val["Term 1"].tolist() + self.df_val["Term 2"].tolist() +
-            self.df_test["Term 1"].tolist() + self.df_test["Term 2"].tolist()
+            self.df_train["input_text_1"].tolist() + self.df_train["input_text_2"].tolist() +
+            self.df_val["input_text_1"].tolist() + self.df_val["input_text_2"].tolist() +
+            self.df_test["input_text_1"].tolist() + self.df_test["input_text_2"].tolist()
         ))
         print(f"Total unique sentences for SimCSE: {len(self.all_texts)}")
     def _update_data(self) -> None:
@@ -114,6 +118,9 @@ class DataManager:
 
     def __create_dataloader_siamese(self, tokenizer) -> None:
         self.train_loader, self.val_loader = create_siamese_dataloader(self.df_train, self.df_val, tokenizer)
+    def update_siamese_tokenizer(self, tokenizer):
+        self.tokenizer = tokenizer
+        self.__create_dataloader_siamese(self.tokenizer)
     def get_data(self) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         return (self.df_train, self.df_val, self.df_test)
     def get_dataloaders(self, model_type=None) -> None:
@@ -123,7 +130,7 @@ class DataManager:
             return (self.train_dataloader, self.evaluator)
         else:
             return None
-    def get_dataset(self) -> None:
+    def get_dataset(self) -> Tuple:
         return (self.train_ds, self.val_ds, self.test_ds)
-    def get_all_texts(self) -> None:
+    def get_all_texts(self) -> List:
         return self.all_texts

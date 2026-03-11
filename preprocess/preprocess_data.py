@@ -32,14 +32,33 @@ def preprocess(df):
     df['label_score'] = df['Similarity'].map(label_mapping)
     df = df.dropna(subset=['label_score'])
     df['label_score'] = df['label_score'].astype(int)
+    
+    if 'Nature 1' in df.columns or 'Purpose 1' in df.columns:
+        df['input_text_1'] = df.apply(
+            lambda x: create_structured_text_enhanced(
+                x['Term 1'], 
+                x.get('Nature 1', ''),  
+                x.get('Purpose 1', ''),
+                x.get('Class 1', ''),
+                CONFIG_DATA.NICE_CLASS_MAP
+            ),
+            axis=1
+        )
+    else:
+        df['input_text_1'] = df['Term 1'].astype(str).str.strip()
 
-    df['input_text_1'] = df.apply(
-        lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1'], CONFIG_DATA.NICE_CLASS_MAP),
-        axis=1
-    )
-
-    df['input_text_2'] = df.apply(
-        lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2'], CONFIG_DATA.NICE_CLASS_MAP),
-        axis=1
-    )
+    if 'Nature 2' in df.columns or 'Purpose 2' in df.columns:
+        df['input_text_2'] = df.apply(
+            lambda x: create_structured_text_enhanced(
+                x['Term 2'], 
+                x.get('Nature 2', ''), 
+                x.get('Purpose 2', ''), 
+                x.get('Class 2', ''), 
+                CONFIG_DATA.NICE_CLASS_MAP
+            ),
+            axis=1
+        )
+    else:
+        df['input_text_2'] = df['Term 2'].astype(str).str.strip()
+        
     return df

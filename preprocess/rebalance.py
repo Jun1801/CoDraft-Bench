@@ -29,13 +29,25 @@ def augment_cross_pairing(df_input, target_labels=[3, 4]):
     
     high_quality_df = df[df['label_score'].isin(target_labels)].copy()
 
-    cols_to_keep = ['label_score', 'Class 2', 'Term 2', 'Nature 2', 'Purpose 2']
-    rename_fwd = {'key_1': 'parent', 'key_2': 'child', 'label_score': 'score', 'Class 2': 'class_child', 'Term 2': 'term_child', 'Nature 2': 'nature_child', 'Purpose 2': 'purpose_child'}
+    cols_to_keep_fwd = ['label_score', 'Class 2', 'Term 2']
+    rename_fwd = {'key_1': 'parent', 'key_2': 'child', 'label_score': 'score', 'Class 2': 'class_child', 'Term 2': 'term_child'}
+    if 'Nature 2' in high_quality_df.columns:
+        cols_to_keep_fwd.append('Nature 2')
+        rename_fwd['Nature 2'] = 'nature_child'
+    if 'Purpose 2' in high_quality_df.columns:
+        cols_to_keep_fwd.append('Purpose 2')
+        rename_fwd['Purpose 2'] = 'purpose_child'
     
-    forward = high_quality_df[['key_1', 'key_2'] + cols_to_keep].rename(columns=rename_fwd)
+    forward = high_quality_df[['key_1', 'key_2'] + cols_to_keep_fwd].rename(columns=rename_fwd)
     
-    cols_to_keep_bwd = ['label_score', 'Class 1', 'Term 1', 'Nature 1', 'Purpose 1']
-    rename_bwd = {'key_2': 'parent', 'key_1': 'child', 'label_score': 'score', 'Class 1': 'class_child', 'Term 1': 'term_child', 'Nature 1': 'nature_child', 'Purpose 1': 'purpose_child'}
+    cols_to_keep_bwd = ['label_score', 'Class 1', 'Term 1']
+    rename_bwd = {'key_2': 'parent', 'key_1': 'child', 'label_score': 'score', 'Class 1': 'class_child', 'Term 1': 'term_child'}
+    if 'Nature 1' in high_quality_df.columns:
+        cols_to_keep_bwd.append('Nature 1')
+        rename_bwd['Nature 1'] = 'nature_child'
+    if 'Purpose 1' in high_quality_df.columns:
+        cols_to_keep_bwd.append('Purpose 1')
+        rename_bwd['Purpose 1'] = 'purpose_child'
     
     backward = high_quality_df[['key_2', 'key_1'] + cols_to_keep_bwd].rename(columns=rename_bwd)
     
@@ -47,15 +59,19 @@ def augment_cross_pairing(df_input, target_labels=[3, 4]):
         
     new_pairs['label_score'] = new_pairs[['score_1', 'score_2']].min(axis=1)
 
-    df_aug = pd.DataFrame({
+    df_aug_dict = {
         "label_score": new_pairs["label_score"],
         "Class 1": new_pairs["class_child_1"], "Term 1": new_pairs["term_child_1"],
-        "Nature 1": new_pairs["nature_child_1"], "Purpose 1": new_pairs["purpose_child_1"],
-        
         "Class 2": new_pairs['class_child_2'], "Term 2": new_pairs['term_child_2'],
-        "Nature 2": new_pairs["nature_child_2"], "Purpose 2": new_pairs["purpose_child_2"],
-    })
-
+    }
+    
+    if 'nature_child_1' in new_pairs.columns:
+        df_aug_dict["Nature 1"] = new_pairs["nature_child_1"]
+        df_aug_dict["Nature 2"] = new_pairs["nature_child_2"]
+    if 'purpose_child_1' in new_pairs.columns:
+        df_aug_dict["Purpose 1"] = new_pairs["purpose_child_1"]
+        df_aug_dict["Purpose 2"] = new_pairs["purpose_child_2"]
+    df_aug = pd.DataFrame(df_aug_dict)
     df_aug['key_1'] = make_key_series(df_aug['Class 1'], df_aug['Term 1'])
     df_aug['key_2'] = make_key_series(df_aug['Class 2'], df_aug['Term 2'])
     
@@ -69,10 +85,14 @@ def augment_cross_pairing(df_input, target_labels=[3, 4]):
     
     if len(df_aug) > 0:
         df_aug['input_text_1'] = df_aug.apply(
-            lambda x: create_structured_text_enhanced(x['Term 1'], x['Nature 1'], x['Purpose 1'], x['Class 1'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
+            lambda x: create_structured_text_enhanced(x['Term 1'], 
+                                                      x.get('Nature 1', ''),
+                                                        x.get('Purpose 1', ''), x['Class 1'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
         )
         df_aug['input_text_2'] = df_aug.apply(
-            lambda x: create_structured_text_enhanced(x['Term 2'], x['Nature 2'], x['Purpose 2'], x['Class 2'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
+            lambda x: create_structured_text_enhanced(x['Term 2'], 
+                                                      x.get('Nature 2', '')
+                                                      , x.get('Purpose 2', ''), x['Class 2'], CONFIG_DATA.NICE_CLASS_MAP), axis=1
         )
 
     print(f"Number of new cross_pairing: {len(df_aug)}")
@@ -89,11 +109,13 @@ def augment_and_balance(df_sub, target_count):
     df_flipped['Term 1'] = df_sub['Term 2']
     df_flipped['Term 2'] = df_sub['Term 1']
     
-    df_flipped['Nature 1'] = df_sub['Nature 2']
-    df_flipped['Nature 2'] = df_sub['Nature 1']
-    
-    df_flipped['Purpose 1'] = df_sub['Purpose 2']
-    df_flipped['Purpose 2'] = df_sub['Purpose 1']
+    if 'Nature 1' in df_sub.columns and 'Nature 2' in df_sub.columns:
+        df_flipped['Nature 1'] = df_sub['Nature 2']
+        df_flipped['Nature 2'] = df_sub['Nature 1']
+        
+    if 'Purpose 1' in df_sub.columns and 'Purpose 2' in df_sub.columns:
+        df_flipped['Purpose 1'] = df_sub['Purpose 2']
+        df_flipped['Purpose 2'] = df_sub['Purpose 1']
 
     df_aug = pd.concat([df_sub, df_flipped]).drop_duplicates(subset=['input_text_1', 'input_text_2'])
 
