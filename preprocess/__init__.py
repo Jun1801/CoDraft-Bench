@@ -2,17 +2,18 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from typing import Tuple, Union
+from typing import Tuple
 import pandas as pd
 import torch
-from sklearn.utils import resample, class_weight
-from datasets import Dataset
+from sklearn.utils import resample
 
 from preprocess.data_loader import *
+from preprocess.data_loader import PairSiameseDataset
 from preprocess.preprocess_data import *
-from preprocess.resample import *
+from preprocess.rebalance import *
 from config.config_data import CONFIG_DATA
-__all__ = ["DataManager"]
+
+__all__ = ["DataManager", "PairSiameseDataset"]
 
 class DataManager:
     def __init__(self, 
@@ -22,7 +23,8 @@ class DataManager:
                  tokenizer,
                  seed_worker,
                  data_generator: torch.Generator,
-                 random_seed: int) -> None:
+                 random_seed: int,
+                 rebalance=False) -> None:
         
         self.INPUT_ROOT = input_root
         self.WORK_DIR = work_dir
@@ -36,8 +38,12 @@ class DataManager:
         self.tokenizer = tokenizer
         self._load_raw_csv()
         self._setup_initial_pipeline()
+        if rebalance == True:
+            self._rebalance()
         self.__create_dataset_multi_task(self.tokenizer)
-        self.__create_dataloader()
+        self.__create_dataloader_cross_encoder()
+        self.__create_dataloader_siamese(self.tokenizer)
+        self._all_texts()
         
     def _load_raw_csv(self) -> None:
         self.df_train = pd.read_csv(f"{self.INPUT_ROOT}/train_ver3.csv")
@@ -55,7 +61,13 @@ class DataManager:
         self.class_to_id = {c: i for i, c in enumerate(all_classes)}
         self.NUM_PRODUCT_CLASSES = len(all_classes)
         self._update_data()
-
+    def _all_texts(self) -> None:
+        self.all_texts = list(set(
+            self.df_train["Term 1"].tolist() + self.df_train["Term 2"].tolist() +
+            self.df_val["Term 1"].tolist() + self.df_val["Term 2"].tolist() +
+            self.df_test["Term 1"].tolist() + self.df_test["Term 2"].tolist()
+        ))
+        print(f"Total unique sentences for SimCSE: {len(self.all_texts)}")
     def _update_data(self) -> None:
         self.df_train = preprocess(self.df_train)
         self.df_val = preprocess(self.df_val)
@@ -79,17 +91,15 @@ class DataManager:
         df_0_final = pd.concat([hard_negatives, easy_negatives_sampled])
         df_0_final = resample(df_0_final, replace=False, n_samples=self.MAX_SAMPLES_CLASS_0, random_state=42)
         
-        df_aug_full = augment_cross_pairing(df_train)
+        df_aug_full = augment_cross_pairing(self.df_train)
         df_aug_clean = df_aug_full.drop_duplicates(subset=['input_text_1', 'input_text_2'], keep='first')
-        df_train = df_aug_clean.copy()
+        self.df_train = df_aug_clean.copy()
         df_1_final = augment_and_balance(df_1, self.TARGET_SAMPLES)
         df_3_final = augment_and_balance(df_3, self.TARGET_SAMPLES)
         df_2_final = resample(df_2, replace=(len(df_2) < self.TARGET_SAMPLES), n_samples=self.TARGET_SAMPLES, random_state=42)
-
-        df_4_sub = df_train[df_train['label_score'] == 4]
-        df_4_final = resample(df_4_sub, replace=False, n_samples=self.TARGET_SAMPLES, random_state=42)
-        self.df_train_balanced = pd.concat([df_0_final, df_1_final, df_2_final, df_3_final, df_4_final])
-        self.df_train_balanced = self.df_train_balanced.sample(frac=1, random_state=42).reset_index(drop=True)
+        df_4_final = resample(df_4, replace=False, n_samples=self.TARGET_SAMPLES, random_state=42)
+        self.df_train = pd.concat([df_0_final, df_1_final, df_2_final, df_3_final, df_4_final])
+        self.df_train = self.df_train.sample(frac=1, random_state=42).reset_index(drop=True)
 
     def __create_patterns(self, tokenizer) -> None:
         self.df_train_aug = create_patterns(self.df_train, tokenizer, self.class_to_token, self.class_to_id)
@@ -99,12 +109,21 @@ class DataManager:
         self.__create_patterns(tokenizer)
         self.train_ds, self.val_ds, self.test_ds = create_dataset_multi_task(
                 self.df_train_aug, self.df_val_aug, self.df_test_aug, self.tokenizer)
-    def __create_dataloader(self) -> None:
+    def __create_dataloader_cross_encoder(self) -> None:
         self.train_dataloader, self.evaluator = create_dataloader_cross_encoder(self.df_train, self.df_val)
 
+    def __create_dataloader_siamese(self, tokenizer) -> None:
+        self.train_loader, self.val_loader = create_siamese_dataloader(self.df_train, self.df_val, tokenizer)
     def get_data(self) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         return (self.df_train, self.df_val, self.df_test)
-    def get_dataloaders(self) -> None:
-        return (self.train_dataloader, self.evaluator)
+    def get_dataloaders(self, model_type=None) -> None:
+        if model_type == "siamese":
+            return (self.train_loader, self.val_loader)
+        elif model_type == "cross_encoder":
+            return (self.train_dataloader, self.evaluator)
+        else:
+            return None
     def get_dataset(self) -> None:
         return (self.train_ds, self.val_ds, self.test_ds)
+    def get_all_texts(self) -> None:
+        return self.all

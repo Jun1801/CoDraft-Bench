@@ -8,6 +8,7 @@ class CONFIG_MODEL:
     LEARNING_RATE = 2e-5
     WEIGHT_DECAY = 0.02
     BATCH_SIZE = 32
+    
     MODEL_CONFIG = {
         "cross_encoder": {
             "output_path" : "./output/cross_encoder",
@@ -22,8 +23,10 @@ class CONFIG_MODEL:
             "num_epochs_cls": 5,
             "lr": LEARNING_RATE,
             "batch_size": BATCH_SIZE,
+            "physical_batch_size": 8,
             "warmup_steps": 100,
             "accumulation_step": 4,
+            "num_workers": 2,
             "path_simcse": "./output/siamese/simcse_model",
             "path_final": "./output/siamese/final_similarity_model"
 

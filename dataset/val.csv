@@ -1,0 +1,2136 @@
+Pair ID,Class 1,Term 1,Similarity,Class 2,Term 2
+0072818-0040423,18,animal skins,Identical,18,curried skins
+0019133-0035885,6,metal tool boxes,Dissimilar,8,"side arms, other than firearms"
+0008236-0014541,10,veterinary apparatus and instruments,Similar,44,animal healthcare services
+0044151-0013151,29,"vegetables, dried",Dissimilar,30,flour
+0019078-0028463,41,production of shows,Similar,41,production of sporting events for film
+0042465-0029059,38,telecommunication services,Dissimilar,39,providing road and traffic information
+0047663-0071841,5,pest control preparations and articles,Low similar,5,pharmaceutical preparations
+0012048-0027889,30,baking powder,Dissimilar,30,honey
+0048110-0035321,12,apparatus for locomotion by land,Dissimilar,12,fenders for ships
+0021971-0046500,16,drawing materials,Identical,16,stationery
+0047995-0046515,37,"building, construction and demolition",Dissimilar,40,energy production
+0023832-0014901,35,advertising,Identical,35,response advertising
+0012514-0058583,39,transport,Identical,39,vehicle rental
+0039512-0046091,9,contact lenses,Identical,9,corrective eyewear
+0024818-0029878,7,"motors, other than for land vehicles",Dissimilar,7,stands for machines
+0031547-0014411,30,coffee,Low similar,30,coffee extracts
+0047737-0047776,9,"scientific research and laboratory apparatus, educational apparatus and simulators",Dissimilar,10,medical and veterinary apparatus and instruments
+0072422-0019801,30,seasonings,Dissimilar,30,cheeseburgers [sandwiches]
+0057778-0015146,41,teaching,Dissimilar,35,business administration
+0048109-0008870,12,apparatus for locomotion by air,Dissimilar,12,funnels for ships
+0058173-0072822,9,battery chargers,High similar,9,"batteries, electric"
+0047583-0013240,9,computers,Similar,9,photographic apparatus and instruments
+0004122-0004246,35,office functions services,Dissimilar,10,examination couches specially made for dental use
+0012066-0057734,3,false nails,Dissimilar,3,furbishing preparations
+0048124-0000462,29,cooked fruits,Dissimilar,30,artificial coffee
+0035412-0059256,29,cheese,Low similar,29,meat
+0016334-0012048,30,sausage binding materials,Dissimilar,30,baking powder
+0059290-0072818,25,gloves [clothing],Dissimilar,18,animal skins
+0072794-0035972,30,syrups and treacles,Dissimilar,29,milk products
+0026440-0019852,9,record players,Identical,9,sound reproduction apparatus
+0020128-0001739,7,"agricultural implements, other than hand-operated",Dissimilar,7,rakes for raking machines
+0014074-0034518,30,binding agents for ice cream,Dissimilar,29,poultry
+0025934-0034518,30,powders for making ice cream,Dissimilar,29,poultry
+0029132-0059192,9,mouse pads,Low similar,9,data processing apparatus
+0047697-0047728,7,"pumps, compressors and blowers",Dissimilar,8,edged and blunt weapons
+0059490-0030778,43,services for providing food and drink,Identical,43,corporate hospitality (provision of food and drink)
+0035881-0032068,12,apparatus for locomotion by water,Dissimilar,12,anti-skid chains
+0005811-0057371,31,natural plants,Similar,31,seeds for planting
+0033491-0047746,7,electrical apparatus for sealing plastics [packaging],Dissimilar,9,apparatus and instruments for controlling electricity
+0010918-0071485,38,communication services for video conferencing purposes,Identical,38,communications services
+0025734-0021580,12,vehicles,Similar,12,headlight wipers
+0004020-GSCSup-0086301,34,articles for use with tobacco,Identical,34,electronic smoking devices
+0057362-0025016,19,"roofing, not of metal",Dissimilar,17,"rubber, raw or semi-worked"
+0030495-0027889,29,low fat cheese,Dissimilar,30,honey
+0035881-0007320,12,apparatus for locomotion by water,Similar,12,disengaging gear for boats
+0047840-0047859,17,insulation and barrier articles and materials,High similar,19,"building and construction materials and elements, not of metal"
+0060824-0046091,9,pince-nez,Identical,9,corrective eyewear
+0015015-0060833,9,"electronic publications, downloadable",Similar,9,downloadable image files
+0042465-0017310,38,telecommunication services,Similar,42,updating of software databases
+0048076-0047385,44,human healthcare services,Identical,44,medical services
+0010627-0008063,18,imitation leather,Dissimilar,12,golf carts [vehicles]
+0035309-0058849,35,consultations relating to business advertising,Dissimilar,9,software
+0030502-0057054,3,cosmetics,Identical,3,perfumed powder [for cosmetic use]
+0059490-0039798,43,services for providing food and drink,Dissimilar,30,mixtures for making frozen confections
+0073918-0042465,9,scientific and laboratory devices for treatment using electricity,Dissimilar,38,telecommunication services
+0047676-0047785,5,"medical dressings, coverings and applicators",Low similar,10,surgical and wound treating equipment
+0011715-0001523,3,ethereal oils,Similar,3,fragrance preparations
+0032591-0029473,8,nail clippers,Similar,8,razors
+0047583-0040429,9,computers,Similar,42,developing and updating computer software
+0048125-0007362,30,preparations made from cereals,Identical,30,snack food products made from cereal starch
+0007836-0030193,41,entertainment services,Identical,41,film production services
+0023359-0020457,31,live animals,Dissimilar,31,flower bulbs
+0059451-0069628,5,fungicides,Low similar,44,consultancy relating to the cultivation of plants
+0072258-0020160,16,painters' brushes,Dissimilar,21,aquariums
+0048121-0036295,26,pins,Dissimilar,26,darning lasts
+0069512-0056735,43,providing food and drink for guests,Identical,43,serving food and drinks
+0041639-0057778,41,education and instruction,Identical,41,teaching
+0059049-0048103,9,spectacle cases,Dissimilar,9,measuring apparatus and instruments
+0035881-0046449,12,apparatus for locomotion by water,Dissimilar,12,bicycle motors
+0004677-0004122,35,personnel consultancy,Low similar,35,office functions services
+0042909-0048125,30,popcorn,Identical,30,preparations made from cereals
+0032870-0008058,9,keyboards,Dissimilar,9,uninterruptable power supply apparatus
+0013808-0002649,20,beds,Dissimilar,21,brushes
+0057908-0046577,3,perfumes,Dissimilar,10,teething rings
+0048144-0024351,11,apparatus for drying,Dissimilar,19,"building materials, not of metal"
+0047993-0048031,37,"rental of tools, plant and equipment for construction, demolition, cleaning and maintenance",Dissimilar,42,"testing, authentication and quality control"
+0023752-0035029,7,shock absorber plungers [parts of machines],Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0017416-0023686,11,gas operated apparatus for cooking,Similar,7,liquidizers [kitchen machines]
+GSCSup-0119207-0047004,36,insurances,Similar,36,trust management
+0012514-0070512,39,transport,Identical,39,travel and passenger transportation
+0039759-0058836,18,umbrella or parasol ribs,Dissimilar,18,travelling bags
+0040409-0059256,29,edible oils and fats,Similar,29,meat
+0023877-0012048,30,"flavourings, other than essential oils, for cakes",Dissimilar,30,baking powder
+0059214-0012816,2,lacquers,Similar,2,turpentine [thinner for paints]
+0047684-0047859,6,"containers, and transportation and packaging articles, of metal",Dissimilar,19,"building and construction materials and elements, not of metal"
+0006231-0072798,31,"fruit, fresh",Dissimilar,31,animal foodstuffs
+0030502-0000353,3,cosmetics,Identical,3,skin cleansing lotion
+0030502-0019742,3,cosmetics,Dissimilar,5,phenol for pharmaceutical purposes
+0058799-0026119,24,bed covers,Similar,24,towels of textile
+0046914-0057405,29,"fruit, preserved",Dissimilar,30,custard
+0025839-0042684,29,olive oil,Identical,29,edible oils for glazing foodstuffs
+0058849-0074490,9,software,Identical,9,cloud computing software
+0014135-0057734,3,tailors' wax,Dissimilar,3,furbishing preparations
+0040978-0002969,7,incubators for eggs,Dissimilar,7,pistons for cylinders
+0043508-0044469,20,furniture,Dissimilar,21,sponges
+0012425-0020071,11,installations for heating swimming pools,Dissimilar,11,cooking apparatus and installations
+0046410-0007875,30,sweetmeats [candy],Dissimilar,29,pollen prepared as foodstuff
+0030502-0006572,3,cosmetics,Identical,3,natural oils for cosmetic purposes
+0041296-0058207,2,wood preservatives,Low similar,2,thickeners for paints
+0058902-0044168,22,raw fibrous textile,Identical,22,"padding materials, not of rubber, plastics, paper or cardboard"
+0019734-0002649,20,pillows,Dissimilar,21,brushes
+0013240-0018510,9,photographic apparatus and instruments,Dissimilar,9,cases adapted for mobile phones
+0028147-0012585,20,upholstered convertible furniture,Dissimilar,21,steelwool
+0059211-0035861,3,polishing wax,Dissimilar,3,bleaching preparations
+0030502-GSCSup-0004166,3,cosmetics,Identical,3,aftersun lotions
+0048109-0046911,12,apparatus for locomotion by air,Dissimilar,12,gearing for land vehicles
+0072529-0011972,4,industrial oil,Low similar,4,non- chemical fuel additives
+0007421-0048097,9,phonograph records,Dissimilar,9,apparatus and instruments for switching electricity
+0047314-0027566,7,vending machines,Dissimilar,7,"pumps [parts of machines, engines or motors]"
+0072796-0002024,30,molasses for food,Dissimilar,30,spring rolls
+0058962-0040118,25,headgear,Dissimilar,24,table covers
+GSCSup-0095031-GSCSup-0095026,8,manually operated tools,Identical,8,handoperated cutting tools
+0015146-0047354,35,business administration,Similar,35,business investigations
+0002548-0058059,21,indoor terrariums [vivariums],Dissimilar,16,printing type
+0035972-0002024,29,milk products,Dissimilar,30,spring rolls
+0047026-0044495,30,tea,Identical,30,fruit teas
+0056876-0046773,9,computer application software for mobile telephones,Dissimilar,9,kilometre recorders
+0047692-0047796,7,dispensing machines,Dissimilar,11,regulating and safety accessories for water and gas installations
+0057172-0012232,35,business management,Low similar,35,employment agency services
+0047796-0047917,11,regulating and safety accessories for water and gas installations,Dissimilar,21,brushes and brush-making articles
+0000478-0036520,41,arranging and conducting of symposiums,Identical,41,arranging of conferences relating to business
+0047737-0000626,9,"scientific research and laboratory apparatus, educational apparatus and simulators",Dissimilar,16,money holders
+0023832-0041028,35,advertising,Identical,35,advertising services provided via the internet
+0030502-0071824,3,cosmetics,Identical,3,shaving stones [astringents]
+0048067-0036192,41,publishing and reporting,Identical,41,news syndication reporting
+0028966-0059063,9,nautical apparatus and instruments,Dissimilar,9,magnets
+GSCSup-0081976-0016095,45,patent lawyer services,Identical,45,provision of information relating to legal services
+0012268-0047463,30,gingerbread,Dissimilar,29,dried fruit
+0012583-0072794,29,jellies for food,Similar,30,syrups and treacles
+0058013-0046364,18,handbags,Similar,25,clothing
+0059490-0032861,43,services for providing food and drink,Similar,43,rental of cooking apparatus
+0057734-0059527,3,furbishing preparations,Similar,3,abrasives
+0046364-0014591,25,clothing,Identical,25,gilets
+0011999-0023723,10,surgical apparatus and instruments,Dissimilar,5,dietetic substances adapted for medical use
+0052270-0058525,14,rosaries,Dissimilar,14,jewellery
+0048109-0004640,12,apparatus for locomotion by air,Dissimilar,12,air bags [safety devices for automobiles]
+0035881-0057457,12,apparatus for locomotion by water,Dissimilar,12,ski carriers for cars
+0035881-0047604,12,apparatus for locomotion by water,Dissimilar,12,shock absorbers for automobiles
+0048103-0024490,9,measuring apparatus and instruments,Identical,9,weighing apparatus and instruments
+0057123-0041416,9,containers for contact lenses,Dissimilar,9,calculators
+0047744-0047795,9,"magnets, magnetizers and demagnetizers",Dissimilar,11,refrigerating and freezing equipment
+0031761-0042843,29,"fish, not live",Dissimilar,30,salt
+0047735-0009700,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,10,sex aids
+0058849-0073439,9,software,Identical,9,software for the analysis of business data
+0047609-0002024,30,bread,Dissimilar,30,spring rolls
+0047463-0013151,29,dried fruit,Dissimilar,30,flour
+0052173-0004122,35,negotiation of business contracts for others,Dissimilar,35,office functions services
+0012625-0046909,33,spirits [beverages],Identical,33,grappa
+0048067-0010565,41,publishing and reporting,Identical,41,publication of electronic newspapers accessible via a global computer network
+GSCSup-0002736-GSCSup-0127807,19,building materials nonmetallic,Low similar,6,gates
+0013240-0059428,9,photographic apparatus and instruments,Dissimilar,9,radio receivers
+0046410-0013151,30,sweetmeats [candy],Dissimilar,30,flour
+0058449-0014417,3,hair dyes,Dissimilar,16,printing blocks
+0048106-0048105,9,life-saving apparatus and instruments,Identical,9,signalling apparatus and instruments
+0059489-0046914,43,provision of food and drink,Low similar,29,"fruit, preserved"
+0014354-0007810,7,transmission components (except for land vehicles),Dissimilar,7,regulators [parts of machines]
+0012583-0046410,29,jellies for food,Dissimilar,30,sweetmeats [candy]
+0035442-0006231,30,mustard,Dissimilar,31,"fruit, fresh"
+0058849-0039708,9,software,Identical,9,application software
+0058848-0077872,9,computer software,Identical,9,cloud server software
+0032424-0057077,1,"x-ray films, sensitized but not exposed",Dissimilar,1,chemicals for use in agriculture
+0022017-0047648,3,terpenes [essential oils],Identical,3,essential oils and aromatic extracts
+0046364-0056285,25,clothing,Identical,25,gloves with conductive fingertips that may be worn while using handheld electronic touch screen devices
+0037289-0071842,5,caustic pencils,Identical,5,pharmaceuticals
+0014229-0035029,7,boxes for matrices [printing],Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0025734-0072824,12,vehicles,Similar,12,automobile hoods
+0047385-0012680,44,medical services,Dissimilar,10,apparatus for the application of laser radiation for dental purposes
+0058757-0014759,1,fertilizers,Dissimilar,1,"reagent paper, other than for medical or veterinary purposes"
+0015444-0059170,3,beauty masks,Similar,3,toilet soap
+0004304-0013115,35,business consultancy and advisory services,Identical,35,business planning services
+0059256-0018418,29,meat,Dissimilar,30,propolis
+0025734-0041190,12,vehicles,Similar,12,caps for vehicle fuel tanks
+0047982-0018463,31,trees and forestry products,Dissimilar,31,"cucumbers, fresh"
+0012048-0035972,30,baking powder,Dissimilar,29,milk products
+0035245-0057620,17,"flexible hoses, not of metal",Dissimilar,22,tents
+0059256-0018122,29,meat,Dissimilar,30,yeast
+0058762-0058962,25,sportswear,Similar,25,headgear
+0034654-0040449,32,non-alcoholic fruit extracts,Identical,32,non-alcoholic preparations for making beverages
+0058962-0074147,25,headgear,Identical,25,cycling caps
+0016148-0077515,33,wine,Dissimilar,33,alcoholic preparations for making beverages
+0007421-0024490,9,phonograph records,Dissimilar,9,weighing apparatus and instruments
+0018739-0024142,19,"rigid pipes, not of metal, for building",Dissimilar,19,"road signs, non-luminous and non-mechanical, not of metal"
+0047651-0048072,3,tailors' and cobblers' wax,Dissimilar,44,"agriculture, aquaculture, horticulture and forestry services"
+0014215-0058731,13,trigger guards for guns and rifles,Dissimilar,13,fireworks
+0020646-0003321,1,chemicals used in science,Dissimilar,1,photometric paper
+0058962-0058963,25,headgear,Identical,25,hats
+0027795-0018102,26,embroidery,Dissimilar,26,trouser clips for cyclists
+0059496-0057317,36,investment services,Identical,36,financial consultancy
+0072797-0040815,31,foodstuffs and fodder for animals,Dissimilar,31,"poultry, live"
+0072390-0058839,25,footwear,Dissimilar,18,valises
+0004264-0021463,20,bedsprings of non-metallic materials,Dissimilar,20,caskets made of ivory
+0030502-0058393,3,cosmetics,Identical,3,after-shave gel
+0031837-0015582,31,flowers,Dissimilar,31,meal for animals
+0025946-0047927,3,toiletries,Dissimilar,21,"statues, figurines, plaques and works of art, made of materials such as porcelain, terra-cotta or glass, included in the class"
+0057918-0023396,18,sling bags for carrying infants,Dissimilar,18,walking sticks
+0059485-0013151,30,malt biscuits,Dissimilar,30,flour
+0047743-0047798,9,information technology and audiovisual equipment,Dissimilar,11,filters for industrial and household use
+0025734-0045335,12,vehicles,Similar,12,spars for ships
+0046873-0012058,36,finance services,Identical,36,financing services for companies
+0048125-GSCSup-0013201,30,preparations made from cereals,Identical,30,cookie
+0012289-0027713,12,bicycles,Identical,12,racing bicycles
+0046873-0071325,36,finance services,Identical,36,wealth management
+0040761-0006084,29,eggs,Similar,29,powdered eggs
+GSCSup-0004886-0058835,18,trunks,Identical,18,travel cases
+0057404-0000462,30,puddings,Dissimilar,30,artificial coffee
+0047664-0047935,5,hygienic preparations and articles,Dissimilar,29,birds’ eggs and egg products
+0043133-0048125,29,pectin for culinary purposes,Dissimilar,30,preparations made from cereals
+0048076-0017163,44,human healthcare services,Identical,44,homeopathic clinical services
+0046914-0070200,29,"fruit, preserved",Low similar,30,confectionery
+0007836-0001403,41,entertainment services,Identical,41,providing casino facilities [gambling]
+0020466-0002692,30,"essences for foodstuffs, except etheric essences and essential oils",Low similar,30,cocoa
+0048144-0010289,11,apparatus for drying,Dissimilar,11,tanning apparatus [sun beds]
+0043814-0011106,26,ribbons,Dissimilar,26,shuttles for making fishing nets
+0033492-0047583,7,electroplating machines,Dissimilar,9,computers
+0058392-0058197,3,abrasive paper,Dissimilar,3,dentifrices
+0057540-0035881,12,bicycle saddles,Dissimilar,12,apparatus for locomotion by water
+0025946-0047664,3,toiletries,Similar,5,hygienic preparations and articles
+0030502-0075642,3,cosmetics,Identical,3,face and body masks
+0047665-0073934,5,dental preparations and articles,Dissimilar,29,"soups and stocks, meat extracts"
+0071841-GSCSup-0066221,5,pharmaceutical preparations,Similar,5,health food supplements
+0072527-0029618,3,varnish-removing preparations,Identical,3,nail care preparations
+0018819-0059298,18,saddlery,Dissimilar,18,handbag frames
+0046914-0046410,29,"fruit, preserved",Low similar,30,sweetmeats [candy]
+0018708-0011208,41,production of radio and television programmes,Identical,41,production of educational television programmes
+0058600-0046530,12,vehicle wheels,Dissimilar,11,hot water bottles
+0015146-0004122,35,business administration,Similar,35,office functions services
+0042870-0072794,29,pickles,Dissimilar,30,syrups and treacles
+0004304-0025387,35,business consultancy and advisory services,Identical,35,business consultancy services relating to data processing
+0004882-0041198,16,credit cards without magnetic coding,Dissimilar,36,insurance brokerage
+0000033-0046557,30,corn flakes,Identical,30,breakfast cereals
+0058092-0025728,18,trunks [luggage],Dissimilar,18,chain mesh purses
+0020077-0021085,29,edible fats,Dissimilar,29,lecithin for culinary purposes
+0052023-0006404,5,pediculicidal shampoos,Similar,5,sanitary preparations for medical purposes
+0034908-0058092,26,decorative articles for the hair,Dissimilar,18,trunks [luggage]
+0047646-0047926,3,cleaning and fragrancing preparations,Dissimilar,21,"unworked and semi-worked glass, not specified for use"
+0025734-0072245,12,vehicles,Identical,12,boats
+0058802-0047583,35,professional business consultancy,Dissimilar,9,computers
+0030502-0065147,3,cosmetics,Identical,3,lip gloss palettes
+0040761-0047463,29,eggs,Dissimilar,29,dried fruit
+0058525-0057700,14,jewellery,Identical,14,pendants
+0048128-0058999,31,forestry products not included in other classes,Dissimilar,31,shrubs
+0003149-0017797,16,adhesive labels,Dissimilar,16,calendars
+0002332-0048106,9,life-saving rafts,Identical,9,life-saving apparatus and instruments
+0002650-0012257,25,jackets [clothing],High similar,25,belts [clothing]
+0046472-0003276,29,"vegetables, cooked",Identical,29,yucca chips
+0046132-0044289,42,scientific laboratory services,Similar,44,in vitro fertilization services
+0002359-0057358,41,sporting activities,Similar,41,sports training
+0018500-0035975,16,magazines [periodicals],Dissimilar,16,posters
+0025976-0018122,30,ferments for pastes,Identical,30,yeast
+0036724-0018102,26,artificial flowers,Dissimilar,26,trouser clips for cyclists
+0059489-0012048,43,provision of food and drink,Dissimilar,30,baking powder
+0046500-0020160,16,stationery,Dissimilar,21,aquariums
+0004990-0040920,30,meat tenderizers for household purposes,Dissimilar,30,sago
+0014354-0072547,7,transmission components (except for land vehicles),Dissimilar,7,exhausts for motors and engines
+0031765-0072422,30,starch for food,Dissimilar,30,seasonings
+0046772-0047609,30,sauces [condiments],Dissimilar,30,bread
+0012583-0031547,29,jellies for food,Dissimilar,30,coffee
+0047964-0059535,30,"sugars, natural sweeteners, sweet coatings and fillings, bee products",Dissimilar,31,bedding and litter for animals
+0005811-0009985,31,natural plants,Dissimilar,31,"fish, live"
+0048098-0013699,9,apparatus and instruments for transforming electricity,Dissimilar,9,cinematographic machines and apparatus
+0013984-0046364,25,cardigans,Identical,25,clothing
+0060833-0041416,9,downloadable image files,Dissimilar,9,calculators
+0047735-0072390,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,25,footwear
+0011999-0059451,10,surgical apparatus and instruments,Dissimilar,5,fungicides
+0058666-0023737,11,lighting apparatus,Identical,11,lamps for outdoor use
+0009687-0046914,30,flour ready for baking,Dissimilar,29,"fruit, preserved"
+0007176-GSCSup-0123787,5,teeth filling material,Similar,5,adhesives for dental prostheses
+0058345-0020071,11,steam generating apparatus,Dissimilar,11,cooking apparatus and installations
+0047648-0047927,3,essential oils and aromatic extracts,Dissimilar,21,"statues, figurines, plaques and works of art, made of materials such as porcelain, terra-cotta or glass, included in the class"
+0043151-0077117,9,sound recording carriers,Identical,9,data storage devices and media
+0013880-0059263,13,ammunition and projectiles,Dissimilar,13,noise-suppressors for guns
+0059490-GSCSup-0111686,43,services for providing food and drink,Identical,43,coffee and tea bar services
+0003252-0047163,7,hydraulic tools,Dissimilar,11,heating apparatus
+0043508-0057705,20,furniture,Identical,20,table tops
+0030502-0074831,3,cosmetics,Identical,3,cosmetic preparations for bath and shower
+0011715-0007176,3,ethereal oils,Dissimilar,5,teeth filling material
+0040978-0019858,7,incubators for eggs,Dissimilar,7,"control mechanisms for machines, engines or motors"
+0013520-0025724,11,drying installations,Dissimilar,21,cleaning articles
+0057417-0057075,3,hair lotions,Similar,3,hair bleaching preparations
+0041981-0059485,29,preserved vegetables,Dissimilar,30,malt biscuits
+0059171-0006204,3,soap,Similar,3,cleansing milk for toilet purposes
+0046220-0057908,3,shoe polish,Dissimilar,3,perfumes
+0059451-0048080,5,fungicides,Identical,5,pesticides
+0058665-0024226,11,lighting installations,Identical,11,electric lamps
+0011998-0032167,10,artificial teeth,Dissimilar,10,love dolls [sex dolls]
+0040217-0030979,26,shoulder pads for clothing,Dissimilar,26,hooks [haberdashery]
+0025734-0042019,12,vehicles,Similar,12,bicycle tyres
+0048094-0019864,5,materials for dressings,Similar,5,mustard plasters
+0018819-0041917,18,saddlery,Dissimilar,18,clothing for pets
+0057582-0058344,7,"soldering apparatus, electric",Dissimilar,11,steam generating installations
+0047687-0071960,7,"agricultural, earthmoving, construction, oil and gas extraction and mining equipment",Dissimilar,11,fireplaces
+0040409-0047964,29,edible oils and fats,Dissimilar,30,"sugars, natural sweeteners, sweet coatings and fillings, bee products"
+0029914-0031545,29,oils for food,Dissimilar,29,"prawns, not live"
+0041981-0023769,29,preserved vegetables,Dissimilar,29,meat extracts
+0013915-0038428,34,tobacco,Identical,34,cigarette tobacco
+0043508-0045314,20,furniture,Identical,20,seats of metal
+0006358-0058320,11,chromatography apparatus for industrial purposes,Dissimilar,11,refrigerating apparatus
+0017632-0046138,11,igniters,Dissimilar,11,water supply installations
+0021547-0046276,39,packaging and storage of goods,Dissimilar,35,marketing
+0057404-0023769,30,puddings,Dissimilar,29,meat extracts
+0057172-0047097,35,business management,Identical,35,market research
+0008086-0043133,30,thickening agents for cooking foodstuffs,Similar,29,pectin for culinary purposes
+0059193-0058342,9,data processing equipment,Similar,38,transmission of electronic mail
+0058449-0059170,3,hair dyes,Low similar,3,toilet soap
+0004882-0047181,16,credit cards without magnetic coding,Dissimilar,36,monetary services
+0029373-0057907,3,scented wood,Identical,3,perfumery
+0060716-0069899,9,mobile telephones,High similar,9,wearable activity trackers
+0047993-0048061,37,"rental of tools, plant and equipment for construction, demolition, cleaning and maintenance",Dissimilar,40,food and beverage treatment
+0040756-0071206,28,appliances for gymnastics,Similar,28,arm guards for sports use
+0046364-0044054,25,clothing,Identical,25,furs [clothing]
+0023832-0046873,35,advertising,Dissimilar,36,finance services
+0028989-0012233,35,computerized file management,Similar,35,typing
+0015006-0017797,16,printed matter,Identical,16,calendars
+0048109-0057571,12,apparatus for locomotion by air,Similar,12,tyres for vehicle wheels
+0044830-0041404,40,reclamation of material from waste,Dissimilar,40,water treating
+0058013-0058962,18,handbags,Similar,25,headgear
+0035500-0047441,36,rental of apartments,Identical,36,real estate affairs
+0013151-0007875,30,flour,Dissimilar,29,pollen prepared as foodstuff
+0039839-0014300,35,business management assistance,Identical,35,analysis of company behaviour
+0046914-0007875,29,"fruit, preserved",Dissimilar,29,pollen prepared as foodstuff
+0059484-0001042,30,cakes,Similar,30,rusks
+0030502-0041869,3,cosmetics,Low similar,5,mud for baths
+GSCSup-0110826-GSCSup-0110831,32,nutritional and dietetic beverages,Identical,32,noncarbonated soft drinks
+0047850-0048067,16,stationery and educational supplies,Dissimilar,41,publishing and reporting
+GSCSup-0002736-GSCSup-0127777,19,building materials nonmetallic,Low similar,6,windows
+0037549-0072796,30,preparations for stiffening whipped cream,Dissimilar,30,molasses for food
+0012514-0000333,39,transport,Identical,39,"arranging transportation of passengers by road, rail, air and sea"
+0010363-0048099,7,elevator operating apparatus,Dissimilar,9,apparatus and instruments for regulating electricity
+0057417-0006404,3,hair lotions,Similar,5,sanitary preparations for medical purposes
+0002018-0047912,3,air fragrancing preparations,Similar,21,air fragrancing apparatus
+0058819-0030979,26,hair barrettes,Dissimilar,26,hooks [haberdashery]
+0000478-0073906,41,arranging and conducting of symposiums,Identical,41,education and instruction services
+0048125-0042843,30,preparations made from cereals,Dissimilar,30,salt
+0058082-0012585,20,armchairs,Dissimilar,21,steelwool
+0057778-0073906,41,teaching,Identical,41,education and instruction services
+0042465-0068557,38,telecommunication services,Identical,38,transmission of data and information by computer and electronic communication means
+0000331-0029041,39,arranging transportation of goods,Identical,39,transport services
+0019083-0078171,9,hydrometers,Identical,9,measuring devices
+0046364-0043020,25,clothing,Low similar,28,wrist guards for athletic use
+0025734-0023896,12,vehicles,Similar,12,direction indicators for bicycles
+0018122-0046162,30,yeast,Dissimilar,30,sugar
+0047664-0047962,5,hygienic preparations and articles,Dissimilar,30,"coffee, teas and cocoa and substitutes therefor"
+0038316-0030862,21,electric devices for attracting and killing insects,Dissimilar,9,magnetic data media
+0046548-0058231,11,electric ranges,Similar,7,"food processors, electric"
+0072821-0047747,9,"accumulators, electric",Identical,9,apparatus and instruments for accumulating and storing electricity
+0056876-0016628,9,computer application software for mobile telephones,Dissimilar,9,score recorders [electronic]
+0044155-0048045,35,hotel management for others,Dissimilar,43,"hotels, hostels and boarding houses, holiday and tourist accommodation"
+0011480-0018545,35,promotion services,Dissimilar,3,bath soap
+0030502-0070819,3,cosmetics,Identical,3,skin soap
+0040978-0003252,7,incubators for eggs,Dissimilar,7,hydraulic tools
+0042465-0010296,38,telecommunication services,Identical,38,streaming of audio material on the internet
+0014541-0029232,44,animal healthcare services,Dissimilar,44,flower arranging
+0015006-0007100,16,printed matter,Dissimilar,16,coasters of cardboard
+0072413-0052145,29,tomato purée,Dissimilar,29,galbi [grilled meat dish]
+0059246-0048104,26,"hair curlers, other than hand implements",Dissimilar,9,checking (supervision) apparatus and instruments
+0047515-0040920,29,frozen fruits,Dissimilar,30,sago
+0030502-0058688,3,cosmetics,Identical,3,facial masks
+0031547-0031054,30,coffee,Identical,30,ground coffee
+0043814-0057625,26,ribbons,Similar,26,numerals for marking linen
+0057778-0007913,41,teaching,Identical,41,correspondence courses
+0008236-0059421,10,veterinary apparatus and instruments,Dissimilar,5,food for babies
+0025934-0027889,30,powders for making ice cream,Dissimilar,30,honey
+0025790-0037142,9,battery testers,Dissimilar,8,cutlery
+0057584-0013240,7,"soldering irons, electric",Dissimilar,9,photographic apparatus and instruments
+0014421-0007773,15,piano strings,Similar,15,musical instruments
+0033152-0048073,42,it services,Dissimilar,45,"safety, rescue, security and enforcement services"
+GSCSup-0009231-0029858,41,game services provided online from a computer network,Identical,41,services for the operation of computerised bingo
+0000723-0022248,29,edible birds' nests,Dissimilar,30,rice
+0047385-0011804,44,medical services,Dissimilar,10,dental dams
+0047650-0019742,3,body cleaning and beauty care preparations,Dissimilar,5,phenol for pharmaceutical purposes
+0004304-0030711,35,business consultancy and advisory services,Identical,35,writing of business project studies
+0046364-0023832,25,clothing,Dissimilar,35,advertising
+0048096-0048106,9,apparatus and instruments for accumulating electricity,Dissimilar,9,life-saving apparatus and instruments
+0030502-0055315,3,cosmetics,Identical,3,cosmetic products in the form of aerosols for skincare
+0040973-0071842,5,febrifuges,Identical,5,pharmaceuticals
+0047664-0047965,5,hygienic preparations and articles,Dissimilar,30,"baked goods, confectionery, chocolate and desserts"
+0044168-0057620,22,"padding materials, not of rubber, plastics, paper or cardboard",Dissimilar,22,tents
+0011889-0072390,37,shoe repair,Dissimilar,25,footwear
+0070785-0015006,16,brochures,Identical,16,printed matter
+0023192-0015006,16,printed periodicals,Identical,16,printed matter
+0008451-0012658,31,unprocessed mushrooms,High similar,31,"vegetables, fresh"
+0057582-0009172,7,"soldering apparatus, electric",Dissimilar,11,apparatus for ventilating
+0059009-0014427,5,dental impression materials,Dissimilar,4,"petroleum, raw or refined"
+0057620-0023443,22,tents,Dissimilar,22,"straps, not of metal, for handling loads"
+0057417-0030926,3,hair lotions,Dissimilar,10,condoms
+0047583-0036719,9,computers,High similar,9,satellite telephones
+0030862-0018500,9,magnetic data media,Similar,16,magazines [periodicals]
+0003653-0072422,29,aloe vera prepared for human consumption,Dissimilar,30,seasonings
+0072422-0003340,30,seasonings,Dissimilar,30,chocolate spreads
+0042843-0018418,30,salt,Dissimilar,30,propolis
+0020071-0035264,11,cooking apparatus and installations,Dissimilar,11,oil-scrubbing apparatus
+0047463-0012320,29,dried fruit,Dissimilar,30,vinegar
+0046364-0021078,25,clothing,Identical,25,sweat-absorbent underwear
+0036131-0046272,34,cigarettes,Similar,34,electronic cigarettes
+0057904-0045403,22,ropes,Dissimilar,18,whips
+0020242-0025645,16,cards,Similar,16,pictures
+0047665-0059535,5,dental preparations and articles,Dissimilar,31,bedding and litter for animals
+0037549-0041981,30,preparations for stiffening whipped cream,Dissimilar,29,preserved vegetables
+0037277-0045917,18,leather and imitations of leather,Dissimilar,25,fittings of metal for footwear
+0009856-0042100,44,human hygiene and beauty care,Identical,44,consultation services relating to skin care
+0024818-0033953,7,"motors, other than for land vehicles",Similar,7,igniting magnetos
+0006404-0059212,5,sanitary preparations for medical purposes,Identical,5,sanitary towels
+0047687-0047735,7,"agricultural, earthmoving, construction, oil and gas extraction and mining equipment",Dissimilar,9,"navigation, guidance, tracking, targeting and map making devices"
+0011715-0055330,3,ethereal oils,Identical,3,essential oils as perfume for laundry purposes
+0022294-0058959,18,briefcases [leather goods],Identical,18,briefcases
+0030502-0007067,3,cosmetics,Dissimilar,10,pillows for therapeutic use
+0047208-0047163,11,air-conditioning apparatus,Identical,11,heating apparatus
+0035342-0046577,10,dental apparatus and instruments,Dissimilar,10,teething rings
+0047733-0015006,9,"optical devices, enhancers and correctors",Dissimilar,16,printed matter
+0016088-0060824,9,optical apparatus and instruments,Identical,9,pince-nez
+0033492-0071943,7,electroplating machines,Dissimilar,9,fire extinguishers
+0003828-0047942,18,umbrellas,Dissimilar,24,bath linen
+0025946-0048072,3,toiletries,Dissimilar,44,"agriculture, aquaculture, horticulture and forestry services"
+0058632-0001715,39,travel arrangement,Identical,39,escorting of travellers
+0057417-0029133,3,hair lotions,Dissimilar,10,apparatus for the treatment of deafness
+0048110-0035407,12,apparatus for locomotion by land,Similar,12,vehicle seats
+0047692-0017632,7,dispensing machines,Dissimilar,11,igniters
+0041404-0048161,40,water treating,Dissimilar,40,treatment and transformation of materials
+0008086-0059485,30,thickening agents for cooking foodstuffs,Dissimilar,30,malt biscuits
+0075350-0009401,12,tyres,Identical,12,tyres for trucks
+0048094-0058773,5,materials for dressings,Identical,5,wadding for medical purposes
+0025613-0056600,33,alcoholic beverages (except beer),Identical,33,table wines
+0072790-0012276,1,adhesives for use in industry,Identical,1,cement for footwear
+0040518-0058799,22,sacks,Dissimilar,24,bed covers
+0059003-0047110,41,providing amusement arcade services,Identical,41,gambling services
+0072390-0037277,25,footwear,Dissimilar,18,leather and imitations of leather
+0047565-0041655,16,writing paper,Similar,16,artists' materials
+0022650-0047788,9,diving equipment,Dissimilar,10,orthopedic and mobility aids
+0047262-0048124,29,jams,Identical,29,cooked fruits
+0072422-0035972,30,seasonings,Dissimilar,29,milk products
+0057908-0041838,3,perfumes,Dissimilar,25,stockings
+0067005-0048101,21,electric make-up removing appliances,Dissimilar,9,apparatus and instruments for conducting electricity
+0047799-0025724,11,industrial treatment installations,Dissimilar,21,cleaning articles
+0048121-0039986,26,pins,Dissimilar,26,pin cushions
+0000478-0069090,41,arranging and conducting of symposiums,Identical,41,"arranging, conducting and organisation of seminars"
+0040978-0007108,7,incubators for eggs,Dissimilar,7,suction cups for milking machines
+0040409-0030020,29,edible oils and fats,Dissimilar,29,"game, not live"
+0025734-0047604,12,vehicles,Similar,12,shock absorbers for automobiles
+0047663-0047952,5,pest control preparations and articles,Dissimilar,31,"live animals, organisms for breeding"
+0067536-0029673,29,processed potatoes,Low similar,31,"potatoes, fresh"
+0018500-0017797,16,magazines [periodicals],Dissimilar,16,calendars
+0057978-0046364,25,ankle socks,Identical,25,clothing
+0015015-0048067,9,"electronic publications, downloadable",Similar,41,publishing and reporting
+0018500-0058747,16,magazines [periodicals],Similar,16,comic books
+0057918-0057919,18,sling bags for carrying infants,Identical,18,baby carriers worn on the body
+0048094-0031838,5,materials for dressings,Dissimilar,44,forestry services
+0041189-0035029,7,glaziers' diamonds [parts of machines],Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0013306-0029412,19,tiles of glass,Dissimilar,19,"buildings, transportable, not of metal"
+0002018-0040700,3,air fragrancing preparations,Similar,5,air deodorizing preparations
+0057382-0048107,9,decorative magnets,Dissimilar,9,scientific apparatus and instruments
+0014417-0031211,16,printing blocks,Dissimilar,16,adhesives for household purposes
+0008086-0002692,30,thickening agents for cooking foodstuffs,Dissimilar,30,cocoa
+0048109-0013152,12,apparatus for locomotion by air,Dissimilar,12,automobile chains
+0015168-0072258,16,wrapping materials made of paper,Dissimilar,16,painters' brushes
+0030502-0010262,3,cosmetics,Identical,3,body scrub
+0058197-0001411,3,dentifrices,Dissimilar,5,herbicides
+0058666-0011700,11,lighting apparatus,Dissimilar,11,regulating and safety accessories for gas pipes
+0035102-0069479,43,restaurant services,Identical,43,food and drink catering for banquets
+0059147-0057077,1,photosensitive plates,Dissimilar,1,chemicals for use in agriculture
+0071817-0014759,1,tan,Dissimilar,1,"reagent paper, other than for medical or veterinary purposes"
+0021246-0008236,10,feeding bottles,Dissimilar,10,veterinary apparatus and instruments
+0030502-0059251,3,cosmetics,Identical,3,styling lotions
+0025934-0046162,30,powders for making ice cream,Dissimilar,30,sugar
+0001874-0048106,9,sound transmitting apparatus,Identical,9,life-saving apparatus and instruments
+0048124-0019801,29,cooked fruits,Dissimilar,30,cheeseburgers [sandwiches]
+0047963-0059535,30,"ice, ice creams, frozen yogurts and sorbets",Dissimilar,31,bedding and litter for animals
+0043133-0072422,29,pectin for culinary purposes,Dissimilar,30,seasonings
+0002650-0046364,25,jackets [clothing],Identical,25,clothing
+0047697-0013520,7,"pumps, compressors and blowers",Dissimilar,11,drying installations
+0044059-0036147,19,lime,Dissimilar,17,mica
+0030502-0060362,3,cosmetics,Identical,3,deodorants for personal use [perfumery]
+0048104-0059429,9,checking (supervision) apparatus and instruments,Dissimilar,9,radios
+0046162-0001041,30,sugar,Dissimilar,30,royal jelly
+0000209-0000208,31,christmas trees,Identical,31,trees
+0046340-0020159,16,bookbinding material,Dissimilar,21,aquarium hoods
+0027889-0035906,30,honey,Identical,30,natural sweeteners
+0026555-0023926,33,liqueurs,Dissimilar,30,chocolate beverages with milk
+0035641-0057734,3,hair waving preparations,Dissimilar,3,furbishing preparations
+0011715-0065075,3,ethereal oils,Identical,3,ethereal essences and oils
+0059324-0048096,7,electric arc welding apparatus,Dissimilar,9,apparatus and instruments for accumulating electricity
+GSCSup-0119207-0037839,36,insurances,Similar,36,provision of finance for real estate development
+0030502-0057776,3,cosmetics,Identical,3,make-up powder
+0030020-0072422,29,"game, not live",Dissimilar,30,seasonings
+0016334-0072795,30,sausage binding materials,Dissimilar,30,golden syrup
+0058633-0059224,39,organisation of trips,Dissimilar,39,wrapping of goods
+0025934-0035442,30,powders for making ice cream,Dissimilar,30,mustard
+0058840-0058835,18,luggage,Identical,18,travel cases
+0057778-0000478,41,teaching,Identical,41,arranging and conducting of symposiums
+0057795-0072425,30,ice for refreshment,Dissimilar,33,anisette [liqueur]
+0003333-0059530,3,laundry wax,Identical,3,laundry preparations
+0030502-0065150,3,cosmetics,Low similar,3,hair piece bonding glue
+0046364-0071171,25,clothing,Identical,25,maillots [hosiery]
+0046873-0039136,36,finance services,Identical,36,credit card and debit card services
+0047692-0047730,7,dispensing machines,Dissimilar,8,"hand-operated tools and implements for treatment of materials, and for construction, repair and maintenance"
+0059171-0027800,3,soap,Identical,3,grease-removing preparations
+0041433-0058278,5,nutritional supplements,Identical,5,food supplements
+0011715-0025947,3,ethereal oils,Identical,3,mint essence [essential oil]
+0045403-0024036,18,whips,Dissimilar,12,paddle boats
+0023723-0018816,5,dietetic substances adapted for medical use,Identical,5,medical preparations for slimming purposes
+0059404-0004654,9,"computer software, recorded",Dissimilar,16,printed publications
+0021238-0011596,7,machine tools,Dissimilar,7,catalytic converters
+0058196-0014917,3,toothpaste,Similar,3,"mouthwashes, not for medical purposes"
+0046364-0073745,25,clothing,Identical,25,children's outerclothing
+0048109-0029821,12,apparatus for locomotion by air,Dissimilar,12,sun-blinds adapted for automobiles
+0040920-0029504,30,sago,Dissimilar,29,milk
+0002692-0035972,30,cocoa,Similar,29,milk products
+0047736-0047849,9,"measuring, detecting and monitoring instruments, indicators and controllers",Dissimilar,16,"bags and articles for packaging, wrapping and storage, of paper, cardboard or plastics"
+0020077-0002890,29,edible fats,Dissimilar,29,apple purée
+0014710-0047438,25,ready-made clothing,Dissimilar,23,yarns for textile use
+0059169-0016596,3,cakes of toilet soap,Dissimilar,5,dental materials for stopping the teeth
+0046500-0042028,16,stationery,Identical,16,self-adhesive tapes for stationery use
+0058251-0072771,18,parasols,Dissimilar,24,fabrics
+0058566-0027476,20,stools,Dissimilar,20,caskets made of bone
+0014238-0040761,29,seaweed extracts for food,Dissimilar,29,eggs
+0006013-0072264,41,"publication of texts, other than publicity texts",Similar,16,pamphlets
+0021238-0012270,7,machine tools,Low similar,7,expansion tanks [parts of machines]
+0012320-0029504,30,vinegar,Dissimilar,29,milk
+0048109-0001982,12,apparatus for locomotion by air,Dissimilar,12,bicycle mudguards
+0017840-0077117,9,disk drives for computers,Identical,9,data storage devices and media
+0072790-0042102,1,adhesives for use in industry,Identical,1,mastic for leather
+0006231-0020457,31,"fruit, fresh",Dissimilar,31,flower bulbs
+0065231-0011483,5,nutritional supplements for livestock feed,Similar,5,veterinary preparations
+0015006-0057300,16,printed matter,Dissimilar,16,pen cases
+0047732-0047940,9,"apparatus, instruments and cables for electricity",Dissimilar,28,festive decorations and artificial christmas trees
+0015146-0025604,35,business administration,Dissimilar,10,protective visors for dental use
+0021858-0029473,9,glow plug testers,Dissimilar,8,razors
+0002102-0043374,7,crankcases for land vehicles engines,Similar,12,vehicles for use on land
+0057371-0012658,31,seeds for planting,Dissimilar,31,"vegetables, fresh"
+0047314-0024545,7,vending machines,Dissimilar,7,housings [parts of machines]
+0047518-0024550,45,legal services,Identical,45,alternative dispute resolution services
+0046220-0059527,3,shoe polish,Similar,3,abrasives
+0071841-0059171,5,pharmaceutical preparations,Low similar,3,soap
+0023767-0023769,29,butter,Dissimilar,29,meat extracts
+0047163-0021648,11,heating apparatus,Dissimilar,19,"building panels, not of metal"
+0048109-0006486,12,apparatus for locomotion by air,Dissimilar,12,mudguards
+0072422-0040920,30,seasonings,Dissimilar,30,sago
+0024747-0037539,4,lighting fuel,Identical,4,stearine
+0047664-0044287,5,hygienic preparations and articles,Dissimilar,10,hearing protection devices
+0010363-0007421,7,elevator operating apparatus,Dissimilar,9,phonograph records
+GSCSup-0145121-0042793,33,alcoholic beverages except for beer,Identical,33,vodka
+0058262-0002692,29,"milk beverages, milk predominating",Similar,30,cocoa
+0047026-0040761,30,tea,Dissimilar,29,eggs
+0059192-0048105,9,data processing apparatus,Dissimilar,9,signalling apparatus and instruments
+0046772-0012181,30,sauces [condiments],Similar,29,marmalade
+0057333-0058666,7,"soldering apparatus, gas-operated",Dissimilar,11,lighting apparatus
+0015146-0001098,35,business administration,Dissimilar,10,protective masks for use by persons working in the dentistry
+0072390-0046856,25,footwear,Identical,25,beach shoes
+0059049-0048098,9,spectacle cases,Dissimilar,9,apparatus and instruments for transforming electricity
+0035641-0059527,3,hair waving preparations,Dissimilar,3,abrasives
+GSCSup-0145016-0057569,38,streaming of audio content via a global computer network,Similar,38,communications by telegrams
+0059192-0032870,9,data processing apparatus,Similar,9,keyboards
+0072755-0031893,13,guns [weapons],Low similar,13,cartridge loading apparatus
+0047794-0047927,11,"heating, ventilating, and air conditioning and purification equipment (ambient)",Dissimilar,21,"statues, figurines, plaques and works of art, made of materials such as porcelain, terra-cotta or glass, included in the class"
+0048067-0068985,41,publishing and reporting,Identical,41,"electronic publication of texts and printed matter, other than publicity texts, on the internet"
+0009856-0001639,44,human hygiene and beauty care,Identical,44,cosmetic electrolysis for the removal of hair
+0040756-0057106,28,appliances for gymnastics,Similar,28,knee guards [sports articles]
+0008086-0031547,30,thickening agents for cooking foodstuffs,Dissimilar,30,coffee
+0058666-0004583,11,lighting apparatus,Identical,11,street lamps
+0023385-0011653,42,design of computer hardware,Similar,42,consultancy in the field of computers
+0025456-0071842,5,aluminium acetate for pharmaceutical purposes,Identical,5,pharmaceuticals
+0048067-0069007,41,publishing and reporting,Identical,41,publication of periodicals and books in electronic form
+0029504-0057405,29,milk,Dissimilar,30,custard
+0024490-0016088,9,weighing apparatus and instruments,Dissimilar,9,optical apparatus and instruments
+0046364-0043354,25,clothing,Identical,25,nappy pants [clothing]
+0047733-0047941,9,"optical devices, enhancers and correctors",Dissimilar,28,fairground and playground apparatus
+0030502-0027652,3,cosmetics,Identical,3,skin care creams [cosmetic]
+0011344-0060078,35,organization of exhibitions for commercial or advertising purposes,Similar,35,design of advertising materials
+0023376-0047746,9,switchboards,Identical,9,apparatus and instruments for controlling electricity
+0004882-0041096,16,credit cards without magnetic coding,Similar,16,cheques
+0047683-0050676,6,structures and transportable buildings of metal,Dissimilar,20,"displays, stands and signage, non-metallic"
+0014090-0059067,32,non-alcoholic beverages,Identical,32,fruit drinks
+0044151-0046772,29,"vegetables, dried",Low similar,30,sauces [condiments]
+0023330-0075334,34,roll-your-own tobacco,Identical,34,tobacco products
+0024733-0013151,30,soya flour,Identical,30,flour
+0059484-0016272,30,cakes,Similar,30,chocolate decorations for cakes
+0031765-0042843,30,starch for food,Dissimilar,30,salt
+0058082-0025724,20,armchairs,Dissimilar,21,cleaning articles
+0029132-0010187,9,mouse pads,Low similar,9,apparatus for the reproduction of images
+0046873-0024313,36,finance services,Identical,36,processing of credit card payments
+GSCSup-0145016-0005941,38,streaming of audio content via a global computer network,Identical,38,communications by computer terminals
+0004122-0004355,35,office functions services,Identical,35,data management services
+0047463-0019801,29,dried fruit,Dissimilar,30,cheeseburgers [sandwiches]
+0075444-0058251,26,cords for trimming,Dissimilar,18,parasols
+0058962-0047939,25,headgear,Low similar,28,sporting articles and equipment
+0057778-0012510,41,teaching,Similar,41,mobile library services
+0058865-0028970,3,toilet water,Dissimilar,25,scarves
+GSCSup-0119207-0047990,36,insurances,Similar,36,"financial transfers and transactions, and payment services"
+0047666-0047952,5,dietary supplements and dietetic preparations,Dissimilar,31,"live animals, organisms for breeding"
+0009172-0021648,11,apparatus for ventilating,Dissimilar,19,"building panels, not of metal"
+0057382-0011821,9,decorative magnets,Dissimilar,9,dvds
+0041196-0015516,1,industrial chemicals,Identical,1,drilling muds
+0002024-0057794,30,spring rolls,Dissimilar,30,edible ices
+0057134-0058864,3,after-shave preparations,Similar,3,eau de cologne
+0046364-0029553,25,clothing,Identical,25,walking breeches
+0058233-0057417,3,cobblers' wax,Dissimilar,3,hair lotions
+0020064-0014354,7,hangers [parts of machines],Dissimilar,7,transmission components (except for land vehicles)
+0046162-0006231,30,sugar,Dissimilar,31,"fruit, fresh"
+0023877-0048125,30,"flavourings, other than essential oils, for cakes",Dissimilar,30,preparations made from cereals
+0047966-0014090,30,"salts, seasonings, flavourings and condiments",Dissimilar,32,non-alcoholic beverages
+0024351-0057488,19,"building materials, not of metal",Identical,19,parquet flooring
+0059485-0035467,30,malt biscuits,Dissimilar,30,glucose for culinary purposes
+0031837-0023359,31,flowers,Dissimilar,31,live animals
+0031219-0023396,25,football shoes,Dissimilar,18,walking sticks
+0047733-0047802,9,"optical devices, enhancers and correctors",Dissimilar,11,lighting and lighting reflectors
+0072814-0059323,36,capital investment,Similar,36,insurance underwriting
+0048121-0019799,26,pins,Dissimilar,26,competitors' numbers
+0047803-0047896,11,sun tanning appliances,Dissimilar,19,"structures and transportable buildings, not of metal"
+0046472-0072796,29,"vegetables, cooked",Dissimilar,30,molasses for food
+0047692-0047794,7,dispensing machines,Dissimilar,11,"heating, ventilating, and air conditioning and purification equipment (ambient)"
+0021238-0032170,7,machine tools,Dissimilar,7,machine fly-wheels
+0047652-0041545,3,oral hygiene preparations,Identical,3,dental bleaching gels
+0021238-0045742,7,machine tools,Similar,7,saw blades [parts of machines]
+0017782-0033391,43,provision of facilities for exhibitions,Dissimilar,43,rental of glassware
+0033519-0072818,14,watch bands,Dissimilar,18,animal skins
+0047733-0047798,9,"optical devices, enhancers and correctors",Dissimilar,11,filters for industrial and household use
+0047742-0058962,9,recorded content,Dissimilar,25,headgear
+0035972-0001041,29,milk products,Dissimilar,30,royal jelly
+0024818-0024502,7,"motors, other than for land vehicles",Dissimilar,7,"reels, mechanical, for flexible hoses"
+0072797-0040643,31,foodstuffs and fodder for animals,Identical,31,dog biscuits
+0035412-0032771,29,cheese,Identical,29,cheese dips
+0059246-0030637,26,"hair curlers, other than hand implements",Dissimilar,9,surveying apparatus and instruments
+0047965-0047952,30,"baked goods, confectionery, chocolate and desserts",Dissimilar,31,"live animals, organisms for breeding"
+0001698-0023365,9,animated cartoons,Dissimilar,9,cash registers
+0017741-0057904,17,latex [rubber],Dissimilar,22,ropes
+0047776-0018343,10,medical and veterinary apparatus and instruments,Similar,44,dentistry
+0060821-0057904,22,"wrapping or binding bands, not of metal",Dissimilar,22,ropes
+0057620-0024759,22,tents,Dissimilar,22,"braces, not of metal, for handling loads"
+0046364-0057444,25,clothing,Identical,25,shoulder wraps [clothing]
+0009700-0009856,10,sex aids,Dissimilar,44,human hygiene and beauty care
+GSCSup-0119207-0022972,36,insurances,Dissimilar,36,collection of debt on real estate rental
+0035381-0040424,22,sacks for the transport and storage of materials in bulk,Dissimilar,18,straps of leather [saddlery]
+0015589-0018819,22,string,Dissimilar,18,saddlery
+0023832-0058159,35,advertising,Identical,35,dissemination of advertising matter
+0043508-GSCSup-0064786,20,furniture,Identical,20,chairs for babies
+0047693-0048156,7,"sweeping, cleaning, washing and laundering machines",Dissimilar,21,articles for animals
+0001698-0071943,9,animated cartoons,Dissimilar,9,fire extinguishers
+0058757-0030655,1,fertilizers,Identical,1,chemical adjuvants for use in horticulture
+0022248-0001041,30,rice,Dissimilar,30,royal jelly
+0058031-0058092,25,dressing gowns,Dissimilar,18,trunks [luggage]
+0057404-0047515,30,puddings,Dissimilar,29,frozen fruits
+0047026-0040449,30,tea,Low similar,32,non-alcoholic preparations for making beverages
+0020077-0013858,29,edible fats,Dissimilar,30,noodle-based prepared meals
+0046410-0072421,30,sweetmeats [candy],Dissimilar,30,spices
+0042465-0044669,38,telecommunication services,Dissimilar,16,printed certificates
+0047733-0046364,9,"optical devices, enhancers and correctors",Dissimilar,25,clothing
+0044487-0073066,41,leisure services,Identical,41,online interactive entertainment
+0002328-0057920,10,suture materials,Dissimilar,10,contraceptive devices
+0047935-0047961,29,birds’ eggs and egg products,Dissimilar,30,"processed grains, starches, and goods made thereof, baking preparations and yeasts"
+0036646-0023359,31,foodstuffs for poultry,Dissimilar,31,live animals
+0022248-0057405,30,rice,Dissimilar,30,custard
+0015146-0047587,35,business administration,Dissimilar,39,booking of seats for travel
+0012658-0047982,31,"vegetables, fresh",Dissimilar,31,trees and forestry products
+0047995-0035716,37,"building, construction and demolition",Similar,42,design services
+0001698-0048099,9,animated cartoons,Dissimilar,9,apparatus and instruments for regulating electricity
+0040409-0014090,29,edible oils and fats,Dissimilar,32,non-alcoholic beverages
+0031429-0041029,35,sales promotion for others,Identical,35,"advertising, marketing and promotional services"
+0001411-0014541,5,herbicides,Dissimilar,44,animal healthcare services
+0039782-0008236,5,disinfectants,Low similar,10,veterinary apparatus and instruments
+0058962-0047452,25,headgear,Identical,25,sun visors
+0046472-0044151,29,"vegetables, cooked",High similar,29,"vegetables, dried"
+0003964-0020077,30,sauces,Similar,29,edible fats
+0046472-0022248,29,"vegetables, cooked",Dissimilar,30,rice
+0047672-0050674,6,building and construction materials and elements of metal,Dissimilar,20,"containers, and closures and holders therefor, non-metallic"
+0059485-0046162,30,malt biscuits,Dissimilar,30,sugar
+0002663-0028966,9,sounding leads,Identical,9,nautical apparatus and instruments
+0047583-0042825,9,computers,Similar,9,network routers
+0015015-0047583,9,"electronic publications, downloadable",Dissimilar,9,computers
+0007176-0058037,5,teeth filling material,Dissimilar,44,horticulture
+0003347-0006004,11,cooking appliances,Similar,21,"cooking utensils, non-electric"
+GSCSup-0095416-0059172,25,wearing apparel,Identical,25,clothing of leather
+0046167-0001266,30,chocolate,Dissimilar,29,potato crisps
+0072818-0009329,18,animal skins,Dissimilar,12,rowing boats
+0031761-0027889,29,"fish, not live",Dissimilar,30,honey
+0057908-0025946,3,perfumes,Identical,3,toiletries
+0011935-0045452,28,dolls,High similar,28,dolls' clothing accessories
+0030502-0000160,3,cosmetics,Identical,3,depilatory preparations
+0004990-0059485,30,meat tenderizers for household purposes,Dissimilar,30,malt biscuits
+0058359-0036380,21,cooking pot sets,Similar,21,strainers
+0073976-0004141,30,"food flavourings, other than essential oils",Dissimilar,29,frozen vegetables
+0058857-0023365,9,spectacle frames,Dissimilar,9,cash registers
+0035342-0010236,10,dental apparatus and instruments,Identical,10,dental spectrocolorimeters
+0025916-0072530,4,lubricants,Identical,4,industrial lubricants
+0030502-0025732,3,cosmetics,Identical,3,lotions for cellulite reduction
+0012978-0071842,5,syrups for pharmaceutical purposes,Identical,5,pharmaceuticals
+0047804-0048156,11,"sanitary installations, water supply and sanitation equipment",Dissimilar,21,articles for animals
+0044059-0029412,19,lime,Dissimilar,19,"buildings, transportable, not of metal"
+0002682-0047441,36,brokerage of carbon credits,Dissimilar,36,real estate affairs
+0057582-0048096,7,"soldering apparatus, electric",Dissimilar,9,apparatus and instruments for accumulating electricity
+0057708-0016088,8,electric irons,Dissimilar,9,optical apparatus and instruments
+0046364-0067200,25,clothing,Identical,25,reversible jackets
+0031480-0012583,29,albumin milk,Dissimilar,29,jellies for food
+0024818-0011596,7,"motors, other than for land vehicles",Similar,7,catalytic converters
+0037549-0046410,30,preparations for stiffening whipped cream,Dissimilar,30,sweetmeats [candy]
+0017618-0018819,28,fish hooks,Dissimilar,18,saddlery
+0047742-0047789,9,recorded content,Dissimilar,10,prosthetics and artificial implants
+0057417-0043246,3,hair lotions,Dissimilar,10,corsetry for surgical purposes
+0011972-0059308,4,non- chemical fuel additives,Dissimilar,4,candles for lighting
+0072391-0013988,25,shoes,Similar,25,dust coats
+0057908-0055358,3,perfumes,Identical,3,liquid perfumes
+0009856-0069560,44,human hygiene and beauty care,Identical,44,advice relating to hair care
+0024818-0057480,7,"motors, other than for land vehicles",Dissimilar,7,lubricators [parts of machines]
+0047744-0071960,9,"magnets, magnetizers and demagnetizers",Dissimilar,11,fireplaces
+0035677-0033595,30,cereal-based snack food,Similar,30,confectionery bars
+0013915-0047974,34,tobacco,Identical,34,tobacco and tobacco products (including substitutes)
+0043508-0046824,20,furniture,Similar,27,floor coverings
+0001311-0024818,7,steam engine boilers,Dissimilar,7,"motors, other than for land vehicles"
+0030502-0044935,3,cosmetics,Identical,3,skin care lotions [cosmetic]
+0057677-0058241,18,harness for animals,Dissimilar,18,wheeled shopping bags
+0041447-0023396,22,sails,Dissimilar,18,walking sticks
+0023832-0012224,35,advertising,Identical,35,publication of publicity texts
+0057033-0035716,42,computer software design,Identical,42,design services
+0044151-0023723,29,"vegetables, dried",Dissimilar,5,dietetic substances adapted for medical use
+0025934-0040920,30,powders for making ice cream,Dissimilar,30,sago
+0030502-0015909,3,cosmetics,High similar,3,eyelashes
+0025839-0015681,29,olive oil,Dissimilar,30,pizzas
+0035881-0015984,12,apparatus for locomotion by water,Dissimilar,12,bands for wheel hubs
+0059256-0023359,29,meat,Dissimilar,31,live animals
+0055273-0028860,3,"adhesives for false eyelashes, hair and nails",Similar,3,false eyelashes
+0001686-0025734,12,pedal bicycles,Identical,12,vehicles
+0030502-0044948,3,cosmetics,Identical,3,night cream
+0035447-0040920,29,"fish, tinned",Dissimilar,30,sago
+0048109-0023276,12,apparatus for locomotion by air,Dissimilar,12,boat hooks
+0070125-0014217,28,toys,Identical,28,scale model vehicles
+0006231-0072718,31,"fruit, fresh",Dissimilar,31,litter for animals
+0035641-0059170,3,hair waving preparations,Low similar,3,toilet soap
+0014424-0058345,11,polymerisation installations,Dissimilar,11,steam generating apparatus
+0041447-0024759,22,sails,Dissimilar,22,"braces, not of metal, for handling loads"
+0030037-0072797,31,agricultural produce (unprocessed -),Identical,31,foodstuffs and fodder for animals
+0073918-0047829,9,scientific and laboratory devices for treatment using electricity,Dissimilar,16,paper and cardboard
+0011715-0058234,3,ethereal oils,Dissimilar,3,shoemakers' wax
+0070200-0048125,30,confectionery,Similar,30,preparations made from cereals
+0012268-0034518,30,gingerbread,Dissimilar,29,poultry
+0035716-0058434,42,design services,Identical,42,software development
+0043508-0019734,20,furniture,Similar,20,pillows
+0001874-0048101,9,sound transmitting apparatus,Dissimilar,9,apparatus and instruments for conducting electricity
+0044168-0012530,22,"padding materials, not of rubber, plastics, paper or cardboard",Dissimilar,22,hammocks
+0058857-0048103,9,spectacle frames,Dissimilar,9,measuring apparatus and instruments
+0057980-0072818,25,socks,Dissimilar,18,animal skins
+0041069-0009856,10,physical therapy equipment,Dissimilar,44,human hygiene and beauty care
+0024795-0011715,3,non-slipping liquids for floors,Dissimilar,3,ethereal oils
+0010048-0027476,20,slatted bases for beds,Dissimilar,20,caskets made of bone
+0058344-0024907,11,steam generating installations,Dissimilar,19,"floors, not of metal"
+0047946-0029404,24,"textile goods, and substitutes for textile goods",Identical,24,linens
+0004354-0042026,41,cultural activities,Dissimilar,41,publication of books
+0058866-0072818,25,trousers,Dissimilar,18,animal skins
+0000160-0057908,3,depilatory preparations,Dissimilar,3,perfumes
+0030502-0010268,3,cosmetics,Identical,3,"bath salts, not for medical purposes"
+0047734-0047829,9,"safety, security, protection and signalling devices",Dissimilar,16,paper and cardboard
+0020128-0045327,7,"agricultural implements, other than hand-operated",Similar,7,millstones
+0023330-0004020,34,roll-your-own tobacco,Similar,34,articles for use with tobacco
+0046364-0012075,25,clothing,Identical,25,bathing suits
+0065312-0040981,5,herbal preparations for medical use,Identical,5,pharmaceutical preparations
+0058848-0046437,9,computer software,Similar,9,digital tablets
+0030502-0036220,3,cosmetics,Identical,3,cosmetics for the use on the hair
+0048067-0027516,41,publishing and reporting,Identical,41,electronic text publishing services
+0047796-0047896,11,regulating and safety accessories for water and gas installations,Dissimilar,19,"structures and transportable buildings, not of metal"
+0059219-0027476,20,bedsteads of wood,Dissimilar,20,caskets made of bone
+GSCSup-0083541-GSCSup-0083546,36,investment funds,Identical,36,financial and monetary services
+0040978-0012912,7,incubators for eggs,Dissimilar,7,cartridges for filtering machines
+0007246-0004128,11,industrial ovens,Similar,7,"knives, electric"
+0059490-0038135,43,services for providing food and drink,Dissimilar,30,frosting mixes
+0058836-0058962,18,travelling bags,Dissimilar,25,headgear
+0059411-0030433,12,cars,Dissimilar,12,tricycles
+0003828-0058811,18,umbrellas,Dissimilar,18,walking stick handles
+0035442-0029504,30,mustard,Dissimilar,29,milk
+0059421-0071842,5,food for babies,Low similar,5,pharmaceuticals
+0059490-0058065,43,services for providing food and drink,Identical,43,catering for the provision of food and beverages
+0042465-0036061,38,telecommunication services,Identical,38,telecommunication gateway services
+0016148-0012320,33,wine,Low similar,30,vinegar
+0042982-0011483,5,lotions for veterinary purposes,Identical,5,veterinary preparations
+0047794-0047917,11,"heating, ventilating, and air conditioning and purification equipment (ambient)",Dissimilar,21,brushes and brush-making articles
+0060821-0058902,22,"wrapping or binding bands, not of metal",Dissimilar,22,raw fibrous textile
+0048188-0003015,35,retail services in relation to clothing,Similar,25,shirts
+0046364-0037308,25,clothing,Similar,18,bags for climbers
+0058092-0016344,18,trunks [luggage],Dissimilar,9,safety boots for use in industry [for protection against accident or injury]
+0042465-0018486,38,telecommunication services,Similar,42,disaster recovery services for data communications systems
+0057620-0045403,22,tents,Dissimilar,18,whips
+0047963-0072797,30,"ice, ice creams, frozen yogurts and sorbets",Dissimilar,31,foodstuffs and fodder for animals
+0046364-0023657,25,clothing,Identical,25,swim wear for gentlemen and ladies
+GSCSup-0121517-0000788,6,metal parts for the construction of ceilings,Identical,6,building materials of metal
+0014238-0035442,29,seaweed extracts for food,Dissimilar,30,mustard
+0025150-0047666,5,dietetic beverages adapted for medical purposes,Identical,5,dietary supplements and dietetic preparations
+0003252-0020071,7,hydraulic tools,Dissimilar,11,cooking apparatus and installations
+GSCSup-0073211-0071841,5,materials for dressing,Similar,5,pharmaceutical preparations
+0011715-0016596,3,ethereal oils,Dissimilar,5,dental materials for stopping the teeth
+0072368-0040424,22,nets,Dissimilar,18,straps of leather [saddlery]
+0059467-0025734,12,brake shoes for vehicles,Similar,12,vehicles
+0020466-0029914,30,"essences for foodstuffs, except etheric essences and essential oils",Dissimilar,29,oils for food
+0043508-0033037,20,furniture,Identical,20,coffee tables
+0047314-0025559,7,vending machines,Dissimilar,7,"control cables for machines, engines or motors"
+0072788-0034908,26,snap fasteners,Dissimilar,26,decorative articles for the hair
+0014424-0046138,11,polymerisation installations,Dissimilar,11,water supply installations
+0033604-0002679,8,cutters,High similar,8,knives
+0060833-0007421,9,downloadable image files,Dissimilar,9,phonograph records
+0023832-0057044,35,advertising,Identical,35,online advertising on a computer network
+0058316-0024351,11,refrigerators,Dissimilar,19,"building materials, not of metal"
+0058637-0025630,42,graphic arts design,Dissimilar,38,data transmission
+0000628-0006018,21,toothbrushes,Identical,21,manual toothbrushes
+0014090-0077358,32,non-alcoholic beverages,Identical,32,protein drinks
+0043508-0025724,20,furniture,Dissimilar,21,cleaning articles
+0020959-0058225,13,explosives,Dissimilar,13,cartridge pouches
+0057778-0018807,41,teaching,Identical,41,arranging and conducting of colloquiums
+0023306-0007039,16,photocopy paper,High similar,16,offset paper
+0013699-0059429,9,cinematographic machines and apparatus,Dissimilar,9,radios
+0058848-0074362,9,computer software,Identical,9,software for arranging online transactions
+0047648-0057781,3,essential oils and aromatic extracts,Dissimilar,44,animal grooming services
+0059256-0002890,29,meat,Dissimilar,29,apple purée
+0047933-0047952,29,"fish, seafood and molluscs, not live",Low similar,31,"live animals, organisms for breeding"
+0057417-0057415,3,hair lotions,Identical,3,hair care lotions
+0059490-0023506,43,services for providing food and drink,Low similar,30,ice beverages with a chocolate base
+0057620-0059191,22,tents,Dissimilar,22,"slings, not of metal, for handling loads"
+0059146-0029097,1,sensitized photographic plates,Similar,1,chemical preparations for use in photography
+0046364-0008108,25,clothing,Identical,25,sports socks
+0025613-0060146,33,alcoholic beverages (except beer),Identical,33,yellow rice wine
+0043508-0025648,20,furniture,Identical,20,massage tables
+0010670-0059256,30,chocolate based products,Dissimilar,29,meat
+0041447-0012530,22,sails,Dissimilar,22,hammocks
+0047385-0036289,44,medical services,Similar,10,protective cups for teeth
+0046343-0037730,19,mortar,Dissimilar,19,"monuments, not of metal"
+0058666-0013446,11,lighting apparatus,Similar,11,lamp posts
+0059324-0021929,7,electric arc welding apparatus,Dissimilar,9,apparatus for recording images
+0028862-0011715,3,bleaching salts,Dissimilar,3,ethereal oils
+GSCSup-0108091-0001323,6,windows metal,Identical,6,casements of metal
+0020128-0007108,7,"agricultural implements, other than hand-operated",Dissimilar,7,suction cups for milking machines
+0006513-0028276,26,needles,Dissimilar,26,top-knots [pompoms]
+0020071-0029641,11,cooking apparatus and installations,Dissimilar,11,installations for processing nuclear fuel and nuclear moderating material
+0043508-0034826,20,furniture,Similar,20,bolsters
+0059192-0018109,9,data processing apparatus,Similar,42,design and development of computer hardware
+0035224-0047753,9,camcorders,Identical,9,audio/visual and photographic devices
+0011715-0025786,3,ethereal oils,Dissimilar,10,corsets for medical purposes
+0006513-0019537,26,needles,Dissimilar,26,sewing thimbles
+0025734-0002131,12,vehicles,Similar,12,bicycle pedals
+0072796-0047609,30,molasses for food,Dissimilar,30,bread
+0013808-0033124,20,beds,Similar,20,bed rails
+0034518-0000462,29,poultry,Dissimilar,30,artificial coffee
+0059527-0011483,3,abrasives,Dissimilar,5,veterinary preparations
+0010363-0048101,7,elevator operating apparatus,Dissimilar,9,apparatus and instruments for conducting electricity
+0014120-0048122,20,mattresses,Dissimilar,27,matting
+0004264-0015563,20,bedsprings of non-metallic materials,Dissimilar,20,caskets made of meerschaum
+0042036-0013151,30,barley meal,Identical,30,flour
+0008735-0071841,5,homeopathic pharmaceuticals,Identical,5,pharmaceutical preparations
+0024818-0045327,7,"motors, other than for land vehicles",Dissimilar,7,millstones
+0047697-0047823,7,"pumps, compressors and blowers",Dissimilar,12,vehicles and conveyances
+0008366-0058316,11,freezers,Identical,11,refrigerators
+0058006-0047441,36,financial information,Dissimilar,36,real estate affairs
+0003056-0071943,7,electric arc cutting apparatus,Dissimilar,9,fire extinguishers
+0023396-0047062,18,walking sticks,Dissimilar,12,luggage nets for vehicles
+0025613-0013968,33,alcoholic beverages (except beer),Similar,32,shandy
+0035209-0046340,16,notelets,Dissimilar,16,bookbinding material
+0017426-0047760,9,breathing apparatus for underwater swimming,Identical,9,protective and safety equipment
+0017496-0023396,16,embroidery designs [patterns],Dissimilar,18,walking sticks
+0055115-0025751,9,biometric identification apparatus,Identical,9,scanners [data processing equipment]
+0025734-0046314,12,vehicles,Identical,12,caravans
+0042465-0068564,38,telecommunication services,Identical,38,broadcasting of audiovisual and multimedia content via the internet
+0020071-0018099,11,cooking apparatus and installations,Dissimilar,11,level controlling valves in tanks
+0047648-0009856,3,essential oils and aromatic extracts,Similar,44,human hygiene and beauty care
+0059171-0035861,3,soap,Similar,3,bleaching preparations
+0060833-0048107,9,downloadable image files,Dissimilar,9,scientific apparatus and instruments
+0058287-0038656,43,temporary accommodation,Identical,43,providing temporary housing accommodations
+0035295-0041655,16,packaging materials,Dissimilar,16,artists' materials
+0058848-0065926,9,computer software,Identical,9,downloadable interactive entertainment software for playing video games
+0071837-0071841,5,liquorice for pharmaceutical purposes,Identical,5,pharmaceutical preparations
+0040761-0030020,29,eggs,Low similar,29,"game, not live"
+0039494-0058799,24,curtains of plastic,Dissimilar,24,bed covers
+0046873-GSCSup-0097211,36,finance services,Identical,36,investment services and affairs
+0025798-0057889,18,leather for shoes,Dissimilar,12,luggage carriers for vehicles
+0072795-0057405,30,golden syrup,Dissimilar,30,custard
+0034938-0037389,6,frameworks of metal,Identical,6,scaffolding of metal
+0035861-0039782,3,bleaching preparations,Similar,5,disinfectants
+0025946-0047916,3,toiletries,Dissimilar,21,"tableware, cookware and containers"
+0023832-0058160,35,advertising,Identical,35,dissemination of advertisements
+0040920-0019801,30,sago,Dissimilar,30,cheeseburgers [sandwiches]
+0047160-0047733,9,sunglasses,Identical,9,"optical devices, enhancers and correctors"
+0046364-0043814,25,clothing,Dissimilar,26,ribbons
+0059171-0022276,3,soap,Similar,3,essential oils for personal use
+0030502-0075263,3,cosmetics,Identical,3,functional cosmetics
+0070125-0047743,28,toys,Dissimilar,9,information technology and audiovisual equipment
+0004990-0057794,30,meat tenderizers for household purposes,Dissimilar,30,edible ices
+0047734-0044287,9,"safety, security, protection and signalling devices",Similar,10,hearing protection devices
+GSCSup-0145016-0034805,38,streaming of audio content via a global computer network,Similar,38,rental of access time to global computer networks
+0071841-0008236,5,pharmaceutical preparations,Low similar,10,veterinary apparatus and instruments
+0040978-0029091,7,incubators for eggs,Dissimilar,7,valves [parts of machines]
+0047651-0047918,3,tailors' and cobblers' wax,Dissimilar,21,gardening articles
+0023832-0001715,35,advertising,Dissimilar,39,escorting of travellers
+0035881-0011547,12,apparatus for locomotion by water,Similar,12,vehicle bumpers
+0011705-0059421,5,vitamin preparations,Similar,5,food for babies
+0047746-0048106,9,apparatus and instruments for controlling electricity,Dissimilar,9,life-saving apparatus and instruments
+0007836-0051179,41,entertainment services,Identical,41,arranging and conducting of live entertainment events
+0024818-0014229,7,"motors, other than for land vehicles",Dissimilar,7,boxes for matrices [printing]
+0059256-0057405,29,meat,Dissimilar,30,custard
+0037549-0042843,30,preparations for stiffening whipped cream,Dissimilar,30,salt
+0058666-0072822,11,lighting apparatus,Dissimilar,9,"batteries, electric"
+0024818-0007241,7,"motors, other than for land vehicles",Dissimilar,7,printing plates
+0031761-0046162,29,"fish, not live",Dissimilar,30,sugar
+0030502-0039225,3,cosmetics,Identical,3,skin cleansers [cosmetic]
+0047463-0023723,29,dried fruit,Dissimilar,5,dietetic substances adapted for medical use
+0023769-0072796,29,meat extracts,Dissimilar,30,molasses for food
+0007836-0021396,41,entertainment services,Similar,41,concert booking
+0037696-0048101,9,wrist rests for use with computers,Dissimilar,9,apparatus and instruments for conducting electricity
+0041652-0039931,18,bags,Identical,18,pouches
+0071948-0077221,9,telerupters,Identical,9,electrical and electronic components
+0059192-0035975,9,data processing apparatus,Dissimilar,16,posters
+0047694-0013520,7,machines and machine tools for treatment of materials and for manufacturing,Dissimilar,11,drying installations
+0048125-0003024,30,preparations made from cereals,Identical,30,flapjacks
+0047385-0037613,44,medical services,Dissimilar,10,suction apparatus for dental use
+0042465-0039774,38,telecommunication services,Identical,38,communication services for the transmission of information
+0027610-0057778,41,"layout services, other than for advertising purposes",Dissimilar,41,teaching
+0046873-0057098,36,finance services,Identical,36,investment management
+0047648-0014541,3,essential oils and aromatic extracts,Dissimilar,44,animal healthcare services
+0057123-0071943,9,containers for contact lenses,Dissimilar,9,fire extinguishers
+0058962-0058119,25,headgear,Dissimilar,35,research services relating to advertising
+0025683-0035029,7,slide rests [parts of machines],Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0072344-0037407,19,bitumen,Dissimilar,19,"beacons, not of metal, non-luminous"
+0005811-0000209,31,natural plants,Identical,31,christmas trees
+0007836-0044285,41,entertainment services,Identical,41,organising of recreational events
+0058868-0047790,25,underpants,Dissimilar,10,medical clothing
+0014217-0029041,28,scale model vehicles,Dissimilar,39,transport services
+0007681-0078171,9,viscosimeters,Identical,9,measuring devices
+0059193-0068577,9,data processing equipment,Similar,38,transmission of data via the internet
+0047262-0047026,29,jams,Dissimilar,30,tea
+0023365-0048107,9,cash registers,Dissimilar,9,scientific apparatus and instruments
+0022974-0028966,9,sounding lines,Identical,9,nautical apparatus and instruments
+0025718-0024490,7,galvanizing machines,Dissimilar,9,weighing apparatus and instruments
+0037549-0072795,30,preparations for stiffening whipped cream,Dissimilar,30,golden syrup
+0059170-0037927,3,toilet soap,Identical,3,deodorant soap
+0059489-0046241,43,provision of food and drink,Dissimilar,43,rental of lighting apparatus
+0058757-0024741,1,fertilizers,Dissimilar,1,"sensitized films, unexposed"
+0039782-0025916,5,disinfectants,Dissimilar,4,lubricants
+0009856-0069605,44,human hygiene and beauty care,Identical,44,hair treatment
+0057123-0047583,9,containers for contact lenses,Dissimilar,9,computers
+0048144-0021648,11,apparatus for drying,Dissimilar,19,"building panels, not of metal"
+0057778-0058677,41,teaching,Identical,41,education information
+0031761-0072794,29,"fish, not live",Dissimilar,30,syrups and treacles
+0012583-0020078,29,jellies for food,Dissimilar,29,"anchovy, not live"
+0004141-0002692,29,frozen vegetables,Dissimilar,30,cocoa
+0057584-0059193,7,"soldering irons, electric",Dissimilar,9,data processing equipment
+0046364-0031301,25,clothing,Identical,25,long jackets
+0039539-0023359,31,aromatic sand [litter] for pets,Dissimilar,31,live animals
+0029504-0035972,29,milk,Identical,29,milk products
+0072390-0073749,25,footwear,Identical,25,waterproof shoes
+0056735-0026127,43,serving food and drinks,Identical,43,tea rooms
+0035881-0072692,12,apparatus for locomotion by water,Similar,12,propellers for boats
+0025286-0035029,7,fans for motors and engines,Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0035236-0048107,9,spectacle chains,Dissimilar,9,scientific apparatus and instruments
+0048110-0023588,12,apparatus for locomotion by land,Similar,12,anti-theft devices for vehicles
+0044168-0040518,22,"padding materials, not of rubber, plastics, paper or cardboard",Dissimilar,22,sacks
+0058962-0041800,25,headgear,Similar,25,parkas
+0035892-0057033,9,games software,Similar,42,computer software design
+0059246-0057677,26,"hair curlers, other than hand implements",Dissimilar,18,harness for animals
+0025729-0025016,19,cement,Dissimilar,17,"rubber, raw or semi-worked"
+0033152-0069289,42,it services,Identical,42,computer security services for protection against illegal network access
+0046364-0018615,25,clothing,Identical,25,tennis shirts
+0047732-0044287,9,"apparatus, instruments and cables for electricity",Dissimilar,10,hearing protection devices
+0030082-0057609,7,water pumps,Low similar,11,sanitary apparatus and installations
+0031480-0046162,29,albumin milk,Dissimilar,30,sugar
+0020128-0014776,7,"agricultural implements, other than hand-operated",Dissimilar,7,shuttles [parts of machines]
+0030502-0036321,3,cosmetics,Identical,3,"massage creams, not medicated"
+0046292-0047583,9,computer screens,Similar,9,computers
+0020128-0003173,7,"agricultural implements, other than hand-operated",Dissimilar,7,pistons for engines
+0059490-0021752,43,services for providing food and drink,Identical,43,cocktail lounge services
+0035236-0022493,9,spectacle chains,Dissimilar,9,coin-operated mechanisms
+0047026-0024767,30,tea,Dissimilar,30,rice-based snack food
+0014417-0020595,16,printing blocks,Dissimilar,16,adhesives for stationery
+0058114-0011998,5,adhesive plasters,Dissimilar,10,artificial teeth
+0023306-0022233,16,photocopy paper,High similar,16,laminated paper
+0058865-0041838,3,toilet water,Dissimilar,25,stockings
+0046364-0041499,25,clothing,Identical,25,combative sports uniforms
+0031765-0012048,30,starch for food,Dissimilar,30,baking powder
+0046410-0019801,30,sweetmeats [candy],Dissimilar,30,cheeseburgers [sandwiches]
+0036724-0004716,26,artificial flowers,Similar,26,brooches [clothing accessories]
+0058666-0017422,11,lighting apparatus,Identical,11,lamps
+0017014-0014764,1,tempering preparations,Dissimilar,1,sensitized plates for offset printing
+0030316-0022248,29,alginates for culinary purposes,Dissimilar,30,rice
+0059411-0029309,12,cars,Similar,12,anti-theft alarms for vehicles
+0059092-0047314,7,pneumatic door openers and closers [parts of machines],Dissimilar,7,vending machines
+0047728-0047917,8,edged and blunt weapons,Dissimilar,21,brushes and brush-making articles
+0060077-0004122,35,provision of an online marketplace for buyers and sellers of goods and services,Dissimilar,35,office functions services
+0047735-0047790,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,10,medical clothing
+0037696-0048108,9,wrist rests for use with computers,Dissimilar,9,teaching apparatus and instruments
+0047648-0048072,3,essential oils and aromatic extracts,Dissimilar,44,"agriculture, aquaculture, horticulture and forestry services"
+0075350-0057572,12,tyres,Identical,12,vehicle tires
+0059535-0014090,31,bedding and litter for animals,Dissimilar,32,non-alcoholic beverages
+0021238-0072547,7,machine tools,Dissimilar,7,exhausts for motors and engines
+0057620-0047300,22,tents,Dissimilar,23,yarns and threads for textile use
+0048067-0069023,41,publishing and reporting,Identical,41,multimedia publishing of books
+0029354-0035739,2,raw natural resins,Dissimilar,1,glaziers' putty
+0020733-0012320,30,sushi,Dissimilar,30,vinegar
+0001411-0036090,5,herbicides,Dissimilar,5,blood for medical purposes
+0000434-0001041,30,tapioca,Dissimilar,30,royal jelly
+0047733-0000626,9,"optical devices, enhancers and correctors",Dissimilar,16,money holders
+0059246-0072818,26,"hair curlers, other than hand implements",Dissimilar,18,animal skins
+0013915-0044951,34,tobacco,Identical,34,smoking tobacco
+0007836-0057763,41,entertainment services,Identical,41,organization of competitions [education or entertainment]
+0023832-0060720,35,advertising,Identical,35,marketing studies
+0058449-0023396,3,hair dyes,Dissimilar,18,walking sticks
+0071841-0031260,5,pharmaceutical preparations,Identical,5,enzymes for veterinary purposes
+0059256-0047961,29,meat,Dissimilar,30,"processed grains, starches, and goods made thereof, baking preparations and yeasts"
+0013151-0031547,30,flour,Dissimilar,30,coffee
+0059496-0004145,36,investment services,Similar,36,provision of loans
+0014074-0046914,30,binding agents for ice cream,Dissimilar,29,"fruit, preserved"
+0057778-0039839,41,teaching,Dissimilar,35,business management assistance
+0057708-0048103,8,electric irons,Dissimilar,9,measuring apparatus and instruments
+0046276-0051432,35,marketing,Identical,35,internet marketing
+0046364-0005892,25,clothing,Identical,25,bodices [lingerie]
+0006513-0019571,26,needles,Dissimilar,26,feathers [clothing accessories]
+0024818-0032170,7,"motors, other than for land vehicles",Dissimilar,7,machine fly-wheels
+0059180-0035885,7,compressors [machines],Dissimilar,8,"side arms, other than firearms"
+0023832-0070166,35,advertising,Identical,35,search engine optimization for sales promotion
+0012553-0036308,16,paper,Identical,16,parchment paper
+0035381-0045403,22,sacks for the transport and storage of materials in bulk,Dissimilar,18,whips
+0022248-0019801,30,rice,Dissimilar,30,cheeseburgers [sandwiches]
+0007836-0058707,41,entertainment services,Dissimilar,28,playing cards
+0071842-0011705,5,pharmaceuticals,Similar,5,vitamin preparations
+0059009-0059421,5,dental impression materials,Dissimilar,5,food for babies
+0003277-0070200,30,fruit jellies [confectionery],Identical,30,confectionery
+0020064-0021238,7,hangers [parts of machines],Similar,7,machine tools
+0011998-0044287,10,artificial teeth,Dissimilar,10,hearing protection devices
+0027889-0024767,30,honey,Dissimilar,30,rice-based snack food
+0023832-0025401,35,advertising,Identical,35,online advertisements
+0059490-0032298,43,services for providing food and drink,Low similar,30,ice cream drinks
+0047728-0047743,8,edged and blunt weapons,Dissimilar,9,information technology and audiovisual equipment
+0004020-0010325,34,articles for use with tobacco,Identical,34,absorbent paper for tobacco
+0008370-0058962,17,gutta-percha,Dissimilar,25,headgear
+0059528-0059199,2,lacquers and varnishes,Similar,2,anti-corrosive preparations
+0059489-GSCSup-0080791,43,provision of food and drink,Identical,43,providing of food and drink through the distribution of tray meals box meals and prepared dishes
+0033491-0011821,7,electrical apparatus for sealing plastics [packaging],Dissimilar,9,dvds
+0004354-GSCSup-0112851,41,cultural activities,Identical,41,organisation of events for cultural purpose
+0047732-0013520,9,"apparatus, instruments and cables for electricity",Dissimilar,11,drying installations
+0059496-0040531,36,investment services,Identical,36,stock exchange services
+0059171-0023951,3,soap,Low similar,5,dermatological pharmaceutical substances
+0043399-0036834,28,games,High similar,28,toy aeroplanes
+0046500-0071988,16,stationery,Identical,16,cardboard labels
+0009073-0047761,9,"alarm bells, electric",Identical,9,alarms and warning equipment
+0046410-0035467,30,sweetmeats [candy],Dissimilar,30,glucose for culinary purposes
+0030502-0057125,3,cosmetics,Identical,3,face creams for cosmetic use
+0031765-0004141,30,starch for food,Dissimilar,29,frozen vegetables
+0072390-0043454,25,footwear,Identical,25,sandals and beach shoes
+0043399-0047583,28,games,Similar,9,computers
+0058757-0025408,1,fertilizers,Dissimilar,5,chemico-pharmaceutical preparations
+0059481-0003130,30,pastries,Identical,30,fruit cakes
+0021970-0012768,25,tee-shirts,Identical,25,short-sleeve shirts
+0014090-0046410,32,non-alcoholic beverages,Dissimilar,30,sweetmeats [candy]
+0058344-0021648,11,steam generating installations,Dissimilar,19,"building panels, not of metal"
+0004997-0047344,36,apartment house management,Identical,36,real estate services
+0046364-0028745,25,clothing,Dissimilar,25,non-slipping devices for footwear
+0006086-0072791,1,chemical substances for preserving foodstuffs,Dissimilar,1,sensitised paper
+0035342-0009856,10,dental apparatus and instruments,Dissimilar,44,human hygiene and beauty care
+0046873-GSCSup-0097241,36,finance services,Identical,36,forfeiting
+0001698-0048101,9,animated cartoons,Dissimilar,9,apparatus and instruments for conducting electricity
+0025613-GSCSup-0119592,33,alcoholic beverages (except beer),Identical,33,lowalcoholic wine
+0029132-0048105,9,mouse pads,Dissimilar,9,signalling apparatus and instruments
+0059051-0041655,16,cardboard,Identical,16,artists' materials
+0057115-0077221,9,solenoid valves [electromagnetic switches],Identical,9,electrical and electronic components
+0048096-0048097,9,apparatus and instruments for accumulating electricity,High similar,9,apparatus and instruments for switching electricity
+0002650-0006149,25,jackets [clothing],Dissimilar,16,"typewriters, electric or non-electric"
+0047793-0047896,11,nuclear installations,Dissimilar,19,"structures and transportable buildings, not of metal"
+0073918-0072390,9,scientific and laboratory devices for treatment using electricity,Dissimilar,25,footwear
+0047799-0047916,11,industrial treatment installations,Dissimilar,21,"tableware, cookware and containers"
+0040978-0057128,7,incubators for eggs,Dissimilar,7,pistons [parts of machines or engines]
+0016133-0035885,3,nail strengtheners,Dissimilar,8,"side arms, other than firearms"
+0025734-0072693,12,vehicles,Similar,12,marine propellers
+0058666-0057657,11,lighting apparatus,Identical,11,ceiling lights
+0007836-0040447,41,entertainment services,Dissimilar,32,beer
+0036355-0047939,28,board games,Dissimilar,28,sporting articles and equipment
+0009379-0048103,21,make-up removing appliances,Dissimilar,9,measuring apparatus and instruments
+0012144-0035029,7,card clothing [parts of carding machines],Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0020128-0019385,7,"agricultural implements, other than hand-operated",Dissimilar,7,fuel conversion apparatus for internal combustion engines
+0010187-0048105,9,apparatus for the reproduction of images,High similar,9,signalling apparatus and instruments
+0018819-0030872,18,saddlery,Dissimilar,18,net bags for shopping
+0057536-0030502,3,paint stripping preparations,Dissimilar,3,cosmetics
+0019133-0009172,6,metal tool boxes,Dissimilar,11,apparatus for ventilating
+0047110-0030472,41,gambling services,Similar,41,racing information services
+0021187-0048107,9,cyclotrons,Identical,9,scientific apparatus and instruments
+0051367-0060077,35,retail services relating to sporting goods,Low similar,35,provision of an online marketplace for buyers and sellers of goods and services
+0023365-0028966,9,cash registers,Dissimilar,9,nautical apparatus and instruments
+0012289-0057131,12,bicycles,Similar,12,pneumatic tyres
+0048105-0059063,9,signalling apparatus and instruments,Dissimilar,9,magnets
+0059481-0047167,30,pastries,High similar,30,pancakes
+0057734-0071841,3,furbishing preparations,Dissimilar,5,pharmaceutical preparations
+0006404-0041880,5,sanitary preparations for medical purposes,Identical,5,detergents for medical purposes
+0035342-0057920,10,dental apparatus and instruments,Dissimilar,10,contraceptive devices
+0058666-0045926,11,lighting apparatus,Identical,11,electrical lighting fixtures
+GSCSup-0145016-0059518,38,streaming of audio content via a global computer network,Identical,38,radio broadcasting
+0047743-0017632,9,information technology and audiovisual equipment,Dissimilar,11,igniters
+0044067-0048104,12,cigar lighters for automobiles,Dissimilar,9,checking (supervision) apparatus and instruments
+0003056-0013699,7,electric arc cutting apparatus,Dissimilar,9,cinematographic machines and apparatus
+0047385-0009241,44,medical services,Dissimilar,10,ultrasonic diagnostic instruments for dental use
+0047682-0050675,6,statues and works of art of common metals,Dissimilar,20,"ladders and movable steps, non-metallic"
+0025934-0023769,30,powders for making ice cream,Dissimilar,29,meat extracts
+0037382-0077221,9,circuit closers,Identical,9,electrical and electronic components
+0030502-0036111,3,cosmetics,Similar,5,preparations for the treatment of burns
+0059322-0025258,36,insurance services,Dissimilar,35,auctioneering services
+0023330-0016140,34,roll-your-own tobacco,Similar,34,tobacco substitutes
+0060735-0047026,43,teahouse services,Low similar,30,tea
+0047930-0018422,28,"toys, games, and playthings",Identical,28,toys for pets
+0004122-0010950,35,office functions services,Identical,35,clerical services
+0057001-0058565,39,car rental,Dissimilar,39,loading of cargo
+0048067-0051029,41,publishing and reporting,Identical,41,publishing of scientific papers
+0071817-0059147,1,tan,Dissimilar,1,photosensitive plates
+0043035-0071842,5,dill oil for medical purposes,Identical,5,pharmaceuticals
+0047961-0040449,30,"processed grains, starches, and goods made thereof, baking preparations and yeasts",Dissimilar,32,non-alcoholic preparations for making beverages
+0009950-0012036,10,medical instruments,Identical,10,electronic monitoring instruments for medical use
+0014090-0047978,32,non-alcoholic beverages,Identical,32,flavoured carbonated beverages
+0001698-0007421,9,animated cartoons,Dissimilar,9,phonograph records
+0046167-0046472,30,chocolate,Dissimilar,29,"vegetables, cooked"
+0047583-0059193,9,computers,Identical,9,data processing equipment
+0028989-0000640,35,computerized file management,Similar,35,photocopying services
+0071943-0041416,9,fire extinguishers,Dissimilar,9,calculators
+0009379-0048104,21,make-up removing appliances,Dissimilar,9,checking (supervision) apparatus and instruments
+0075692-0058962,25,peaked caps,Identical,25,headgear
+0047515-0031761,29,frozen fruits,Dissimilar,29,"fish, not live"
+0035881-0033987,12,apparatus for locomotion by water,Similar,12,upholstery for vehicles
+0031765-0034518,30,starch for food,Dissimilar,29,poultry
+0058114-0002722,5,adhesive plasters,Dissimilar,1,acid proof chemical compositions
+0046472-0072795,29,"vegetables, cooked",Dissimilar,30,golden syrup
+0013151-0002692,30,flour,Dissimilar,30,cocoa
+0072390-0047236,25,footwear,Identical,25,children's footwear
+0012966-0071841,5,medicinal roots,Identical,5,pharmaceutical preparations
+0060254-GSCSup-0127882,3,cleaning preparations,Dissimilar,3,scouring preparations for personal use
+0027889-0047934,30,honey,Dissimilar,29,dairy products and dairy substitutes
+0024767-0057795,30,rice-based snack food,Dissimilar,30,ice for refreshment
+0037575-0047609,29,margarine,Dissimilar,30,bread
+0035881-0000857,12,apparatus for locomotion by water,Dissimilar,12,railway couplings
+0030502-0004553,3,cosmetics,Identical,3,bath lotion
+0043508-0058083,20,furniture,Identical,20,settees
+0014883-0060254,3,javelle water,Identical,3,cleaning preparations
+0047729-0047744,8,lifting tools,Dissimilar,9,"magnets, magnetizers and demagnetizers"
+0047463-0018418,29,dried fruit,Dissimilar,30,propolis
+0041981-0048125,29,preserved vegetables,Similar,30,preparations made from cereals
+0059485-0035972,30,malt biscuits,Dissimilar,29,milk products
+0026555-0058752,33,liqueurs,Dissimilar,32,mineral water [beverages]
+0018122-0000462,30,yeast,Dissimilar,30,artificial coffee
+0025734-0047602,12,vehicles,Similar,12,shock absorbing springs for vehicles
+0059373-0058666,9,measuring apparatus,Dissimilar,11,lighting apparatus
+0057172-0039839,35,business management,Identical,35,business management assistance
+0059496-0025111,36,investment services,Identical,36,corporate trustee services
+0057677-0025702,18,harness for animals,Dissimilar,18,umbrella handles
+0059169-0059009,3,cakes of toilet soap,Dissimilar,5,dental impression materials
+0037277-0018870,18,leather and imitations of leather,Dissimilar,18,horseshoes
+0022493-0059063,9,coin-operated mechanisms,Dissimilar,9,magnets
+0047737-0044287,9,"scientific research and laboratory apparatus, educational apparatus and simulators",Dissimilar,10,hearing protection devices
+0015731-0021547,35,retail services relating to food,Dissimilar,39,packaging and storage of goods
+0046914-0014192,29,"fruit, preserved",Identical,29,"fruit, processed"
+0048076-0056908,44,human healthcare services,Identical,44,providing nutritional information about food
+0025734-0023205,12,vehicles,Similar,12,spoke clips for wheels
+0025613-0039325,33,alcoholic beverages (except beer),Dissimilar,32,waters
+0046500-0057867,16,stationery,Identical,16,index cards [stationery]
+0024818-0015188,7,"motors, other than for land vehicles",Dissimilar,7,lasts for shoes [parts of machines]
+0048109-0027704,12,apparatus for locomotion by air,Dissimilar,12,"connecting rods for land vehicles, other than parts of motors and engines"
+0014090-0037495,32,non-alcoholic beverages,Identical,32,carbonated non-alcoholic drinks
+0057734-0023723,3,furbishing preparations,Dissimilar,5,dietetic substances adapted for medical use
+0035412-0023769,29,cheese,Dissimilar,29,meat extracts
+0059169-0007067,3,cakes of toilet soap,Dissimilar,10,pillows for therapeutic use
+0007875-0057795,29,pollen prepared as foodstuff,Dissimilar,30,ice for refreshment
+0014354-0024947,7,transmission components (except for land vehicles),Dissimilar,7,brushes [parts of machines]
+0059485-0029914,30,malt biscuits,Dissimilar,29,oils for food
+0048076-0040007,44,human healthcare services,Identical,44,health care relating to therapeutic massage
+GSCSup-0130547-0004020,34,smokers requisites,Identical,34,articles for use with tobacco
+0075105-0058848,9,"computer software platforms, recorded or downloadable",Identical,9,computer software
+0030637-0059428,9,surveying apparatus and instruments,Dissimilar,9,radio receivers
+0058237-0058800,24,bed linen,Identical,24,bed throws
+0040447-0006167,32,beer,Similar,33,perry
+0057778-GSCSup-0019411,41,teaching,Dissimilar,42,technological services
+0057921-0042996,10,"contraceptives, non-chemical",Dissimilar,10,medical apparatus and instruments
+0030502-0034426,3,cosmetics,Identical,3,exfoliants for the cleansing of the skin
+0044067-0071943,12,cigar lighters for automobiles,Dissimilar,9,fire extinguishers
+0016334-0029914,30,sausage binding materials,Dissimilar,29,oils for food
+0058962-0013970,25,headgear,Identical,25,sports headgear [other than helmets]
+0048109-0018333,12,apparatus for locomotion by air,Dissimilar,12,head-rests for vehicle seats
+0058751-0030979,26,heat adhesive patches for decoration of textile articles [haberdashery],Dissimilar,26,hooks [haberdashery]
+0059480-0041515,30,biscuits,Similar,30,crisps made of cereals
+0008236-0018009,10,veterinary apparatus and instruments,Dissimilar,3,cosmetics for animals
+0046873-0013319,36,finance services,Identical,36,administration of financial affairs
+0072421-0072794,30,spices,Dissimilar,30,syrups and treacles
+0047696-0047729,7,moving and handling equipment,Dissimilar,8,lifting tools
+0011408-0025149,42,computer programming,Similar,9,screen savers
+0072827-0010619,39,passenger transport,Dissimilar,36,rental of real estate
+0047630-0047859,1,"chemical substances, chemical materials and chemical preparations, and natural elements",Similar,19,"building and construction materials and elements, not of metal"
+0048125-0019018,30,preparations made from cereals,Identical,30,snack food products made from cereal flour
+0048121-0008065,26,pins,Dissimilar,26,hair colouring caps
+0039782-0014541,5,disinfectants,Dissimilar,44,animal healthcare services
+0047732-0047797,9,"apparatus, instruments and cables for electricity",Dissimilar,11,personal heating and drying implements
+0058838-0057172,18,travel baggage,Dissimilar,35,business management
+0015589-0059191,22,string,Dissimilar,22,"slings, not of metal, for handling loads"
+0014230-0071842,5,collodion for pharmaceutical purposes,Identical,5,pharmaceuticals
+0047726-0047736,8,hand-operated hygienic and beauty implements for humans and animals,Dissimilar,9,"measuring, detecting and monitoring instruments, indicators and controllers"
+0072798-0047664,31,animal foodstuffs,Low similar,5,hygienic preparations and articles
+0030502-0032919,3,cosmetics,Identical,3,non-medicated shampoos
+0030170-0037575,29,dairy spreads,High similar,29,margarine
+0025734-0072691,12,vehicles,Similar,12,ship propellers
+0071842-0023723,5,pharmaceuticals,Similar,5,dietetic substances adapted for medical use
+0046364-GSCSup-0065681,25,clothing,Identical,25,womens underwear
+0045033-0059330,18,small rucksacks,Identical,18,rucksacks
+0045403-0018104,18,whips,Dissimilar,25,underwear
+0048110-0027704,12,apparatus for locomotion by land,Similar,12,"connecting rods for land vehicles, other than parts of motors and engines"
+0040118-0057097,24,table covers,Similar,24,curtains made of textile fabrics
+0047982-0030020,31,trees and forestry products,Dissimilar,29,"game, not live"
+0072368-0072390,22,nets,Dissimilar,25,footwear
+0002163-0009109,16,plastic bubble packs for wrapping or packaging,Identical,16,plastic materials for packaging
+0046548-0001159,11,electric ranges,Similar,7,"electric kitchen appliances for chopping, mixing, pressing"
+0059490-0069506,43,services for providing food and drink,Identical,43,serving food and drink for guests in restaurants
+0033313-0048103,9,cleaning apparatus for phonograph records,Dissimilar,9,measuring apparatus and instruments
+0047728-0048156,8,edged and blunt weapons,Dissimilar,21,articles for animals
+0006231-0040815,31,"fruit, fresh",Dissimilar,31,"poultry, live"
+0046162-0040761,30,sugar,Dissimilar,29,eggs
+0058525-0014196,14,jewellery,Identical,14,earrings
+0043473-0018122,29,condensed milk,Dissimilar,30,yeast
+0058197-0057175,3,dentifrices,Dissimilar,3,leather preservatives [polishes]
+0072422-0029504,30,seasonings,Dissimilar,29,milk
+0041981-0030020,29,preserved vegetables,Dissimilar,29,"game, not live"
+0031574-0026137,19,"swimming pools [structures], not of metal",Dissimilar,1,chemicals for the purification of water used in swimming pools
+0006013-0057779,41,"publication of texts, other than publicity texts",Dissimilar,41,training
+0057997-0020959,13,cartridge cases,Dissimilar,13,explosives
+0058865-0029016,3,toilet water,Dissimilar,25,overcoats
+0009172-0024907,11,apparatus for ventilating,Dissimilar,19,"floors, not of metal"
+0057620-0058799,22,tents,Dissimilar,24,bed covers
+0072798-0018125,31,animal foodstuffs,Dissimilar,31,rose bushes
+0002359-0057080,41,sporting activities,Dissimilar,41,on-line publication of electronic books and journals
+0029430-0071842,5,narcotics,Identical,5,pharmaceuticals
+0015006-0029026,16,printed matter,Dissimilar,16,paperweights
+0057778-0004122,41,teaching,Dissimilar,35,office functions services
+0013151-0013858,30,flour,Dissimilar,30,noodle-based prepared meals
+0025934-0046472,30,powders for making ice cream,Dissimilar,29,"vegetables, cooked"
+0047744-0015006,9,"magnets, magnetizers and demagnetizers",Dissimilar,16,printed matter
+0037277-0013752,18,leather and imitations of leather,Dissimilar,18,umbrella sticks
+0046873-0023250,36,finance services,Identical,36,arranging the provision of finance
+0072390-0005693,25,footwear,Identical,25,bath sandals
+0048109-0040904,12,apparatus for locomotion by air,Dissimilar,12,"motors, electric, for land vehicles"
+0011821-0047829,9,dvds,Dissimilar,16,paper and cardboard
+0048110-0028889,12,apparatus for locomotion by land,Similar,12,hydraulic circuits for vehicles
+0046667-0023245,36,deposits of valuables,Identical,36,safe deposit services
+0048094-0026114,5,materials for dressings,Identical,5,surgical dressings
+0012583-0002890,29,jellies for food,Similar,29,apple purée
+0030502-0046681,3,cosmetics,Dissimilar,3,creams for leather
+0014417-0020159,16,printing blocks,Dissimilar,21,aquarium hoods
+0059146-0026286,1,sensitized photographic plates,Dissimilar,1,chemicals used in forestry
+0032887-0078182,35,shorthand,Identical,35,administrative support and data processing services
+0042996-0046607,10,medical apparatus and instruments,Dissimilar,10,feeding bottle teats
+0059170-0023723,3,toilet soap,Low similar,5,dietetic substances adapted for medical use
+0047696-0047796,7,moving and handling equipment,Dissimilar,11,regulating and safety accessories for water and gas installations
+0048110-0057457,12,apparatus for locomotion by land,Similar,12,ski carriers for cars
+0009379-0024490,21,make-up removing appliances,Dissimilar,9,weighing apparatus and instruments
+0072790-0008165,1,adhesives for use in industry,Identical,1,paste fillers for automobile body repair
+0072422-0035467,30,seasonings,Dissimilar,30,glucose for culinary purposes
+0011715-0045907,3,ethereal oils,Identical,3,essential oils for the care of the skin
+0046472-0031761,29,"vegetables, cooked",Dissimilar,29,"fish, not live"
+0035412-0046162,29,cheese,Dissimilar,30,sugar
+0030502-0043065,3,cosmetics,Similar,21,cosmetic utensils
+0037914-0004122,35,provision of commercial information,Low similar,35,office functions services
+0072794-0013526,30,syrups and treacles,Dissimilar,30,sandwiches
+0048067-0051158,41,publishing and reporting,Identical,41,multimedia publishing of electronic publications
+0058967-0036147,17,insulating materials,Dissimilar,17,mica
+GSCSup-0016996-0076479,32,nonalcoholic fruit drinks,Identical,32,fruit juice beverages
+0057778-0071365,41,teaching,Identical,41,further education
+0036724-0013707,26,artificial flowers,Dissimilar,26,needle cushions
+0001874-0047742,9,sound transmitting apparatus,High similar,9,recorded content
+0015006-0013187,16,printed matter,Identical,16,diagrams
+0024481-0072422,29,rennet,Dissimilar,30,seasonings
+0060077-0057172,35,provision of an online marketplace for buyers and sellers of goods and services,Dissimilar,35,business management
+0016334-0046772,30,sausage binding materials,Dissimilar,30,sauces [condiments]
+0031765-0012320,30,starch for food,Dissimilar,30,vinegar
+0021929-0048098,9,apparatus for recording images,Dissimilar,9,apparatus and instruments for transforming electricity
+0013520-0047895,11,drying installations,Dissimilar,19,"doors, gates, windows and window coverings, not of metal"
+0038281-0048098,7,"door closers, electric",Dissimilar,9,apparatus and instruments for transforming electricity
+0002650-0003105,25,jackets [clothing],Identical,25,quilted jackets [clothing]
+GSCSup-0142996-0046701,18,carrying cases made of leather,Similar,18,shoulder belts
+0058799-0005692,24,bed covers,Dissimilar,24,shower curtains of textile or plastic
+0073918-0047796,9,scientific and laboratory devices for treatment using electricity,Dissimilar,11,regulating and safety accessories for water and gas installations
+0047511-0020071,9,gauges,Dissimilar,11,cooking apparatus and installations
+0059535-0040449,31,bedding and litter for animals,Dissimilar,32,non-alcoholic preparations for making beverages
+0024818-0025750,7,"motors, other than for land vehicles",Dissimilar,7,bobbins for weaving looms
+0030841-0035029,7,vacuum cleaner hoses,Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+GSCSup-0051816-0057704,14,jewellery and imitation jewellery,Identical,14,tie pins
+0057172-0018283,35,business management,Identical,35,preparing business reports
+0025302-0044168,26,hair ornaments in the form of combs,Dissimilar,22,"padding materials, not of rubber, plastics, paper or cardboard"
+0035236-0016088,9,spectacle chains,Low similar,9,optical apparatus and instruments
+0035412-GSCSup-0003326,29,cheese,Dissimilar,39,distribution of foodstuffs
+0023179-0011715,3,laundry blueing,Dissimilar,3,ethereal oils
+0012197-0035442,30,mixtures for making water ices,Dissimilar,30,mustard
+0046410-0035442,30,sweetmeats [candy],Dissimilar,30,mustard
+0006086-0057169,1,chemical substances for preserving foodstuffs,Identical,1,artificial sweeteners [chemical preparations]
+0047463-0023769,29,dried fruit,Dissimilar,29,meat extracts
+0006194-0023513,36,antique appraisal,Identical,36,financial evaluation
+0010187-0048098,9,apparatus for the reproduction of images,Dissimilar,9,apparatus and instruments for transforming electricity
+0059256-0013858,29,meat,Dissimilar,30,noodle-based prepared meals
+0071960-0047896,11,fireplaces,Dissimilar,19,"structures and transportable buildings, not of metal"
+0025734-0008613,12,vehicles,Similar,12,covers for vehicle steering wheels
+0040449-0025613,32,non-alcoholic preparations for making beverages,Dissimilar,33,alcoholic beverages (except beer)
+0021238-0040510,7,machine tools,Dissimilar,7,clack valves [parts of machines]
+0020733-0042843,30,sushi,Dissimilar,30,salt
+0058757-0025931,1,fertilizers,Similar,1,chemical products for inhibiting the growth of weeds
+0023359-0009985,31,live animals,Identical,31,"fish, live"
+0046364-0006512,25,clothing,Identical,25,pocket squares
+0030502-0059170,3,cosmetics,Identical,3,toilet soap
+0025718-0048098,7,galvanizing machines,Dissimilar,9,apparatus and instruments for transforming electricity
+0059467-0048110,12,brake shoes for vehicles,Similar,12,apparatus for locomotion by land
+0072421-0046772,30,spices,Similar,30,sauces [condiments]
+0036724-0011044,26,artificial flowers,Low similar,26,birds' feathers [clothing accessories]
+0058392-0059170,3,abrasive paper,Dissimilar,3,toilet soap
+0047696-0047737,7,moving and handling equipment,Dissimilar,9,"scientific research and laboratory apparatus, educational apparatus and simulators"
+0047841-0047895,17,"seals, sealants and fillers",Dissimilar,19,"doors, gates, windows and window coverings, not of metal"
+0048140-0020457,31,malt,Dissimilar,31,flower bulbs
+GSCSup-0008116-0033380,25,readymade clothing,Identical,25,dresses
+0029276-0018819,28,archery implements,Dissimilar,18,saddlery
+GSCSup-0145016-0043128,38,streaming of audio content via a global computer network,Identical,38,transmission of digital files
+0058197-0031996,3,dentifrices,Dissimilar,10,"splints, surgical"
+0058287-0003652,43,temporary accommodation,Similar,43,"accommodation bureau services [hotels, boarding houses]"
+0046914-0018418,29,"fruit, preserved",Dissimilar,30,propolis
+0057584-0047746,7,"soldering irons, electric",Dissimilar,9,apparatus and instruments for controlling electricity
+0002640-0069169,42,software design and development,Similar,42,rental of operating software for computer networks and servers
+0058799-0057097,24,bed covers,Similar,24,curtains made of textile fabrics
+0047980-0047976,32,beer and brewery products,Dissimilar,33,preparations for making alcoholic beverages
+0047735-0000626,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,16,money holders
+0059489-0000723,43,provision of food and drink,Low similar,29,edible birds' nests
+0058962-0059013,25,headgear,Similar,18,bumbags
+0014074-0046472,30,binding agents for ice cream,Dissimilar,29,"vegetables, cooked"
+0047730-0047737,8,"hand-operated tools and implements for treatment of materials, and for construction, repair and maintenance",Dissimilar,9,"scientific research and laboratory apparatus, educational apparatus and simulators"
+0072681-0078171,9,slide calipers,Identical,9,measuring devices
+0014090-0077513,32,non-alcoholic beverages,Identical,32,mineral and aerated waters
+0040409-0047262,29,edible oils and fats,Dissimilar,29,jams
+0048103-0036745,9,measuring apparatus and instruments,Identical,9,dynamometers
+0072818-0057561,18,animal skins,Dissimilar,18,nose bags [feed bags]
+0047964-0040449,30,"sugars, natural sweeteners, sweet coatings and fillings, bee products",Dissimilar,32,non-alcoholic preparations for making beverages
+0046364-0035733,25,clothing,Identical,25,knitted gloves
+0026808-0070125,28,spears for use in fishing,Dissimilar,28,toys
+0047026-0019432,30,tea,Identical,30,iced tea
+0011999-0009856,10,surgical apparatus and instruments,Dissimilar,44,human hygiene and beauty care
+0035972-0057965,29,milk products,Identical,29,yogurt drinks
+0044151-0000462,29,"vegetables, dried",Dissimilar,30,artificial coffee
+0011715-0014417,3,ethereal oils,Dissimilar,16,printing blocks
+0007836-0028904,41,entertainment services,Identical,41,fetes (organisation of -) for recreational purposes
+0046942-0047761,9,sirens,Identical,9,alarms and warning equipment
+0046364-0060882,25,clothing,Identical,25,sports pants
+GSCSup-0091601-0057172,35,management of commercial affairs,Identical,35,business management
+0029697-0029740,41,publication of leaflets,Dissimilar,35,direct mail advertising
+0035881-0006485,12,apparatus for locomotion by water,Similar,12,oars
+0009785-0071842,5,gentian for pharmaceutical purposes,Identical,5,pharmaceuticals
+0046364-0070012,25,clothing,Identical,25,sweat-absorbent socks
+0016148-0029282,33,wine,Dissimilar,33,sake
+0015146-0004276,35,business administration,Dissimilar,10,furniture especially made for dental use
+0014090-0017584,32,non-alcoholic beverages,Identical,32,beverages containing vitamins
+0057417-0058114,3,hair lotions,Dissimilar,5,adhesive plasters
+0048125-0013194,30,preparations made from cereals,Identical,30,snack food products made from rice flour
+0043133-0042843,29,pectin for culinary purposes,Dissimilar,30,salt
+0046500-0059409,16,stationery,Identical,16,folders [stationery]
+0047385-GSCSup-0076786,44,medical services,Dissimilar,10,dental tray covers made of paper
+0000628-0067006,21,toothbrushes,Similar,21,sprayers for cleaning gums and teeth
+0058525-0043384,14,jewellery,Identical,14,identification bracelets [jewelry]
+0030020-0018418,29,"game, not live",Dissimilar,30,propolis
+0004141-0030020,29,frozen vegetables,Dissimilar,29,"game, not live"
+0018993-0035029,7,electrodes for welding machines,Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0014354-0023272,7,transmission components (except for land vehicles),Dissimilar,7,joints [parts of engines]
+0044151-0072422,29,"vegetables, dried",Similar,30,seasonings
+0035114-0047441,36,instalment loans,Dissimilar,36,real estate affairs
+0018703-0047900,6,metal hardware,Similar,20,furniture and furnishings
+GSCSup-0008116-0002650,25,readymade clothing,Identical,25,jackets [clothing]
+0057779-0008861,41,training,Identical,41,provision of training courses
+0043031-0071841,5,medicinal oils,Identical,5,pharmaceutical preparations
+0047160-0011403,9,sunglasses,Low similar,9,straps for sunglasses
+0047511-0078171,9,gauges,Identical,9,measuring devices
+0025916-0037959,4,lubricants,Dissimilar,4,electrical energy
+0058818-0048121,26,hair grips,Dissimilar,26,pins
+0003056-0047583,7,electric arc cutting apparatus,Dissimilar,9,computers
+0047463-0031545,29,dried fruit,Dissimilar,29,"prawns, not live"
+0018122-0072795,30,yeast,Dissimilar,30,golden syrup
+0073918-0047775,9,scientific and laboratory devices for treatment using electricity,Dissimilar,10,feeding aids and pacifiers
+0011715-0029071,3,ethereal oils,Identical,3,emulsified essential oils
+0015589-0058800,22,string,Dissimilar,24,bed throws
+0012066-0047533,3,false nails,Dissimilar,3,laundry bleach
+0023261-0007773,15,valves for musical instruments,Similar,15,musical instruments
+0014090-0077357,32,non-alcoholic beverages,Identical,32,non-alcoholic drinks enriched with vitamins and mineral salts
+0004882-0000413,16,credit cards without magnetic coding,Dissimilar,36,marine insurance
+0046364-0078948,25,clothing,Identical,25,underwear and nightwear
+0041981-0012868,29,preserved vegetables,Similar,29,dahls
+0047965-0047950,30,"baked goods, confectionery, chocolate and desserts",Dissimilar,31,"agricultural and aquacultural crops, horticulture and forestry products"
+0057908-0046607,3,perfumes,Dissimilar,10,feeding bottle teats
+0047964-0047980,30,"sugars, natural sweeteners, sweet coatings and fillings, bee products",Dissimilar,32,beer and brewery products
+0019852-0024490,9,sound reproduction apparatus,Dissimilar,9,weighing apparatus and instruments
+0022493-0048101,9,coin-operated mechanisms,Dissimilar,9,apparatus and instruments for conducting electricity
+0020128-0012238,7,"agricultural implements, other than hand-operated",Dissimilar,7,chucks [parts of machines]
+0057904-0040118,22,ropes,Dissimilar,24,table covers
+0040518-0072390,22,sacks,Dissimilar,25,footwear
+0058869-0058172,25,pants,High similar,25,shawls
+0058197-0036293,3,dentifrices,Identical,3,teeth cleaning lotions
+0006513-0008065,26,needles,Dissimilar,26,hair colouring caps
+0056735-0069515,43,serving food and drinks,Identical,43,preparation and provision of food and drink for immediate consumption
+0014929-0070200,30,halvah,Identical,30,confectionery
+0025141-0007330,8,hand tools and implements [hand-operated],Similar,8,shaving cases
+0047314-0032059,7,vending machines,Dissimilar,7,moulds [parts of machines]
+0008345-0046681,3,cleaning agents for the hands,Dissimilar,3,creams for leather
+0014354-0039584,7,transmission components (except for land vehicles),Dissimilar,7,pump diaphragms
+0032680-0055894,9,tachographs,Dissimilar,9,wireless transmitters and receivers
+0048076-0069554,44,human healthcare services,Identical,44,providing information relating to physical examinations
+0010363-0071943,7,elevator operating apparatus,Dissimilar,9,fire extinguishers
+0015205-0048134,41,editing of radio programmes,Dissimilar,42,technological services and research relating thereto
+0042510-0041198,16,debit cards without magnetic coding,Dissimilar,36,insurance brokerage
+0058902-0019042,22,raw fibrous textile,Dissimilar,22,strips for tying-up vines
+0042510-0015006,16,debit cards without magnetic coding,Identical,16,printed matter
+0012320-0024767,30,vinegar,Dissimilar,30,rice-based snack food
+0037277-0025702,18,leather and imitations of leather,Dissimilar,18,umbrella handles
+0007836-GSCSup-0017791,41,entertainment services,Identical,41,theatre and show production services
+0000683-0007836,41,movie studio services,Identical,41,entertainment services
+0057360-0023220,36,financial investment advisory services,Similar,36,electronic funds transfer
+0046364-0037590,25,clothing,Identical,25,evening suits
+0002868-0048012,35,rental of advertising time on communication media,Identical,35,"provision of advertising space, time and media"
+0072798-0040933,31,animal foodstuffs,Identical,31,groats for poultry
+0047826-0047813,12,parts and fittings for vehicles,Identical,12,"powertrains, including engines and motors, for land vehicles"
+0047776-0042996,10,medical and veterinary apparatus and instruments,Identical,10,medical apparatus and instruments
+0059490-0006480,43,services for providing food and drink,Low similar,30,buns
+0036007-0048016,35,"presentation of goods on communication media, for retail purposes",Identical,35,product demonstrations and product display services
+0059322-0045567,36,insurance services,Similar,36,financial services provided over the telephone and by means of a global computer network or the internet
+GSCSup-0012241-0040519,7,porous bronze bearings parts of machines,Similar,7,starters for motors and engines
+0010942-0057317,36,financial planning and management,Identical,36,financial consultancy
+0044168-0041447,22,"padding materials, not of rubber, plastics, paper or cardboard",Dissimilar,22,sails
+0047791-0009856,10,"medical furniture and bedding, equipment for moving patients",Dissimilar,44,human hygiene and beauty care
+0047314-0012270,7,vending machines,Dissimilar,7,expansion tanks [parts of machines]
+0057404-0046162,30,puddings,Dissimilar,30,sugar
+0057172-0004304,35,business management,Identical,35,business consultancy and advisory services
+0057404-0044151,30,puddings,Dissimilar,29,"vegetables, dried"
+0057763-0024987,41,organization of competitions [education or entertainment],Identical,41,organising of competitions for education
+0047728-0047736,8,edged and blunt weapons,Dissimilar,9,"measuring, detecting and monitoring instruments, indicators and controllers"
+0048103-0059063,9,measuring apparatus and instruments,Dissimilar,9,magnets
+0047696-0017632,7,moving and handling equipment,Dissimilar,11,igniters
+0059192-0048099,9,data processing apparatus,Dissimilar,9,apparatus and instruments for regulating electricity
+0018109-0042465,42,design and development of computer hardware,Similar,38,telecommunication services
+0071841-0021246,5,pharmaceutical preparations,Dissimilar,10,feeding bottles
+0059411-0058481,12,cars,Similar,12,engines for land vehicles
+0048121-0017818,26,pins,High similar,26,"badges for wear, not of precious metal"
+0022493-0013699,9,coin-operated mechanisms,Dissimilar,9,cinematographic machines and apparatus
+0023145-0058962,18,haversacks,Similar,25,headgear
+0003828-0039759,18,umbrellas,Dissimilar,18,umbrella or parasol ribs
+0021929-0028966,9,apparatus for recording images,Dissimilar,9,nautical apparatus and instruments
+0059324-0048097,7,electric arc welding apparatus,Dissimilar,9,apparatus and instruments for switching electricity
+0057778-0017262,41,teaching,Identical,41,arranging and conducting educational conferences
+0047533-0026922,3,laundry bleach,Dissimilar,5,probiotic bacterial formulations for medical use
+0002359-0006141,41,sporting activities,Dissimilar,41,sign language interpretation
+0015146-0051307,35,business administration,Similar,35,electronic order processing
+0011043-0058092,26,lace trimmings,Dissimilar,18,trunks [luggage]
+0025497-0035617,9,computer peripheral devices,Identical,9,computer hardware
+0048067-0069022,41,publishing and reporting,Identical,41,"multimedia publishing of magazines, journals and newspapers"
+0059480-0029436,30,biscuits,Similar,30,croissants
+0001646-0041655,16,"bags [envelopes, pouches] of paper or plastics, for packaging",Dissimilar,16,artists' materials
+0057908-0000161,3,perfumes,Dissimilar,16,catalogues
+0047385-0060554,44,medical services,Dissimilar,10,cutting discs for dental applications
+0046819-0047441,36,fire insurance underwriting,Dissimilar,36,real estate affairs
+0059330-0047942,18,rucksacks,Dissimilar,24,bath linen
+0025718-0030862,7,galvanizing machines,Dissimilar,9,magnetic data media
+0034013-0025452,9,protective helmets for motor cyclists,Dissimilar,11,bicycle lights
+0027889-0032930,30,honey,High similar,30,honey substitutes
+0033145-0005502,30,bakery goods,Dissimilar,31,oil cake
+0029607-0047956,30,fondants [confectionery],Identical,30,sweet glazes and fillings
+0058836-0072471,18,travelling bags,Similar,18,leather pouches
+0011408-0050040,42,computer programming,Similar,42,cloud computing
+0057013-0025430,20,bassinets,Dissimilar,21,material for brush-making
+0047687-0047736,7,"agricultural, earthmoving, construction, oil and gas extraction and mining equipment",Dissimilar,9,"measuring, detecting and monitoring instruments, indicators and controllers"
+0046364-0040768,25,clothing,Identical,25,arm warmers [clothing]
+0059485-0048125,30,malt biscuits,Identical,30,preparations made from cereals
+0031761-0032389,29,"fish, not live",Identical,29,smoked fish
+0016334-0048124,30,sausage binding materials,Dissimilar,29,cooked fruits
+0038263-0020136,35,management advisory services related to franchising,Dissimilar,35,import-export agency services
+0041652-0058055,18,bags,Identical,18,gym bags
+0020797-0010950,35,evaluations relating to commercial matters,Low similar,35,clerical services
+0067005-0047746,21,electric make-up removing appliances,Dissimilar,9,apparatus and instruments for controlling electricity
+0013808-0056141,20,beds,Low similar,20,children's mats used for sleeping
+0046500-GSCSup-0004826,16,stationery,High similar,16,selfadhesive tapes for household purposes
+0072794-0002024,30,syrups and treacles,Dissimilar,30,spring rolls
+0043508-0041360,20,furniture,High similar,20,furniture partitions of wood
+0009856-0031224,44,human hygiene and beauty care,Identical,44,consultancy services relating to cosmetics
+0015681-0046206,30,pizzas,Similar,30,dough
+0014074-0035972,30,binding agents for ice cream,Dissimilar,29,milk products
+0014090-0076479,32,non-alcoholic beverages,Identical,32,fruit juice beverages
+0047692-0047732,7,dispensing machines,Dissimilar,9,"apparatus, instruments and cables for electricity"
+0011935-0070125,28,dolls,Identical,28,toys
+0047026-0050780,30,tea,High similar,30,dried herbs
+0047533-0059530,3,laundry bleach,Identical,3,laundry preparations
+0036007-0023832,35,"presentation of goods on communication media, for retail purposes",Identical,35,advertising
+0004990-0035972,30,meat tenderizers for household purposes,Dissimilar,29,milk products
+0001041-0072418,30,royal jelly,Dissimilar,29,compotes
+0043473-0059485,29,condensed milk,Dissimilar,30,malt biscuits
+0058092-0060823,18,trunks [luggage],Dissimilar,25,outerclothing
+0048094-0058037,5,materials for dressings,Dissimilar,44,horticulture
+0030502-0025786,3,cosmetics,Dissimilar,10,corsets for medical purposes
+0058344-0029480,11,steam generating installations,Dissimilar,11,"gas condensers, other than parts of machines"
+0058344-0002847,11,steam generating installations,Dissimilar,19,pitch and bitumen
+0006149-0031211,16,"typewriters, electric or non-electric",Dissimilar,16,adhesives for household purposes
+0047744-0047939,9,"magnets, magnetizers and demagnetizers",Dissimilar,28,sporting articles and equipment
+0029504-0023767,29,milk,Similar,29,butter
+0071792-0057097,24,textiles and substitutes for textiles,Low similar,24,curtains made of textile fabrics
+0058265-0048066,16,adhesives for stationery or household purposes,Dissimilar,41,"education, entertainment and sports"
+GSCSup-0083541-0017706,36,investment funds,Identical,36,real estate investment
+0014691-0047760,9,"protection devices against x-rays, not for medical purposes",Identical,9,protective and safety equipment
+0033092-0065294,5,cardiovascular preparations,Low similar,5,pharmaceutical preparations for the treatment of central nervous system [cns] diseases
+0021238-0001739,7,machine tools,Dissimilar,7,rakes for raking machines
+0031547-0039558,30,coffee,High similar,30,decaffeinated coffee
+0058811-0057678,18,walking stick handles,Dissimilar,18,harnesses
+0023320-0042759,20,mirrors (silvered glass),Dissimilar,20,stuffed birds
+0071841-0001427,5,pharmaceutical preparations,Low similar,10,medical apparatus for introducing pharmaceutical preparations into the human body
+0047314-0016088,7,vending machines,Dissimilar,9,optical apparatus and instruments
+0014918-0047734,42,software engineering,Dissimilar,9,"safety, security, protection and signalling devices"
+0057123-0058848,9,containers for contact lenses,Dissimilar,9,computer software
+0021331-0078171,9,wavemeters,Identical,9,measuring devices
+0046772-0007875,30,sauces [condiments],Dissimilar,29,pollen prepared as foodstuff
+0012728-0006231,30,glucose syrups for food,Dissimilar,31,"fruit, fresh"
+0023396-0057932,18,walking sticks,Dissimilar,12,launches
+0041029-0011618,35,"advertising, marketing and promotional services",Identical,35,publicity and sales promotion services
+0029438-0071842,5,iodides for pharmaceutical purposes,Identical,5,pharmaceuticals
+0046112-0071842,5,pectin for pharmaceutical purposes,Identical,5,pharmaceuticals
+0000361-0000788,17,asbestos,Dissimilar,6,building materials of metal
+0025734-0019066,12,vehicles,Similar,12,brake discs for vehicles
+0058849-0058508,9,software,Similar,38,computer intercommunication
+0040978-0057480,7,incubators for eggs,Dissimilar,7,lubricators [parts of machines]
+0073972-0058316,11,"cool boxes, electric",Identical,11,refrigerators
+0000434-0031547,30,tapioca,Dissimilar,30,coffee
+0011510-0058650,14,clocks and watches,Dissimilar,14,movements for clocks and watches
+0047733-0047791,9,"optical devices, enhancers and correctors",Dissimilar,10,"medical furniture and bedding, equipment for moving patients"
+0022493-0016088,9,coin-operated mechanisms,Dissimilar,9,optical apparatus and instruments
+0009262-0058731,13,breeches of firearms,Dissimilar,13,fireworks
+0046364-0018424,25,clothing,Low similar,28,athletic protective elbow pads for cycling
+0023877-0034518,30,"flavourings, other than essential oils, for cakes",Dissimilar,29,poultry
+0048324-0029740,35,retail services in relation to foodstuffs,Dissimilar,35,direct mail advertising
+0035881-0011966,12,apparatus for locomotion by water,Dissimilar,12,jet engines for land vehicles
+0035881-0005812,12,apparatus for locomotion by water,Dissimilar,12,clutches for land vehicles
+0004591-0030056,3,"skin care creams, other than for medical use",Similar,3,non-medicated bath oils
+0030502-0032521,3,cosmetics,Identical,3,skin cleansers
+0058849-0077772,9,software,Similar,42,platforms for gaming as software as a service [saas]
+0025734-0018935,12,vehicles,Identical,12,automotive vehicles
+0028860-0059527,3,false eyelashes,Dissimilar,3,abrasives
+0009379-0048096,21,make-up removing appliances,Dissimilar,9,apparatus and instruments for accumulating electricity
+0048076-0036600,44,human healthcare services,Identical,44,development of individual physical rehabilitation programmes
+0015146-0057009,35,business administration,Dissimilar,35,bill-posting
+0047319-0025946,3,cosmetic creams,Identical,3,toiletries
+0020077-0057405,29,edible fats,Dissimilar,30,custard
+0040409-0031761,29,edible oils and fats,Dissimilar,29,"fish, not live"
+0030502-0057464,3,cosmetics,Identical,3,suncare lotions
+0072368-0057677,22,nets,Dissimilar,18,harness for animals
+0058525-0031826,14,jewellery,Similar,14,jewellery findings
+0014090-0047976,32,non-alcoholic beverages,Dissimilar,33,preparations for making alcoholic beverages
+0059211-0059527,3,polishing wax,Similar,3,abrasives
+0030502-0057075,3,cosmetics,Identical,3,hair bleaching preparations
+0007836-0007416,41,entertainment services,Dissimilar,35,price comparison services
+0030502-0057777,3,cosmetics,Identical,3,face powder
+0057778-0000017,41,teaching,Dissimilar,35,arranging newspaper subscriptions for others
+0009172-0047270,11,apparatus for ventilating,Dissimilar,11,gas lighters
+0000547-0048105,9,spectacle cords,Dissimilar,9,signalling apparatus and instruments
+0047314-0006983,7,vending machines,Dissimilar,9,apparatus for the transmission of images
+0048076-0045794,44,human healthcare services,Identical,44,monitoring of patients
+0072818-0047062,18,animal skins,Dissimilar,12,luggage nets for vehicles
+0059404-0046500,9,"computer software, recorded",Dissimilar,16,stationery
+0009109-0012553,16,plastic materials for packaging,Similar,16,paper
+0025734-0024735,12,vehicles,Similar,12,steering wheels for vehicles
+0040447-0026555,32,beer,Dissimilar,33,liqueurs
+0031547-0010980,30,coffee,Low similar,30,malt coffee extracts
+0004556-0078171,9,octants,Identical,9,measuring devices
+0020466-0031761,30,"essences for foodstuffs, except etheric essences and essential oils",Dissimilar,29,"fish, not live"
+0018104-0041652,25,underwear,Dissimilar,18,bags
+0036059-0047666,5,albuminous foodstuffs for medical purposes,Identical,5,dietary supplements and dietetic preparations
+0034938-0039916,6,frameworks of metal,Identical,6,modular metallic structures
+0059421-0014541,5,food for babies,Dissimilar,44,animal healthcare services
+0056735-0069478,43,serving food and drinks,Identical,43,food and drink catering for cocktail parties
+0025839-0043328,29,olive oil,Dissimilar,29,cranberry compote
+0042996-0046577,10,medical apparatus and instruments,Dissimilar,10,teething rings
+0072422-0046162,30,seasonings,Dissimilar,30,sugar
+0012139-0007841,9,head protection,Similar,9,protective masks
+0018884-0016596,5,wound dressings,Dissimilar,5,dental materials for stopping the teeth
+0056876-0029077,9,computer application software for mobile telephones,Dissimilar,9,time clocks [time recording devices]
+0030925-0007773,15,tuning forks,Similar,15,musical instruments
+0059146-0058336,1,sensitized photographic plates,Dissimilar,1,fire extinguishing compositions
+0047463-0059256,29,dried fruit,Dissimilar,29,meat
+0046364-0073755,25,clothing,Identical,25,maternity shirts
+0047583-0046255,9,computers,Similar,42,server hosting
+0029412-0027638,19,"buildings, transportable, not of metal",Dissimilar,19,"non-luminous and non-mechanical signs, not of metal"
+0008086-0029914,30,thickening agents for cooking foodstuffs,Dissimilar,29,oils for food
+0006619-0014324,9,lens,Identical,9,optical enhancers
+0008363-0071842,5,ferments for pharmaceutical purposes,Identical,5,pharmaceuticals
+0023769-0012048,29,meat extracts,Dissimilar,30,baking powder
+0000361-0072390,17,asbestos,Dissimilar,25,footwear
+0040978-0018993,7,incubators for eggs,Dissimilar,7,electrodes for welding machines
+0047646-0009856,3,cleaning and fragrancing preparations,Dissimilar,44,human hygiene and beauty care
+0007421-0001874,9,phonograph records,High similar,9,sound transmitting apparatus
+0071841-0037365,5,pharmaceutical preparations,Identical,5,medicines for veterinary purposes
+0042465-0060256,38,telecommunication services,Similar,9,headphones
+0046364-0031050,25,clothing,Identical,25,woollen socks
+0028860-0058197,3,false eyelashes,Dissimilar,3,dentifrices
+0059489-0025613,43,provision of food and drink,Low similar,33,alcoholic beverages (except beer)
+0000065-0047759,9,telephone receivers,Identical,9,point-to-point communications equipment
+GSCSup-0010886-0031132,14,horological and chronometric instruments,Similar,14,watch cases [parts of watches]
+0047664-0047964,5,hygienic preparations and articles,Dissimilar,30,"sugars, natural sweeteners, sweet coatings and fillings, bee products"
+0045910-0043575,2,coatings,Dissimilar,1,silicone fluids
+0028989-0010950,35,computerized file management,Identical,35,clerical services
+0059527-0025946,3,abrasives,Dissimilar,3,toiletries
+0027889-0035972,30,honey,Dissimilar,29,milk products
+0023723-0024539,5,dietetic substances adapted for medical use,Identical,5,appetite suppressants for medical purposes
+0012658-0072797,31,"vegetables, fresh",Dissimilar,31,foodstuffs and fodder for animals
+0012268-0057371,30,gingerbread,Dissimilar,31,seeds for planting
+0041981-0072421,29,preserved vegetables,Similar,30,spices
+0037696-0030862,9,wrist rests for use with computers,Dissimilar,9,magnetic data media
+0047735-0047939,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,28,sporting articles and equipment
+0009856-0008698,44,human hygiene and beauty care,Identical,44,hygienic care for human beings
+0058708-0019576,28,counters [discs] for games,Dissimilar,28,decorations for christmas trees
+0018819-0009329,18,saddlery,Dissimilar,12,rowing boats
+0025734-0004640,12,vehicles,Similar,12,air bags [safety devices for automobiles]
+0071817-0032424,1,tan,Dissimilar,1,"x-ray films, sensitized but not exposed"
+GSCSup-0051816-0057699,14,jewellery and imitation jewellery,Identical,14,jewellery charms
+0011935-0067349,28,dolls,High similar,28,play mats for use with toy vehicles [playthings]
+0059490-0046166,43,services for providing food and drink,Low similar,30,tarts
+0048094-0011998,5,materials for dressings,Dissimilar,10,artificial teeth
+0046410-0012658,30,sweetmeats [candy],Dissimilar,31,"vegetables, fresh"
+0041196-0037730,1,industrial chemicals,Dissimilar,19,"monuments, not of metal"
+0033491-0047583,7,electrical apparatus for sealing plastics [packaging],Dissimilar,9,computers
+0020538-0025946,3,"balms, other than for medical purposes",Identical,3,toiletries
+0057779-0001507,41,training,Identical,41,language tuition
+0047385-0069938,44,medical services,Similar,10,implant bridges for dental purposes
+0046472-0031545,29,"vegetables, cooked",Dissimilar,29,"prawns, not live"
+0047344-0048073,36,real estate services,Dissimilar,45,"safety, rescue, security and enforcement services"
+0025718-0007421,7,galvanizing machines,Dissimilar,9,phonograph records
+0015006-0046873,16,printed matter,Dissimilar,36,finance services
+0012583-0048125,29,jellies for food,Dissimilar,30,preparations made from cereals
+0059496-0059495,36,investment services,Identical,36,financial investment
+0039839-0020649,35,business management assistance,Low similar,35,systemization of information into computer databases
+0047743-0046364,9,information technology and audiovisual equipment,Dissimilar,25,clothing
+0058344-0037730,11,steam generating installations,Dissimilar,19,"monuments, not of metal"
+0023179-0058197,3,laundry blueing,Dissimilar,3,dentifrices
+0047262-0018418,29,jams,Dissimilar,30,propolis
+0058092-0014659,18,trunks [luggage],Dissimilar,9,leather clothing for protection against accident or injury
+0014417-0020160,16,printing blocks,Dissimilar,21,aquariums
+0030502-0065129,3,cosmetics,Identical,3,toners for cosmetic purposes
+0046364-0042928,25,clothing,Identical,25,veils [clothing]
+0038281-0048105,7,"door closers, electric",Dissimilar,9,signalling apparatus and instruments
+0030502-0058865,3,cosmetics,Similar,3,toilet water
+0057713-0015006,5,babies' diapers,Dissimilar,16,printed matter
+0059490-0058066,43,services for providing food and drink,Identical,43,food and drink catering
+0059192-0047746,9,data processing apparatus,Dissimilar,9,apparatus and instruments for controlling electricity
+0047735-0047848,9,"navigation, guidance, tracking, targeting and map making devices",Dissimilar,16,decoration and art materials and media
+0029097-0003321,1,chemical preparations for use in photography,Similar,1,photometric paper
+0031053-0042323,26,lace,Similar,26,hair nets
+0041055-0035029,7,sparking plugs for internal combustion engines,Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0009379-0047583,21,make-up removing appliances,Dissimilar,9,computers
+0037338-0078171,9,measuring spoons,Identical,9,measuring devices
+0072368-0012530,22,nets,Dissimilar,22,hammocks
+0070200-0037803,30,confectionery,High similar,30,fruit ices
+0047385-0071402,44,medical services,Identical,44,medical and healthcare services
+0058849-0047771,9,software,Similar,9,computers and computer hardware
+0040567-0047760,9,riding helmets,Identical,9,protective and safety equipment
+0012284-0072795,30,"flavourings, other than essential oils, for beverages",Dissimilar,30,golden syrup
+0012658-0022048,31,"vegetables, fresh",Identical,31,"lettuce, fresh"
+0046364-0007042,25,clothing,Dissimilar,25,hat frames [skeletons]
+0060254-0036031,3,cleaning preparations,Dissimilar,10,brushes for cleaning body cavities
+0048099-0048107,9,apparatus and instruments for regulating electricity,Dissimilar,9,scientific apparatus and instruments
+0001411-0009856,5,herbicides,Dissimilar,44,human hygiene and beauty care
+0042594-0058809,9,printers,Dissimilar,9,television receivers
+0047797-0047917,11,personal heating and drying implements,Dissimilar,21,brushes and brush-making articles
+0057778-0030839,41,teaching,Identical,41,providing animal exercise services
+0058277-0043114,5,dietary and nutritional supplements,Similar,5,medicines for human purposes
+0058849-0079032,9,software,Identical,9,downloadable computer software for blockchain technology
+0043473-0013151,29,condensed milk,Dissimilar,30,flour
+0041981-0019801,29,preserved vegetables,Dissimilar,30,cheeseburgers [sandwiches]
+0047746-0048108,9,apparatus and instruments for controlling electricity,Dissimilar,9,teaching apparatus and instruments
+0058287-0008368,43,temporary accommodation,Identical,43,rental of meeting rooms
+0059256-0059535,29,meat,Dissimilar,31,bedding and litter for animals
+0047026-0014090,30,tea,Similar,32,non-alcoholic beverages
+0018825-0028450,16,filtering materials of paper,Dissimilar,41,translation and interpretation
+0030502-0012275,3,cosmetics,Identical,3,cosmetic preparations for skin care
+0046914-0002692,29,"fruit, preserved",Dissimilar,30,cocoa
+0024818-0043040,7,"motors, other than for land vehicles",Dissimilar,7,tables for machines
+0035236-0048103,9,spectacle chains,Dissimilar,9,measuring apparatus and instruments
+0025734-0039216,12,vehicles,Similar,12,couplings for land vehicles
+0023245-0047518,36,safe deposit services,Dissimilar,45,legal services
+0039782-0071815,5,disinfectants,Dissimilar,1,silicon
+0038661-0025798,28,bags specially adapted for sports equipment,Dissimilar,18,leather for shoes
+0059330-0072818,18,rucksacks,Dissimilar,18,animal skins
+0004990-0013151,30,meat tenderizers for household purposes,Dissimilar,30,flour
+0004882-0072815,16,credit cards without magnetic coding,Dissimilar,36,fund investment services
+0060821-0041447,22,"wrapping or binding bands, not of metal",Dissimilar,22,sails
+0047798-0047898,11,filters for industrial and household use,Dissimilar,19,"statues and works of art made of materials such as stone, concrete and marble, included in the class"
+0031511-0013699,9,sound recording apparatus,Identical,9,cinematographic machines and apparatus
+0042465-0019472,38,telecommunication services,Similar,42,data mining
+0030495-0022248,29,low fat cheese,Dissimilar,30,rice
+0035442-0000462,30,mustard,Dissimilar,30,artificial coffee
+0044151-0013526,29,"vegetables, dried",Dissimilar,30,sandwiches
+0014090-0078109,32,non-alcoholic beverages,Identical,32,non-alcoholic dried fruit beverages
+0047930-0071484,28,"toys, games, and playthings",Dissimilar,28,gymnastic and sporting articles
+0031761-0002890,29,"fish, not live",Dissimilar,29,apple purée
+0072063-0025459,34,manufactured tobacco,Similar,34,matches
+0072418-0072421,29,compotes,Dissimilar,30,spices
+0047329-0024367,30,pastry dough,Similar,30,muffins
+0025734-0058680,12,vehicles,Similar,12,bogies for railway cars
+0026377-0060254,3,nail varnish,Dissimilar,3,cleaning preparations
+0030502-0059416,3,cosmetics,Identical,3,skin cream
+0040978-0040510,7,incubators for eggs,Dissimilar,7,clack valves [parts of machines]
+0041981-0073994,29,preserved vegetables,Dissimilar,29,"sardines, not live"
+0014354-0024502,7,transmission components (except for land vehicles),Dissimilar,7,"reels, mechanical, for flexible hoses"
+0035881-0016805,12,apparatus for locomotion by water,Dissimilar,12,spikes for tyres
+0012112-0015006,5,paper diapers,Dissimilar,16,printed matter
+0048110-0006523,12,apparatus for locomotion by land,Similar,12,balance weights for vehicle wheels
+0058857-0059192,9,spectacle frames,Dissimilar,9,data processing apparatus
+0046364-0008073,25,clothing,Identical,25,gabardines [clothing]
+0058666-0034585,11,lighting apparatus,Identical,11,electric night lights
+0041981-0041885,29,preserved vegetables,Dissimilar,29,"tuna, not live"
+0072818-0057457,18,animal skins,Dissimilar,12,ski carriers for cars
+0017618-0025798,28,fish hooks,Dissimilar,18,leather for shoes
+0046500-GSCSup-0043061,16,stationery,High similar,16,glue for household purposes
+0028946-0029645,29,fish-based foodstuffs,Dissimilar,29,snail eggs for consumption
+0046364-0001026,25,clothing,Identical,25,layettes [clothing]
+0046472-0046162,29,"vegetables, cooked",Dissimilar,30,sugar
+0009856-0071539,44,human hygiene and beauty care,Identical,44,injectable filler treatments for cosmetic purposes
+0037347-0031211,16,teaching materials [except apparatus],Dissimilar,16,adhesives for household purposes
+0043473-0031761,29,condensed milk,Dissimilar,29,"fish, not live"
+0056735-0001895,43,serving food and drinks,Identical,43,wine tasting services (provision of beverages)
+0000361-0071848,17,asbestos,Dissimilar,6,screws of metal
+0025718-0047746,7,galvanizing machines,Dissimilar,9,apparatus and instruments for controlling electricity
+0009379-0048106,21,make-up removing appliances,Dissimilar,9,life-saving apparatus and instruments
+0048144-0024907,11,apparatus for drying,Dissimilar,19,"floors, not of metal"
+0058962-0008069,25,headgear,Dissimilar,25,heelpieces for stockings
+0059256-0013151,29,meat,Dissimilar,30,flour
+0050457-0052122,21,toothbrush bristles,Dissimilar,21,heads for electric toothbrushes
+0057654-0072799,31,sanded paper [litter] for pets,Dissimilar,31,fodder
+0022493-0024490,9,coin-operated mechanisms,Dissimilar,9,weighing apparatus and instruments
+0048124-0018122,29,cooked fruits,Dissimilar,30,yeast
+0047800-0048156,11,"cooking, heating, cooling and preservation equipment, for food and beverages",Dissimilar,21,articles for animals
+0046943-0058320,11,"ultraviolet ray lamps, not for medical purposes",Dissimilar,11,refrigerating apparatus
+0046914-0027889,29,"fruit, preserved",Similar,30,honey
+0058962-0041917,25,headgear,Dissimilar,18,clothing for pets
+0002640-0008903,42,software design and development,Similar,42,rental of web servers
+0044067-0047746,12,cigar lighters for automobiles,Dissimilar,9,apparatus and instruments for controlling electricity
+0047314-0014229,7,vending machines,Dissimilar,7,boxes for matrices [printing]
+0052173-0023832,35,negotiation of business contracts for others,Dissimilar,35,advertising
+0047314-0021929,7,vending machines,Dissimilar,9,apparatus for recording images
+0020779-0047992,36,issuance of credit cards,Identical,36,"loan and credit, and lease-finance services"
+0048188-0048205,35,retail services in relation to clothing,Similar,35,wholesale services in relation to clothing
+0014332-0000434,29,powdered milk,Dissimilar,30,tapioca
+0056356-0035412,29,cheese substitutes,High similar,29,cheese
+0012425-0009172,11,installations for heating swimming pools,Dissimilar,11,apparatus for ventilating
+0043508-0072356,20,furniture,Identical,20,shelves for storage
+0046343-0029412,19,mortar,Dissimilar,19,"buildings, transportable, not of metal"
+0047743-0009700,9,information technology and audiovisual equipment,Dissimilar,10,sex aids
+0013808-0014120,20,beds,Similar,20,mattresses
+0072796-0007875,30,molasses for food,Dissimilar,29,pollen prepared as foodstuff
+0047687-0013520,7,"agricultural, earthmoving, construction, oil and gas extraction and mining equipment",Dissimilar,11,drying installations
+0048076-0019405,44,human healthcare services,Identical,44,information services relating to health care
+0047733-0047789,9,"optical devices, enhancers and correctors",Dissimilar,10,prosthetics and artificial implants
+0047275-0028874,32,must,Identical,32,juices
+0015589-0010627,22,string,Dissimilar,18,imitation leather
+0057778-0068989,41,teaching,Identical,41,preparation of educational courses and examinations
+0047314-0019385,7,vending machines,Dissimilar,7,fuel conversion apparatus for internal combustion engines
+0057582-0037142,7,"soldering apparatus, electric",Dissimilar,8,cutlery
+0030502-0065066,3,cosmetics,Identical,3,facial care preparations
+0022493-0030862,9,coin-operated mechanisms,Dissimilar,9,magnetic data media
+0014354-0010178,7,transmission components (except for land vehicles),Dissimilar,7,cylinders for machines
+0013581-0007027,3,drying agents for dishwashing machines,Dissimilar,1,decolorants for industrial purposes
+0037328-0047441,36,financial evaluation of standing timber,Dissimilar,36,real estate affairs
+0011787-0051162,41,radio entertainment,Identical,41,production of audio programs
+0030502-0072667,3,cosmetics,Identical,3,nail cosmetics
+0058735-0025734,12,bicycle kickstands,Similar,12,vehicles
+0046272-0007840,34,electronic cigarettes,Dissimilar,34,lighters for smokers
+0057997-0058731,13,cartridge cases,Dissimilar,13,fireworks
+0059527-0058234,3,abrasives,Dissimilar,3,shoemakers' wax
+0057908-0041655,3,perfumes,Dissimilar,16,artists' materials
+0057584-0013564,7,"soldering irons, electric",Dissimilar,9,compact discs
+0047674-0050676,6,"doors, gates, windows and window coverings of metal",Dissimilar,20,"displays, stands and signage, non-metallic"
+0013534-0026956,7,"hydraulic controls for machines, motors and engines",Dissimilar,7,sweeping machines
+0015681-0047609,30,pizzas,Similar,30,bread
+0013526-0040761,30,sandwiches,Dissimilar,29,eggs
+0048125-0027889,30,preparations made from cereals,Dissimilar,30,honey
+0038637-0047441,36,hire-purchase financing,Dissimilar,36,real estate affairs
+0059428-0071943,9,radio receivers,Dissimilar,9,fire extinguishers
+0058197-0007942,3,dentifrices,Similar,3,breath freshening sprays
+0059154-0008064,11,"coffee percolators, electric",Similar,11,"deep fryers, electric"
+0073976-0029914,30,"food flavourings, other than essential oils",Low similar,29,oils for food
+0046364-0057916,25,clothing,Low similar,18,pouch baby carriers
+0067005-0022493,21,electric make-up removing appliances,Dissimilar,9,coin-operated mechanisms
+0046873-0067939,36,finance services,Identical,36,financial services provided by electronic means
+0014074-0023769,30,binding agents for ice cream,Dissimilar,29,meat extracts
+0018500-0042975,16,magazines [periodicals],Dissimilar,35,public relations services
+0059324-0058848,7,electric arc welding apparatus,Dissimilar,9,computer software
+0045910-0059528,2,coatings,Identical,2,lacquers and varnishes
+0006486-0023581,12,mudguards,High similar,12,spray prevention flaps for vehicles
+0020071-0001413,11,cooking apparatus and installations,Dissimilar,11,regulating and safety accessories for gas apparatus
+0070125-0043499,28,toys,Identical,28,talking toys
+0014710-0058800,25,ready-made clothing,Dissimilar,24,bed throws
+0059411-0005827,12,cars,Similar,12,hub caps
+0057123-0048101,9,containers for contact lenses,Dissimilar,9,apparatus and instruments for conducting electricity
+0046364-0003105,25,clothing,Identical,25,quilted jackets [clothing]
+0013151-0072422,30,flour,Dissimilar,30,seasonings
+0030502-0008077,3,cosmetics,Low similar,8,cuticle tweezers
+0039782-0002722,5,disinfectants,Dissimilar,1,acid proof chemical compositions
+0048088-0059451,1,"chemicals used in agriculture, horticulture and forestry",Low similar,5,fungicides
+0009856-0056744,44,human hygiene and beauty care,Identical,44,nail care services
+0039512-0013240,9,contact lenses,Dissimilar,9,photographic apparatus and instruments
+0030502-0020471,3,cosmetics,Similar,5,slimming pills
+0057907-0058391,3,perfumery,Dissimilar,3,sandpaper
+0012232-GSCSup-0130607,35,employment agency services,Identical,35,employment information services
+0042613-0025798,28,golf gloves,Dissimilar,18,leather for shoes
+0047648-0047670,3,essential oils and aromatic extracts,Low similar,5,medical and veterinary preparations and articles
+0048109-0041668,12,apparatus for locomotion by air,Dissimilar,12,transmissions for land vehicles
+0021521-0072368,17,"plastic substances, semi-processed",Dissimilar,22,nets
+0025734-0011967,12,vehicles,Similar,12,freewheels for land vehicles
+0020128-0011640,7,"agricultural implements, other than hand-operated",Dissimilar,7,cylinder heads for engines
+0025734-0023583,12,vehicles,Similar,12,inner tubes for pneumatic tyres
+0058848-0076562,9,computer software,Identical,9,web application software
+0022493-0048103,9,coin-operated mechanisms,Dissimilar,9,measuring apparatus and instruments
+0002588-0035029,7,flues for engine boilers,Dissimilar,7,"machine couplings and transmissions, except for land vehicles"
+0057763-0068998,41,organization of competitions [education or entertainment],Identical,41,conducting of competitions on the internet
+0037549-0018122,30,preparations for stiffening whipped cream,Dissimilar,30,yeast
+0072797-0047980,31,foodstuffs and fodder for animals,Dissimilar,32,beer and brewery products
+0030502-0055318,3,cosmetics,Identical,3,cosmetics and cosmetic preparations
+0047849-0048066,16,"bags and articles for packaging, wrapping and storage, of paper, cardboard or plastics",Dissimilar,41,"education, entertainment and sports"
+0011408-0059222,42,computer programming,Similar,42,rental of computer hardware
+0042465-0024332,38,telecommunication services,Similar,42,science and technology services
+0025718-0019852,7,galvanizing machines,Dissimilar,9,sound reproduction apparatus
+0057677-0046364,18,harness for animals,Dissimilar,25,clothing
+0023168-0058525,14,cases for clock- and watchmaking,Dissimilar,14,jewellery
+0020242-0058292,16,cards,Similar,16,graphic prints
+0046472-0004141,29,"vegetables, cooked",High similar,29,frozen vegetables
+0048101-0048105,9,apparatus and instruments for conducting electricity,Dissimilar,9,signalling apparatus and instruments
+0009012-0071842,5,artificial tea [for medicinal use],Identical,5,pharmaceuticals
+0059490-0056726,43,services for providing food and drink,Identical,43,mobile restaurant services
+0059451-0058037,5,fungicides,Low similar,44,horticulture
+0034708-0047026,30,tea-based beverages,Identical,30,tea
+0057778-0025908,41,teaching,Similar,16,biological samples for use in microscopy [teaching materials]
+0014074-0059485,30,binding agents for ice cream,Dissimilar,30,malt biscuits
+0041196-0035188,1,industrial chemicals,Identical,1,oils for preparing leather in the course of manufacture
+0012583-0001041,29,jellies for food,Dissimilar,30,royal jelly
+0001406-0071842,5,lead water,Identical,5,pharmaceuticals
+0057382-0048104,9,decorative magnets,Dissimilar,9,checking (supervision) apparatus and instruments
+0058864-0047649,3,eau de cologne,Identical,3,perfumery and fragrances
+0035972-0057405,29,milk products,High similar,30,custard
+0071841-0009856,5,pharmaceutical preparations,Dissimilar,44,human hygiene and beauty care
+0048067-0031811,41,publishing and reporting,Identical,41,"publishing of journals, books and handbooks in the field of medicine"
+0058849-0006696,9,software,Similar,9,microprocessors
+0046472-0073994,29,"vegetables, cooked",Dissimilar,29,"sardines, not live"
+0033145-0072421,30,bakery goods,Dissimilar,30,spices
+0046364-0015146,25,clothing,Dissimilar,35,business administration
+0012425-0047208,11,installations for heating swimming pools,Dissimilar,11,air-conditioning apparatus
+0059411-0047292,12,cars,Similar,12,automobile chassis
+0029781-0007913,41,"writing of texts, other than publicity texts",Dissimilar,41,correspondence courses
+0044151-0040920,29,"vegetables, dried",Dissimilar,30,sago
+0046364-0037600,25,clothing,Identical,25,mufflers [clothing]
+0057172-0000640,35,business management,Low similar,35,photocopying services
+0058839-0058811,18,valises,Dissimilar,18,walking stick handles
+0046772-0016195,30,sauces [condiments],Identical,30,pepper sauces
+0015006-0023921,16,printed matter,Identical,16,prospectuses
+0021929-0030997,9,apparatus for recording images,Similar,9,data transmission cables
+0047314-0048103,7,vending machines,Dissimilar,9,measuring apparatus and instruments
+0014123-0058961,41,dubbing,Similar,41,television show production
+0003700-0025497,9,monitors [computer hardware],Identical,9,computer peripheral devices
+0058449-0058251,3,hair dyes,Dissimilar,18,parasols
+0011809-0058251,26,hair pins,Dissimilar,18,parasols
+0058566-0003991,20,stools,Dissimilar,20,caskets made of whalebone
+0059485-0002024,30,malt biscuits,Dissimilar,30,spring rolls
+0040920-0007875,30,sago,Dissimilar,29,pollen prepared as foodstuff
+0042793-0028874,33,vodka,Dissimilar,32,juices
+0048110-0059303,12,apparatus for locomotion by land,Similar,12,trailer hitches for vehicles
+0047385-0059492,44,medical services,Identical,44,"nursing, medical"
+0025718-0048104,7,galvanizing machines,Dissimilar,9,checking (supervision) apparatus and instruments
+0013880-0057999,13,ammunition and projectiles,Similar,13,cartridges
+0035881-0038215,12,apparatus for locomotion by water,Dissimilar,12,inner tubes for bicycle tyres
+0044155-0014541,35,hotel management for others,Dissimilar,44,animal healthcare services
+0059480-0047247,30,biscuits,Similar,30,pies
+0040978-0041045,7,incubators for eggs,Dissimilar,9,diesel injector testers
+0047533-0057417,3,laundry bleach,Dissimilar,3,hair lotions
+0035330-0047441,36,rent collection,Identical,36,real estate affairs
+0022248-0035972,30,rice,Dissimilar,29,milk products
+0007836-0011478,41,entertainment services,Identical,41,"casino, gaming and gambling services"
+0040978-0033953,7,incubators for eggs,Dissimilar,7,igniting magnetos
+0059484-0029607,30,cakes,Similar,30,fondants [confectionery]
+0037549-0046914,30,preparations for stiffening whipped cream,Dissimilar,29,"fruit, preserved"
+0012625-0024116,33,spirits [beverages],Identical,33,cachaca
+0042465-0035716,38,telecommunication services,Similar,42,design services
+0037575-0030838,29,margarine,Dissimilar,30,nougat
+0012197-0046472,30,mixtures for making water ices,Dissimilar,29,"vegetables, cooked"
+0008321-0019822,43,hotel services,Similar,43,salad bars
+0058833-0012514,39,rental of diving suits,Low similar,39,transport
+0014138-0002766,35,management of telephone call centers for other,Dissimilar,42,provision of on-line support services for computer program users
+0046873-0031535,36,finance services,Identical,36,provident fund services
+0013808-0037578,20,beds,Identical,20,camp beds
+0014090-0074115,32,non-alcoholic beverages,Identical,32,vitamin fortified non-alcoholic beverages
+0048108-0048105,9,teaching apparatus and instruments,Dissimilar,9,signalling apparatus and instruments
+0042996-0017752,10,medical apparatus and instruments,Dissimilar,10,breast pumps
+0043114-0059009,5,medicines for human purposes,Low similar,5,dental impression materials
+0057172-0048205,35,business management,Dissimilar,35,wholesale services in relation to clothing
+0035980-0025016,19,concrete,Dissimilar,17,"rubber, raw or semi-worked"
+0072063-0046685,34,manufactured tobacco,Similar,34,ashtrays
+0047692-0047742,7,dispensing machines,Dissimilar,9,recorded content
+0058836-0072470,18,travelling bags,Similar,18,leather wallets
+0014354-0019858,7,transmission components (except for land vehicles),Dissimilar,7,"control mechanisms for machines, engines or motors"
+0057609-0010289,11,sanitary apparatus and installations,Dissimilar,11,tanning apparatus [sun beds]
+0046364-0012802,25,clothing,Low similar,28,leg guards for athletic use
+0059490-0072566,43,services for providing food and drink,Identical,43,private members dining club services
+0018830-0043508,6,fittings of metal for furniture,Similar,20,furniture
+0047966-0059535,30,"salts, seasonings, flavourings and condiments",Dissimilar,31,bedding and litter for animals
+0009379-0011821,21,make-up removing appliances,Dissimilar,9,dvds
+0029284-0025613,33,alcoholic extracts,Similar,33,alcoholic beverages (except beer)
+0029431-0071842,5,ointments for pharmaceutical purposes,Identical,5,pharmaceuticals
+0047666-0047775,5,dietary supplements and dietetic preparations,Dissimilar,10,feeding aids and pacifiers
+0059246-0048099,26,"hair curlers, other than hand implements",Dissimilar,9,apparatus and instruments for regulating electricity
+0025734-0031725,12,vehicles,Similar,12,ship hulls
+0059373-0035885,9,measuring apparatus,Dissimilar,8,"side arms, other than firearms"
+0060833-0013564,9,downloadable image files,Low similar,9,compact discs
+0046364-0057440,25,clothing,Identical,25,short trousers
+0047694-0047802,7,machines and machine tools for treatment of materials and for manufacturing,Dissimilar,11,lighting and lighting reflectors
+0024747-0026099,4,lighting fuel,Identical,4,paper spills for lighting
+0046472-0023769,29,"vegetables, cooked",Dissimilar,29,meat extracts
+0006231-0009985,31,"fruit, fresh",Dissimilar,31,"fish, live"
+0030502-0072912,3,cosmetics,Identical,3,hair serums
+0001698-0048096,9,animated cartoons,Dissimilar,9,apparatus and instruments for accumulating electricity
+0045403-0039759,18,whips,Dissimilar,18,umbrella or parasol ribs
+0047727-0025724,8,"food preparation implements, kitchen knives and cutlery",Dissimilar,21,cleaning articles
+0006194-0048077,36,antique appraisal,Identical,36,valuation services
+0014120-0003991,20,mattresses,Dissimilar,20,caskets made of whalebone
+GSCSup-0101831-GSCSup-0023761,14,tiepins,Dissimilar,14,precious metals and their alloys
+0006029-0025946,3,bath oil,Identical,3,toiletries
+0047736-0072390,9,"measuring, detecting and monitoring instruments, indicators and controllers",Dissimilar,25,footwear
+0043114-0007176,5,medicines for human purposes,Low similar,5,teeth filling material
+0018720-0012214,10,beds specially made for medical purposes,Dissimilar,21,porcelain ware
+0025798-0030433,18,leather for shoes,Dissimilar,12,tricycles
+0057908-0060254,3,perfumes,Similar,3,cleaning preparations
+0020128-0024354,7,"agricultural implements, other than hand-operated",Dissimilar,7,loom shafts
+0047314-0012143,7,vending machines,Dissimilar,7,injectors for engines
+0011935-0067391,28,dolls,High similar,28,doll accessories
+0025613-0022852,33,alcoholic beverages (except beer),Dissimilar,32,malt wort
+0046873-0057360,36,finance services,Identical,36,financial investment advisory services
+0025302-0072818,26,hair ornaments in the form of combs,Dissimilar,18,animal skins
+0030020-0018122,29,"game, not live",Dissimilar,30,yeast
+0048103-0013699,9,measuring apparatus and instruments,Identical,9,cinematographic machines and apparatus
+0047171-0046873,36,financing services,Identical,36,finance services
+0059411-0001031,12,cars,Similar,12,gear boxes for land vehicles
+0048140-0040643,31,malt,Dissimilar,31,dog biscuits
+0030502-0070616,3,cosmetics,Identical,3,pores tightening mask packs used as cosmetics
+0003347-0056188,11,cooking appliances,Similar,21,cooking pots and pans [non-electric]
+0031765-0022248,30,starch for food,Dissimilar,30,rice
+0010726-0077221,9,anodes,Identical,9,electrical and electronic components
+0058800-0040655,24,bed throws,Identical,24,bed blankets
+0035447-0072421,29,"fish, tinned",Dissimilar,30,spices
+0059411-0024711,12,cars,Similar,12,bumpers for automobiles
+0007836-0041271,41,entertainment services,Identical,41,karaoke services
+0048109-0023896,12,apparatus for locomotion by air,Dissimilar,12,direction indicators for bicycles
+0046873-0067857,36,finance services,Identical,36,asset and portfolio management
+0025946-0047926,3,toiletries,Dissimilar,21,"unworked and semi-worked glass, not specified for use"
+0059527-0047927,3,abrasives,Dissimilar,21,"statues, figurines, plaques and works of art, made of materials such as porcelain, terra-cotta or glass, included in the class"
+0059246-0048106,26,"hair curlers, other than hand implements",Dissimilar,9,life-saving apparatus and instruments
+0072796-0047934,30,molasses for food,Dissimilar,29,dairy products and dairy substitutes
+0012048-0000462,30,baking powder,Dissimilar,30,artificial coffee
+0041447-0072390,22,sails,Dissimilar,25,footwear
+0030316-0027889,29,alginates for culinary purposes,Dissimilar,30,honey
+0019852-0013240,9,sound reproduction apparatus,Identical,9,photographic apparatus and instruments
+GSCSup-0091381-GSCSup-0091661,37,home construction services,Identical,37,residential building construction
+0029041-0015679,39,transport services,Similar,35,import and export services
+0030502-0026363,3,cosmetics,Identical,3,cosmetics for use in the treatment of wrinkled skin
+0030502-0004554,3,cosmetics,Identical,3,body cream
+0073029-0059489,30,chili pepper paste being condiment,Low similar,43,provision of food and drink
+0035102-0021753,43,restaurant services,Identical,43,delicatessens [restaurants]
+0011483-0036090,5,veterinary preparations,Identical,5,blood for medical purposes
+0011715-0036321,3,ethereal oils,Similar,3,"massage creams, not medicated"
+0033313-0048105,9,cleaning apparatus for phonograph records,Dissimilar,9,signalling apparatus and instruments
+0058808-0031637,9,television apparatus,Identical,9,audiovisual apparatus
+0036724-0033664,26,artificial flowers,Low similar,26,ostrich feathers [clothing accessories]
+0047674-0047900,6,"doors, gates, windows and window coverings of metal",Dissimilar,20,furniture and furnishings
+0041876-0071842,5,tinctures for medical purposes,Identical,5,pharmaceuticals
+0029492-0010523,10,diagnostic apparatus for medical purposes,Identical,10,medical imaging apparatus
+0048109-0011547,12,apparatus for locomotion by air,Similar,12,vehicle bumpers
+0046364-0057516,25,clothing,Identical,25,turtleneck sweaters
+0025408-0071842,5,chemico-pharmaceutical preparations,Identical,5,pharmaceuticals
+0057907-0016241,3,perfumery,Identical,3,fragrances for personal use
+0035342-0047789,10,dental apparatus and instruments,Low similar,10,prosthetics and artificial implants
+0057921-0002328,10,"contraceptives, non-chemical",Dissimilar,10,suture materials
+0030862-0047746,9,magnetic data media,Dissimilar,9,apparatus and instruments for controlling electricity
+0057172-0057439,35,business management,Identical,35,business management consultancy
+0059170-0058197,3,toilet soap,Low similar,3,dentifrices
+0046364-0067736,25,clothing,Similar,35,online retail store services relating to clothing
+0057778-0025348,41,teaching,Identical,41,practical training [demonstration]
+0057694-0072818,25,ski boots,Dissimilar,18,animal skins
+0040978-0009060,7,incubators for eggs,Dissimilar,7,"taps [parts of machines, engines or motors]"
+0030502-0022059,3,cosmetics,Identical,3,henna for cosmetic purposes
+0042465-0025630,38,telecommunication services,Identical,38,data transmission
+0047666-0041069,5,dietary supplements and dietetic preparations,Dissimilar,10,physical therapy equipment
+0042037-0013151,30,wheat flour,Identical,30,flour
+0012289-0066314,12,bicycles,Identical,12,children's bicycles
+0040449-0058314,32,non-alcoholic preparations for making beverages,Identical,32,syrups for making beverages
+0073976-0012048,30,"food flavourings, other than essential oils",Dissimilar,30,baking powder
+0040978-0001739,7,incubators for eggs,Dissimilar,7,rakes for raking machines
+0058666-0046943,11,lighting apparatus,Dissimilar,11,"ultraviolet ray lamps, not for medical purposes"
+0046364-0059014,25,clothing,Similar,18,hipsacks
+0012289-0025734,12,bicycles,Identical,12,vehicles
+0048076-0023541,44,human healthcare services,Identical,44,cosmetic dentistry
+0008745-0011715,3,cake flavourings [essential oils],Identical,3,ethereal oils
+0025613-0067716,33,alcoholic beverages (except beer),Identical,33,alcoholic aperitif bitters
+0015015-0044672,9,"electronic publications, downloadable",Similar,9,digital music downloadable provided from the internet
+0009856-0071521,44,human hygiene and beauty care,Identical,44,eyebrow threading services
+0030502-0059019,3,cosmetics,Identical,3,eyebrow pencils
+0043508-0037941,20,furniture,Identical,20,wood surrounds [furniture] for electronic apparatus
+0057778-0069041,41,teaching,Identical,41,arranging and conducting of meetings in the field of education
+0007491-0047760,9,gloves for protection against accidents,Identical,9,protective and safety equipment
+0072820-0047747,9,galvanic cells,Identical,9,apparatus and instruments for accumulating and storing electricity
+GSCSup-0033716-0070200,35,wholesaling and retail and via global computer networks sales services of confectionery,Similar,30,confectionery
+0018104-0058962,25,underwear,Low similar,25,headgear
+0041652-0058842,18,bags,Similar,18,pocket wallets
+0000727-0011653,42,computer hardware development,Similar,42,consultancy in the field of computers
+0057779-0025348,41,training,Identical,41,practical training [demonstration]
+0027889-0012658,30,honey,Dissimilar,31,"vegetables, fresh"
+0025934-0031761,30,powders for making ice cream,Dissimilar,29,"fish, not live"
+0011640-0072248,7,cylinder heads for engines,Dissimilar,12,aircraft
+0026555-0046447,33,liqueurs,Dissimilar,32,orange juice
+0057842-0048144,7,washing apparatus,Similar,11,apparatus for drying
+0056735-0069510,43,serving food and drinks,Identical,43,serving of alcoholic beverages
+0057734-0031480,3,furbishing preparations,Dissimilar,29,albumin milk
+0059256-0072795,29,meat,Dissimilar,30,golden syrup
+0023832-0015006,35,advertising,Dissimilar,16,printed matter
+0047160-0039470,9,sunglasses,Low similar,9,chains for sunglasses
+0043473-0046410,29,condensed milk,Dissimilar,30,sweetmeats [candy]
+0007836-0003357,41,entertainment services,Identical,41,interactive entertainment services
+0018717-0041788,41,rental of audio equipment,Identical,41,rental of disco equipment
+0059489-0027692,43,provision of food and drink,Low similar,29,milk shakes
+0046831-0044521,29,"shellfish, not live",High similar,29,octopuses [not live]
+0007836-0027610,41,entertainment services,Dissimilar,41,"layout services, other than for advertising purposes"
+0009172-0006358,11,apparatus for ventilating,Dissimilar,11,chromatography apparatus for industrial purposes
+0008745-0059527,3,cake flavourings [essential oils],Dissimilar,3,abrasives
+0070125-0023283,28,toys,High similar,28,swings
+0058666-0081184,11,lighting apparatus,Identical,11,light-emitting diode [led] light bulbs
+0047732-0047788,9,"apparatus, instruments and cables for electricity",Dissimilar,10,orthopedic and mobility aids
+0058637-0042911,42,graphic arts design,Dissimilar,38,providing access to databases
+0030502-0012747,3,cosmetics,Identical,3,bath creams (non-medicated -)
+0057904-0018819,22,ropes,Dissimilar,18,saddlery
+0046364-0037117,25,clothing,Identical,25,rugby shorts
+0072368-0015589,22,nets,Similar,22,string
+0047664-0047967,5,hygienic preparations and articles,Dissimilar,30,convenience food and savoury snacks
+0048144-0018739,11,apparatus for drying,Dissimilar,19,"rigid pipes, not of metal, for building"
+0009379-0048107,21,make-up removing appliances,Dissimilar,9,scientific apparatus and instruments
+0057572-0057571,12,vehicle tires,Identical,12,tyres for vehicle wheels
+0072788-0042062,26,snap fasteners,Dissimilar,26,expanding bands for holding sleeves
+0013880-0058386,13,ammunition and projectiles,Dissimilar,13,rifle cases
+0030502-0065137,3,cosmetics,Identical,3,dandruff shampoo
+0030502-0008345,3,cosmetics,Identical,3,cleaning agents for the hands
+0059138-0035869,9,goggles for sports,Identical,9,eyewear
+0072390-0072771,25,footwear,Dissimilar,24,fabrics
+0042465-0009100,38,telecommunication services,Identical,38,providing internet chatrooms
+0025734-0032842,12,vehicles,Similar,12,"saddles for bicycles, cycles or motorcycles"
+0043399-0012848,28,games,Dissimilar,28,fairground ride apparatus
+0006297-0031837,31,beverages for pets,Dissimilar,31,flowers
+0047736-0047799,9,"measuring, detecting and monitoring instruments, indicators and controllers",Dissimilar,11,industrial treatment installations
+0048144-0072344,11,apparatus for drying,Dissimilar,19,bitumen
+0072421-0029504,30,spices,Dissimilar,29,milk
+0023365-0059063,9,cash registers,Dissimilar,9,magnets
+0019133-0020071,6,metal tool boxes,Dissimilar,11,cooking apparatus and installations
+0046585-0019474,42,computer software consultancy,Similar,42,installation and maintenance of computer programs
+0057778-0018675,41,teaching,Identical,41,bookkeeping instruction
+0072795-0022248,30,golden syrup,Dissimilar,30,rice
+0021238-0041189,7,machine tools,Low similar,7,glaziers' diamonds [parts of machines]
+0047743-0047849,9,information technology and audiovisual equipment,Dissimilar,16,"bags and articles for packaging, wrapping and storage, of paper, cardboard or plastics"
+0004591-0030502,3,"skin care creams, other than for medical use",Identical,3,cosmetics
+0009700-0048072,10,sex aids,Dissimilar,44,"agriculture, aquaculture, horticulture and forestry services"
+0013543-0059527,3,diamantine [abrasive],Identical,3,abrasives
+0007246-0027484,11,industrial ovens,Similar,7,dough rounding machines (electric -)
+0041981-0031545,29,preserved vegetables,Dissimilar,29,"prawns, not live"
+0048076-0069584,44,human healthcare services,Identical,44,outpatient and inpatient care services
+0014074-0029914,30,binding agents for ice cream,Dissimilar,29,oils for food
+0057620-0025798,22,tents,Dissimilar,18,leather for shoes
+0046138-0014425,11,water supply installations,Similar,11,water purifying apparatus and machines
+0030979-0013708,26,hooks [haberdashery],Dissimilar,26,wigs
+0048125-0013858,30,preparations made from cereals,Low similar,30,noodle-based prepared meals
+0023767-0031761,29,butter,Dissimilar,29,"fish, not live"
+0029504-0024767,29,milk,Dissimilar,30,rice-based snack food
+0058849-0032061,9,software,Identical,9,interfaces for computers
+0015015-0023365,9,"electronic publications, downloadable",Dissimilar,9,cash registers
+0030502-0072666,3,cosmetics,Identical,3,colour cosmetics
+0057876-0071820,3,oils for perfumes and scents,Dissimilar,3,emery cloth
+0015006-0047603,16,printed matter,Identical,16,textbooks
+0043508-0028517,20,furniture,Similar,20,decorative edging strips of wood for use with furniture
+0041409-0059527,3,hair spray,Dissimilar,3,abrasives
+0057000-0057439,35,business management and organization consultancy,Identical,35,business management consultancy
+0059527-0016596,3,abrasives,Dissimilar,5,dental materials for stopping the teeth
+0058962-0009374,25,headgear,Similar,25,chemisettes
+0047813-0047586,12,"powertrains, including engines and motors, for land vehicles",High similar,7,carburetters
+0047934-0047609,29,dairy products and dairy substitutes,Dissimilar,30,bread
+0055358-0058391,3,liquid perfumes,Dissimilar,3,sandpaper
+0042613-0010627,28,golf gloves,Dissimilar,18,imitation leather
+0003828-0046701,18,umbrellas,Dissimilar,18,shoulder belts
+0057795-0040409,30,ice for refreshment,Dissimilar,29,edible oils and fats
+0060254-0058233,3,cleaning preparations,Dissimilar,3,cobblers' wax
+0070200-0023723,30,confectionery,Dissimilar,5,dietetic substances adapted for medical use
+0014354-0024545,7,transmission components (except for land vehicles),Dissimilar,7,housings [parts of machines]
+0014090-0010321,32,non-alcoholic beverages,Identical,32,vegetable drinks
+0047463-0023767,29,dried fruit,Dissimilar,29,butter
+0045063-0030502,3,non-slipping wax for floors,Dissimilar,3,cosmetics
+0071960-0047917,11,fireplaces,Dissimilar,21,brushes and brush-making articles
+0011483-0047385,5,veterinary preparations,Similar,44,medical services
+0047663-0047933,5,pest control preparations and articles,Dissimilar,29,"fish, seafood and molluscs, not live"
+0040409-0047963,29,edible oils and fats,Dissimilar,30,"ice, ice creams, frozen yogurts and sorbets"
+0001165-0042037,30,mixed flour for food,Identical,30,wheat flour
+0003653-0027889,29,aloe vera prepared for human consumption,Dissimilar,30,honey
+0030502-0046892,3,cosmetics,Identical,3,washing creams
+0023877-0035442,30,"flavourings, other than essential oils, for cakes",Dissimilar,30,mustard
+0023769-0046713,29,meat extracts,Dissimilar,29,gelatine
+0059171-0047647,3,soap,Identical,3,animal grooming preparations
+0042465-0069231,38,telecommunication services,Similar,42,design and development of data storage systems
+0030394-0071841,10,stockings for varices,Dissimilar,5,pharmaceutical preparations
+0033491-0059192,7,electrical apparatus for sealing plastics [packaging],Dissimilar,9,data processing apparatus
+0000478-0017282,41,arranging and conducting of symposiums,Identical,41,conducting of seminars and congresses
+0012514-0037525,39,transport,Identical,39,road transport services
+0058525-0073695,14,jewellery,Identical,14,children's jewelry
+0059411-0046617,12,cars,Similar,12,automobile engines
+0072798-0000209,31,animal foodstuffs,Dissimilar,31,christmas trees
+0005291-0038482,41,provision of education on-line from a computer database or via the internet or extranets,Similar,9,pre-recorded audio tapes
+0012284-0072796,30,"flavourings, other than essential oils, for beverages",Dissimilar,30,molasses for food
+0005953-0059530,3,quillaia bark for washing,Identical,3,laundry preparations
+0021238-0029878,7,machine tools,Similar,7,stands for machines
+0035442-0002024,30,mustard,Dissimilar,30,spring rolls
+0048076-0069654,44,human healthcare services,Identical,44,consultancy and information services relating to biopharmaceutical products
+0030502-0059240,3,cosmetics,Identical,3,anti-aging creams
+0003828-0059081,18,umbrellas,Similar,18,umbrella covers
+0012320-0000434,30,vinegar,Dissimilar,30,tapioca
+0072421-0012658,30,spices,Dissimilar,31,"vegetables, fresh"
+0016148-0015052,33,wine,Low similar,33,hydromel [mead]
+0047732-0047845,9,"apparatus, instruments and cables for electricity",Dissimilar,15,musical accessories
+0011715-0038004,3,ethereal oils,Similar,3,"massage gels, other than for medical purposes"
+0047683-0047901,6,structures and transportable buildings of metal,Dissimilar,20,animal housing and beds
+0019133-0029473,6,metal tool boxes,Dissimilar,8,razors
+0035861-0023723,3,bleaching preparations,Dissimilar,5,dietetic substances adapted for medical use
+0021238-0031288,7,machine tools,Dissimilar,7,fan belts for motors and engines
+0007421-0048107,9,phonograph records,Dissimilar,9,scientific apparatus and instruments
+0059030-0034518,29,black pudding,High similar,29,poultry
+0067005-0030862,21,electric make-up removing appliances,Dissimilar,9,magnetic data media
+0059234-0037985,6,tanks of metal,High similar,19,liquid storage tanks [structures] made of masonary or wood
+0009856-0011125,44,human hygiene and beauty care,Identical,44,providing information about beauty
+0046472-0057405,29,"vegetables, cooked",Dissimilar,30,custard
+0048076-0042427,44,human healthcare services,Identical,44,osteopathy
+0020136-0048188,35,import-export agency services,Dissimilar,35,retail services in relation to clothing
+0016088-0030278,9,optical apparatus and instruments,Identical,9,optical lenses
+0057013-0012585,20,bassinets,Dissimilar,21,steelwool
+0004020-0009705,34,articles for use with tobacco,Identical,34,mouthpieces for cigarette holders
+0022248-0018418,30,rice,Dissimilar,30,propolis
+0042465-0040322,38,telecommunication services,Identical,38,"communication services, namely, electronic transmission of data and documents among users of computers"
+0027889-0029914,30,honey,Dissimilar,29,oils for food
+0047314-0024354,7,vending machines,Dissimilar,7,loom shafts
+0030502-0047319,3,cosmetics,Identical,3,cosmetic creams
+0022248-0002692,30,rice,Dissimilar,30,cocoa

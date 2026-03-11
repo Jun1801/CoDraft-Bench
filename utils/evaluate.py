@@ -2,10 +2,72 @@ import numpy as np
 from sklearn.metrics import cohen_kappa_score
 import matplotlib.pyplot as plt
 import seaborn as sns
+import shutil
+
+import os
+import numpy as np
+import torch
+from tqdm.auto import tqdm
+import torch.nn.functional as F
+from sklearn.metrics import accuracy_score, f1_score, cohen_kappa_score, mean_absolute_error
+
+
+from model.models.Siamese import SiameseClassifier
+from preprocess.data_loader import PairSiameseDataset
+
+from config import *
+def get_preds_multi(trainer, test_ds, df_test):
+    test_output = trainer.predict(test_ds)
+    predictions = test_output.predictions
+
+    if isinstance(predictions, tuple):
+        predictions = predictions[0]
+
+    reshaped_logits = predictions.reshape(-1, 2, 5)
+    avg_logits = reshaped_logits.mean(axis=1)
+
+    test_preds = np.argmax(avg_logits, axis=-1)
+    test_true = df_test["label_score"].values
+    return (test_preds, test_true)
+def get_preds_cross_encoder(model, df_test):
+    test_inputs = [
+        [str(row['input_text_1']), str(row['input_text_2'])]
+        for i, row in df_test.iterrows()
+    ]
+    test_output = model.predict(test_inputs)
+    test_preds = np.argmax(test_output, axis=1)
+    test_true = df_test["label_score"].values
+    return (test_preds, test_true)
+
+def get_preds_siamese(test_df, device):
+    _, test_preds = _predict_probabilities(CONFIG_MODEL.MODEL_CONFIG['siamese']['output_path'], test_df, device)
+    return (test_preds, test_df["Similarity"])
+
+
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+
+    if isinstance(labels, tuple):
+        labels = labels[0]
+
+    if isinstance(logits, tuple):
+        logits = logits[0]
+
+    preds = np.argmax(logits, axis=-1)
+
+    qwk = cohen_kappa_score(labels, preds, weights="quadratic")
+    mae = mean_absolute_error(labels, preds)
+
+    return {
+        "accuracy": accuracy_score(labels, preds),
+        "f1_macro": f1_score(labels, preds, average="macro"),
+        "qwk": qwk,
+        "mae": mae
+    }
 def safe_div(a, b):
     return float(a) / float(b) if b else 0.0
 
-def evaluate(df):
+def get_stats(df):
     y_true = df["label"].to_numpy()
     y_pred = df["pred"].to_numpy()
 
@@ -85,3 +147,60 @@ def evaluate(df):
 
     plt.show()
     return overall_acc, mae, qwk
+
+
+
+def save_model(trainer, tokenizer, model_name, save_path):
+    print(f"Saving: {save_path} ...")
+    trainer.save_model(save_path)
+    tokenizer.save_pretrained(save_path)
+    shutil.make_archive(model_name, 'zip', save_path)
+    print("Success!")
+
+def zip_model_folder(folder_path):
+    if not os.path.exists(folder_path):
+        print(f"Cannot find: {folder_path}")
+        return
+    base_name = folder_path.rstrip('/')
+    
+    print(f"Compressing folder: {folder_path} ...")
+    
+    try:
+        shutil.make_archive(
+            base_name=base_name,  
+            format='zip',         
+            root_dir=folder_path  
+        )
+        print(f"Sucessfully compressed: {base_name}.zip")
+    except Exception as e:
+        print(f"Error : {e}")
+
+def _predict_probabilities(model_path, test_df, device):
+    model = SiameseClassifier(os.path.join(model_path, "backbone"), num_classes=5)
+    model.load_state_dict(torch.load(os.path.join(model_path, "siamese_state.pth")))
+    model.to(device)
+    model.eval()
+    
+    tokenizer = model.encoder.tokenizer
+    test_ds = PairSiameseDataset(test_df, tokenizer, CONFIG_DATA.MAX_LEN)
+    test_loader = PairSiameseDataset(test_ds, batch_size=CONFIG_MODEL.BATCH_SIZE, shuffle=False)
+    
+    all_probs = []
+    all_preds = []
+    
+    with torch.no_grad():
+        for batch in tqdm(test_loader, desc="Predicting"):
+            ids1 = batch["ids1"].to(device)
+            mask1 = batch["mask1"].to(device)
+            ids2 = batch["ids2"].to(device)
+            mask2 = batch["mask2"].to(device)
+            
+            logits = model(ids1, mask1, ids2, mask2)
+            
+            probs = F.softmax(logits, dim=1)
+            preds = torch.argmax(probs, dim=1)
+            
+            all_probs.extend(probs.cpu().numpy())
+            all_preds.extend(preds.cpu().numpy())
+            
+    return np.array(all_probs), np.array(all_preds)

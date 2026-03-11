@@ -1,9 +1,55 @@
 import pandas as pd
+import torch
 from sentence_transformers import InputExample
 from torch.utils.data import DataLoader
 from sentence_transformers.cross_encoder.evaluation import CESoftmaxAccuracyEvaluator
 from datasets import Dataset
-from config.config_data import CONFIG_DATA
+
+from config import *
+from model.models.Siamese import SiameseClassifier
+class PairSiameseDataset(Dataset):
+    def __init__(self, df, tokenizer, max_len=512):
+        self.term1 = df["Term 1"].tolist()
+        self.term2 = df["Term 2"].tolist()
+        self.labels = df["Similarity"].values
+        self.tokenizer = tokenizer
+        self.max_len = max_len
+        
+    def __len__(self):
+        return len(self.term1)
+    
+    def __getitem__(self, idx):
+        enc1 = self.tokenizer(
+            self.term1[idx], 
+            padding="max_length", 
+            truncation=True, 
+            max_length=self.max_len, 
+            return_tensors="pt"
+        )
+        enc2 = self.tokenizer(
+            self.term2[idx], 
+            padding="max_length", 
+            truncation=True,
+            max_length=self.max_len, 
+            return_tensors="pt"
+        )
+        
+        return {
+            "ids1": enc1["input_ids"].squeeze(0),
+            "mask1": enc1["attention_mask"].squeeze(0),
+            "ids2": enc2["input_ids"].squeeze(0),
+            "mask2": enc2["attention_mask"].squeeze(0),
+            "label": torch.tensor(self.labels[idx], dtype=torch.long)
+        }
+
+def create_siamese_dataloader(train_df, val_df, tokenizer):
+    train_ds = PairSiameseDataset(train_df, tokenizer, CONFIG_DATA.MAX_LEN)
+    val_ds = PairSiameseDataset(val_df, tokenizer, CONFIG_DATA.MAX_LEN)
+    train_loader = DataLoader(train_ds, batch_size=CONFIG_MODEL.MODEL_CONFIG['siamese']['physical_batch_size'], 
+                              shuffle=True, num_workers=CONFIG_MODEL.MODEL_CONFIG['siamese']['num_workers'], drop_last=True)
+    val_loader = DataLoader(val_ds, batch_size=CONFIG_MODEL.MODEL_CONFIG['siamese']['physical_batch_size'], 
+                            shuffle=False, num_workers=2)
+    return (train_loader, val_loader)
 
 def create_patterns(df, tokenizer, class_to_token, class_to_id):
     new_rows = []
@@ -49,11 +95,10 @@ def preprocess_dataset(examples, tokenizer):
 def create_dataloader_cross_encoder(df_train, df_val):
     train_samples = []
     for i, row in df_train.iterrows():
-    
         train_samples.append(InputExample(
             texts=[str(row['input_text_1']), str(row['input_text_2'])],
             label= int(row['label_score'])
-        ))
+            ))
     train_dataloader = DataLoader(train_samples, shuffle=True, batch_size=32)
     val_samples = []
     for i, row in df_val.iterrows():
