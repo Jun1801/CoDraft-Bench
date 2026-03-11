@@ -6,7 +6,8 @@ class CONFIG_MODEL:
     NUM_PRODUCT_CLASSES = 45
     MAX_LEN = 256
     LEARNING_RATE = 2e-5
-    WEIGHT_DECAY = 0.01
+    WEIGHT_DECAY = 0.02
+    BATCH_SIZE = 32
     MODEL_CONFIG = {
         "cross_encoder": {
             "output_path" : "./output/cross_encoder",
@@ -16,7 +17,16 @@ class CONFIG_MODEL:
             "epochs": 5
         },
         "siamese" : {
-            "output_path": "./output/siamese"
+            "output_path": "./output/siamese",
+            "num_epochs_simcse": 1,
+            "num_epochs_cls": 5,
+            "lr": LEARNING_RATE,
+            "batch_size": BATCH_SIZE,
+            "warmup_steps": 100,
+            "accumulation_step": 4,
+            "path_simcse": "./output/siamese/simcse_model",
+            "path_final": "./output/siamese/final_similarity_model"
+
         },
         "multi_task": {
             "training_args":{

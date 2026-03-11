@@ -3,6 +3,7 @@ from sentence_transformers import InputExample
 from torch.utils.data import DataLoader
 from sentence_transformers.cross_encoder.evaluation import CESoftmaxAccuracyEvaluator
 from datasets import Dataset
+from config.config_data import CONFIG_DATA
 
 def create_patterns(df, tokenizer, class_to_token, class_to_id):
     new_rows = []
@@ -38,7 +39,7 @@ def preprocess_dataset(examples, tokenizer):
         examples["text1"],
         examples["text2"],
         truncation=True,
-        max_length=192,
+        max_length=CONFIG_DATA.MAX_LEN,
         padding=False
     )
     tokenized["labels"] = examples["labels"]
