@@ -51,3 +51,8 @@ class CONFIG_DATA:
         44: "Medical services, Hygiene, Beauty care (Spa/Salon)",
         45: "Legal services, Security services, Social services"
     }
+
+    CODRAFT_CONFIG = {
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "batch_size": 30,
+    }

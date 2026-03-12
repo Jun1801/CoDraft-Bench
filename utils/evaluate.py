@@ -59,10 +59,10 @@ def compute_metrics(eval_pred):
     mae = mean_absolute_error(labels, preds)
 
     return {
-        "accuracy": accuracy_score(labels, preds),
-        "f1_macro": f1_score(labels, preds, average="macro"),
-        "qwk": qwk,
-        "mae": mae
+        "accuracy": float(accuracy_score(labels, preds)),
+        "f1_macro": float(f1_score(labels, preds, average="macro")),
+        "qwk": float(qwk),
+        "mae": float(mae)
     }
 def safe_div(a, b):
     return float(a) / float(b) if b else 0.0

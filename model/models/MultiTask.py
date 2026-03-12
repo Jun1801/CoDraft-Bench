@@ -23,8 +23,6 @@ class JointClassSimBGE(XLMRobertaPreTrainedModel):
         class_weights_tensor = getattr(config, "class_weights", None)
         if class_weights_tensor is not None:
              self.register_buffer("class_weights", torch.tensor(class_weights_tensor, dtype=torch.float32))
-        else:
-             self.register_buffer("class_weights", None)
 
         self.roberta = XLMRobertaModel(config)
         self.classifier = nn.Linear(config.hidden_size, self.num_labels)
@@ -91,7 +89,9 @@ def get_model_multi_task(model_name, num_classes, num_product_classes, alpha, au
     config.aux_weight = aux_weight
     config.loss_type = loss_type
     if class_weights is not None:
-        config.class_weights = class_weights
+        if hasattr(class_weights, "tolist"):
+            class_weights = class_weights.tolist()
+        config.class_weights = [float(x) for x in class_weights]
     model = JointClassSimBGE.from_pretrained(
         model_name,
         config=config,
