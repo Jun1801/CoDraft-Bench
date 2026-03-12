@@ -10,7 +10,7 @@ import torch
 from tqdm.auto import tqdm
 import torch.nn.functional as F
 from sklearn.metrics import accuracy_score, f1_score, cohen_kappa_score, mean_absolute_error
-
+from torch.utils.data import DataLoader
 
 from model.models.Siamese import SiameseClassifier
 from preprocess.data_loader import PairSiameseDataset
@@ -39,8 +39,8 @@ def get_preds_cross_encoder(model, df_test):
     test_true = df_test["label_score"].values
     return (test_preds, test_true)
 
-def get_preds_siamese(test_df, device):
-    _, test_preds = _predict_probabilities(CONFIG_MODEL.MODEL_CONFIG['siamese']['output_path'], test_df, device)
+def get_preds_siamese(test_df, model_path, device):
+    _, test_preds = _predict_probabilities(model_path, test_df, device)
     return (test_preds, test_df["label_score"])
 
 
@@ -183,7 +183,7 @@ def _predict_probabilities(model_path, test_df, device):
     
     tokenizer = model.encoder.tokenizer
     test_ds = PairSiameseDataset(test_df, tokenizer, CONFIG_DATA.MAX_LEN)
-    test_loader = PairSiameseDataset(test_ds, batch_size=CONFIG_MODEL.BATCH_SIZE, shuffle=False)
+    test_loader = DataLoader(test_ds, batch_size=CONFIG_MODEL.BATCH_SIZE, shuffle=False)
     
     all_probs = []
     all_preds = []

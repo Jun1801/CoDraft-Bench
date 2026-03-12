@@ -49,7 +49,7 @@ def run_enrichment(df, client, output_file_dir=None, version="v1"):
     chunks = [df[i:i + BATCH_SIZE] for i in range(0, df.shape[0], BATCH_SIZE)]
 
     for batch_df in tqdm(chunks, desc="Processing Batches"):
-        batch_input = batch_df[['Term', 'Class', 'Description']].to_dict(orient='records')
+        batch_input = batch_df[['Term', 'Class', 'Description', 'Sub_group']].to_dict(orient='records')
         
         response = process_batch(batch_input, client, version=version)
         

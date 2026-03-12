@@ -72,7 +72,7 @@ def train_siamese(input_model_path, train_loader, val_loader, class_weights, out
     scaler = GradScaler("cuda")
     best_f1 = 0.0
     
-    for epoch in range():
+    for epoch in range(CONFIG_MODEL.MODEL_CONFIG['siamese']['num_epochs_cls']):
         model.train()
         total_loss = 0
         optimizer.zero_grad() 

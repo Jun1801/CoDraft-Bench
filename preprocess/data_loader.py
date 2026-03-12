@@ -1,12 +1,12 @@
 import pandas as pd
 import torch
 from sentence_transformers import InputExample
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Dataset as TorchDataset
 from sentence_transformers.cross_encoder.evaluation import CESoftmaxAccuracyEvaluator
 from datasets import Dataset
 
 from config import *
-class PairSiameseDataset(Dataset):
+class PairSiameseDataset(TorchDataset):
     def __init__(self, df, tokenizer, max_len=512):
         self.term1 = df["input_text_1"].tolist()
         self.term2 = df["input_text_2"].tolist()
