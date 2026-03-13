@@ -19,10 +19,10 @@ class DataManager:
                  input_root: str, 
                  work_dir: str, 
                  config_data: CONFIG_DATA,
-                 tokenizer,
                  seed_worker,
                  data_generator: torch.Generator,
                  random_seed: int,
+                 tokenizer=None,
                  rebalance=False,
                  train_file: str = "train_ver3.csv",
                  val_file: str = "val_ver3.csv",
@@ -45,6 +45,7 @@ class DataManager:
         self._setup_initial_pipeline()
         if rebalance == True:
             self._rebalance()
+        self.__create_ml_data()
         self.__create_dataset_multi_task(self.tokenizer)
         self.__create_dataloader_cross_encoder()
         self.__create_dataloader_siamese(self.tokenizer)
@@ -104,6 +105,12 @@ class DataManager:
         df_4_final = resample(df_4, replace=False, n_samples=self.TARGET_SAMPLES, random_state=42)
         self.df_train = pd.concat([df_0_final, df_1_final, df_2_final, df_3_final, df_4_final])
         self.df_train = self.df_train.sample(frac=1, random_state=42).reset_index(drop=True)
+    def __create_ml_data(self):
+        self.X_train, self.y_train, self.X_val, self.y_val, self.X_test, self.y_test, self.vectorizer = create_ml_data(
+            self.df_train,
+            self.df_val,
+            self.df_test
+        )
 
     def __create_patterns(self, tokenizer) -> None:
         self.df_train_aug = create_patterns(self.df_train, tokenizer, self.class_to_token, self.class_to_id)
@@ -132,5 +139,7 @@ class DataManager:
             return None
     def get_dataset(self) -> Tuple:
         return (self.train_ds, self.val_ds, self.test_ds)
+    def get_ml_data(self) -> Tuple:
+        return (self.X_train, self.y_train, self.X_val, self.y_val, self.X_test, self.y_test)
     def get_all_texts(self) -> List:
         return self.all_texts

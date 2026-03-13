@@ -5,6 +5,10 @@ from torch.utils.data import DataLoader, Dataset as TorchDataset
 from sentence_transformers.cross_encoder.evaluation import CESoftmaxAccuracyEvaluator
 from datasets import Dataset
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import paired_cosine_distances
+import scipy.sparse as sp
+
 from config import *
 class PairSiameseDataset(TorchDataset):
     def __init__(self, df, tokenizer, max_len=512):
@@ -40,6 +44,30 @@ class PairSiameseDataset(TorchDataset):
             "mask2": enc2["attention_mask"].squeeze(0),
             "label": torch.tensor(self.labels[idx], dtype=torch.long)
         }
+
+def create_ml_data(train_df, val_df, test_df=None, max_features=5000):
+    vectorizer = TfidfVectorizer(max_features=max_features, lowercase=True)
+    all_train_text = train_df["input_text_1"].tolist() + train_df["input_text_2"].tolist()
+    vectorizer.fit(all_train_text)
+
+    def extract_features(df):
+        if df is None or df.empty:
+            return None, None
+        tfidf1 = vectorizer.transform(df["input_text_1"].fillna(""))
+        tfidf2 = vectorizer.transform(df["input_text_2"].fillna(""))
+        cosine_sim = 1 - paired_cosine_distances(tfidf1, tfidf2)
+        diff = abs(tfidf1 - tfidf2)
+        
+        X = sp.hstack([tfidf1, tfidf2, diff, cosine_sim.reshape(-1, 1)])
+        y = df["label_score"].values.astype(int)
+        return X, y
+    X_train, y_train = extract_features(train_df)
+    X_val, y_val = extract_features(val_df)
+
+    if test_df is not None:
+        X_test, y_test = extract_features(test_df)
+        return X_train, y_train, X_val, y_val, X_test, y_test, vectorizer 
+    return X_train, y_train, X_val, y_val, vectorizer
 
 def create_siamese_dataloader(train_df, val_df, tokenizer):
     train_ds = PairSiameseDataset(train_df, tokenizer, CONFIG_DATA.MAX_LEN)

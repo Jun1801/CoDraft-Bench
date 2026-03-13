@@ -61,5 +61,32 @@ class CONFIG_MODEL:
                 "alpha": 0.47,
                 "aux_weight": 0.26
             }
+        },
+        "xgboost": {
+            "output_path": "./output/xgboost",
+            "max_features": 5000,
+            "model_args": {
+                "max_depth": 6,
+                "learning_rate": 0.1,
+                "n_estimators": 500,
+                "subsample": 0.8,
+                "colsample_bytree": 0.8,
+                "random_state": 42,
+                "early_stopping_rounds": 20
+            },
+            "train_args": {
+                "verbose": 10
+            }
+        },
+        "svm": {
+            "output_path": "./output/svm",
+            "max_features": 5000,
+            "model_args": {
+                "kernel": "linear",
+                "C": 1.0,
+                "probability": True,
+                "class_weight": "balanced",
+                "random_state": 42
+            }
         }
     }

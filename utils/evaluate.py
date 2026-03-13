@@ -12,10 +12,14 @@ import torch.nn.functional as F
 from sklearn.metrics import accuracy_score, f1_score, cohen_kappa_score, mean_absolute_error
 from torch.utils.data import DataLoader
 
-from model.models.Siamese import SiameseClassifier
+from model.models.BiEncoder import get_model_bi_encoder_baseline, BasicBiEncoderClassifier
 from preprocess.data_loader import PairSiameseDataset
 
 from config import *
+def get_preds_ml(model, X_test, y_test):
+    test_preds = model.predict(X_test)
+    return (test_preds, y_test)
+
 def get_preds_multi(trainer, test_ds, df_test):
     test_output = trainer.predict(test_ds)
     predictions = test_output.predictions
@@ -176,20 +180,30 @@ def zip_model_folder(folder_path):
         print(f"Error : {e}")
 
 def _predict_probabilities(model_path, test_df, device):
-    model = SiameseClassifier(os.path.join(model_path, "backbone"), num_classes=5)
-    model.load_state_dict(torch.load(os.path.join(model_path, "siamese_state.pth")))
+    backbone_path = os.path.join(model_path, "backbone")
+    model = get_model_bi_encoder_baseline(backbone_path, num_classes=CONFIG_MODEL.NUM_CLASSES)
+    
+    state_dict_path = os.path.join(model_path, "siamese_state.pth")
+    model.load_state_dict(torch.load(state_dict_path, map_location=device))
+    
     model.to(device)
     model.eval()
     
     tokenizer = model.encoder.tokenizer
-    test_ds = PairSiameseDataset(test_df, tokenizer, CONFIG_DATA.MAX_LEN)
-    test_loader = DataLoader(test_ds, batch_size=CONFIG_MODEL.BATCH_SIZE, shuffle=False)
+    
+    test_ds = PairSiameseDataset(test_df, tokenizer, max_len=CONFIG_MODEL.MAX_LEN) 
+    
+    test_loader = DataLoader(
+        test_ds, 
+        batch_size=CONFIG_MODEL.MODEL_CONFIG['siamese']['batch_size'], 
+        shuffle=False
+    )
     
     all_probs = []
     all_preds = []
     
     with torch.no_grad():
-        for batch in tqdm(test_loader, desc="Predicting"):
+        for batch in tqdm(test_loader, desc="Predicting Baseline"):
             ids1 = batch["ids1"].to(device)
             mask1 = batch["mask1"].to(device)
             ids2 = batch["ids2"].to(device)

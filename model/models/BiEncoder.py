@@ -1,27 +1,16 @@
-import pandas as pd
-import gc
 import os
 import torch
 import torch.nn as nn
-from sentence_transformers import SentenceTransformer, InputExample, losses
-from config import *
+from sentence_transformers import SentenceTransformer
 
-class SiameseClassifier(nn.Module):
+class BasicBiEncoderClassifier(nn.Module):
     def __init__(self, base_model_path, num_classes=5):
-        super(SiameseClassifier, self).__init__()
+        super(BasicBiEncoderClassifier, self).__init__()
         
         self.encoder = SentenceTransformer(base_model_path, trust_remote_code=True)
         self.embedding_dim = self.encoder.get_sentence_embedding_dimension() 
-        
         input_dim = self.embedding_dim * 3
-        
-        self.classifier = nn.Sequential(
-            nn.Linear(input_dim, 512),
-            nn.BatchNorm1d(512),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(512, num_classes) 
-        )
+        self.classifier = nn.Linear(input_dim, num_classes)
         
     def forward(self, input_ids1, attention_mask1, input_ids2, attention_mask2):
         out1 = self.encoder({"input_ids": input_ids1, "attention_mask": attention_mask1})
@@ -36,9 +25,10 @@ class SiameseClassifier(nn.Module):
         return logits
     
     def save(self, path):
+        os.makedirs(path, exist_ok=True)
         torch.save(self.state_dict(), os.path.join(path, "siamese_state.pth"))
         self.encoder.save(os.path.join(path, "backbone"))
-    
-def get_model_siamese(input_model_path, num_classes):
-    model = SiameseClassifier(input_model_path, num_classes=num_classes)
+
+def get_model_bi_encoder_baseline(input_model_path, num_classes):
+    model = BasicBiEncoderClassifier(input_model_path, num_classes=num_classes)
     return model
