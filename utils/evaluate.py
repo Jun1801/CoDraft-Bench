@@ -43,8 +43,8 @@ def get_preds_cross_encoder(model, df_test):
     test_true = df_test["label_score"].values
     return (test_preds, test_true)
 
-def get_preds_siamese(test_df, model_path, device):
-    _, test_preds = _predict_probabilities(model_path, test_df, device)
+def get_preds_siamese(test_df, model_path,model_name, device):
+    _, test_preds = _predict_probabilities(model_path,model_name, test_df, device)
     return (test_preds, test_df["label_score"])
 
 
@@ -179,9 +179,11 @@ def zip_model_folder(folder_path):
     except Exception as e:
         print(f"Error : {e}")
 
-def _predict_probabilities(model_path, test_df, device):
-    backbone_path = os.path.join(model_path, "backbone")
-    model = get_model_bi_encoder_baseline(backbone_path, num_classes=CONFIG_MODEL.NUM_CLASSES)
+def _predict_probabilities(model_path,model_name, test_df, device):
+    model = get_model_bi_encoder_baseline(
+        input_model_path=model_name,
+        num_classes=CONFIG_MODEL.NUM_CLASSES
+    )
     
     state_dict_path = os.path.join(model_path, "siamese_state.pth")
     model.load_state_dict(torch.load(state_dict_path, map_location=device))

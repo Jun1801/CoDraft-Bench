@@ -10,7 +10,13 @@ class BasicBiEncoderClassifier(nn.Module):
         self.encoder = SentenceTransformer(base_model_path, trust_remote_code=True)
         self.embedding_dim = self.encoder.get_sentence_embedding_dimension() 
         input_dim = self.embedding_dim * 3
-        self.classifier = nn.Linear(input_dim, num_classes)
+        hidden_dim = self.embedding_dim 
+        self.classifier = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(hidden_dim, num_classes)
+        )
         
     def forward(self, input_ids1, attention_mask1, input_ids2, attention_mask2):
         out1 = self.encoder({"input_ids": input_ids1, "attention_mask": attention_mask1})
